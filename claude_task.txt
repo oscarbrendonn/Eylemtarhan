@@ -1,0 +1,44 @@
+NYPT local clone task
+
+Project path:
+/Users/oscarbrendon/.openclaw/workspace/nypt-local-clone
+
+Goal:
+Turn this into a fully local, editable website project that preserves the original design structure from the source site, but no longer depends on the live WordPress site to render correctly.
+
+What we want:
+- all important pages stored locally as normal editable HTML files
+- all CSS, JS, fonts, images, and other required assets stored locally
+- all internal page links rewritten to local files
+- local server should open the pages with correct styling, not as broken/plain HTML
+- after the clone is clean, we will customize it heavily and eventually push it to GitHub
+
+Current problem:
+- HTML pages were pulled successfully enough to create files
+- but CSS/JS/asset mapping is still broken
+- browser currently shows mostly raw HTML with missing layout/styling
+- this means page structure exists, but styles are not loading correctly
+
+What has already been done:
+- pages exist in the folder
+- assets folder exists and many files were downloaded
+- internal pages exist such as index.html, contact.html, about.html, pricing.html, trainers.html, personal-training.html, faq.html, blog.html, plus service pages
+- local server is already being run with python http.server on port 8000 sometimes
+
+What you should do:
+1. inspect all HTML files and identify why CSS/JS assets are not resolving correctly
+2. fix all asset paths so they point to valid local files
+3. download any missing required assets that are still remote or broken
+4. make all internal navigation work locally
+5. preserve the design and structure as much as possible
+6. keep this as a simple editable website project, not a WordPress runtime clone
+7. do not overcomplicate it, just make it render correctly and be easy to edit
+
+Important context:
+- This is not meant to remain dependent on the source website
+- We only want to use the source design as a base and then fully own/edit the project locally
+- We will later add custom theme work, logo replacement, language support, dark mode, Serbia localization, etc.
+- For now the first priority is: make the full site render correctly as a local editable project
+
+Expected result:
+When opening http://127.0.0.1:8000 the pages should look properly styled, not broken.

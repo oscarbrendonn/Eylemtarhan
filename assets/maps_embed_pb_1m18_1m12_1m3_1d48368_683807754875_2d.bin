@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="KJxfYunqQ8ZmoUyjP6S71A">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"spotlit",null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],null,null,[[null,null,null,null,null,null,null,null,null,null,null,null,null,[[["9926595087911030229","2475717191024640685"],"/g/1tf08l1q",null,[407390851,3555048427],null,null,null,null,null,null,null,null,null,null,"gcid:personal_trainer"],0,0,null,null,0,null,0]]]],null,["en","us"],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"KBThabvICbTXi-gP_aqP2AY",null,null,null,[[[48368.68380775487,-73.9918869,40.73908509999999],[0,0,0],null,13.10000038146973],null,0,[["0x89c259a39c130dd5:0x225b83ab175a02ad","New York City Personal Training, 138 5th Ave Second Floor, New York, NY 10011",[40.7390851,-73.9918869],"2475717191024640685"],"New York City Personal Training",["138 5th Ave Second Floor","New York, NY 10011"],4.900000095367432,"49 reviews",null,null,"(646) 942-9827",null,null,null,["/url?q=http://www.newyorkpersonaltraining.com/\u0026opi=79508299\u0026sa=U\u0026ved=0ahUKEwi7_Mbu6vKTAxW06wIHHX3VA2sQ61gIEygO\u0026usg=AOvVaw3SQDdU-32MfqGy6GGDYUth","newyorkpersonaltraining.com",null,"0ahUKEwi7_Mbu6vKTAxW06wIHHX3VA2sQ61gIEygO"],"Personal trainer","138 5th Ave Second Floor, New York, NY 10011",null,null,null,null,null,null,null,null,null,null,null,null,null,"ChIJ1Q0TnKNZwokRrQJaF6uDWyI",null,null,"0ahUKEwi7_Mbu6vKTAxW06wIHHX3VA2sQ8BcIAigA",null,null,["tel:+16469429827"],null,null,null,1,["0ahUKEwi7_Mbu6vKTAxW06wIHHX3VA2sQqtMBCAsoCA",["87G8P2Q5+J6"],["P2Q5+J6 New York"],3],[[["Thursday",4,[2026,4,16],[["6 AM–9 PM",[[6],[21]]]],0,1],["Friday",5,[2026,4,17],[["6 AM–9 PM",[[6],[21]]]],0,1],["Saturday",6,[2026,4,18],[["7 AM–7 PM",[[7],[19]]]],0,1],["Sunday",7,[2026,4,19],[["8 AM–4 PM",[[8],[16]]]],0,1],["Monday",1,[2026,4,20],[["6 AM–9 PM",[[6],[21]]]],0,1],["Tuesday",2,[2026,4,21],[["6 AM–9 PM",[[6],[21]]]],0,1],["Wednesday",3,[2026,4,22],[["6 AM–9 PM",[[6],[21]]]],0,1]],[["Thursday",4,[2026,4,16],[["6 AM–9 PM",[[6],[21]]]],0,1],0,1,null,["Open · Closes 9 PM",[[0,4,[null,[4279862841,4285388172]]]]],["Open · Closes 9 PM",[[0,4,[null,[4279862841,4285388172]]]]],null,[20],["Open",[[0,4,[null,[4279862841,4285388172]]]]]],4,null,null,null,1]]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/64/9c/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/64/9c/init_embed.js" nonce="KJxfYunqQ8ZmoUyjP6S71A" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=en&amp;region=us&amp;callback=onApiLoad" nonce="KJxfYunqQ8ZmoUyjP6S71A" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,235 @@
+/* ============================================================
+   NYPT Site Controls — Dark Mode + Language Switcher Styles
+   ============================================================ */
+
+/* ---- Control Bar ---- */
+#nypt-controls {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 28px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  transition: opacity 0.2s;
+}
+
+#nypt-controls:hover { opacity: 1 !important; }
+
+#nypt-dark-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 2px 4px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  color: #fff;
+}
+#nypt-dark-toggle:hover { transform: rotate(20deg) scale(1.15); }
+
+.nypt-sep {
+  width: 1px;
+  height: 16px;
+  background: rgba(255,255,255,0.3);
+  margin: 0 2px;
+}
+
+.nypt-lang-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(255,255,255,0.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+  white-space: nowrap;
+}
+.nypt-lang-btn:hover,
+.nypt-lang-btn.active {
+  color: #fff;
+  background: rgba(255,255,255,0.15);
+}
+.nypt-lang-btn.active {
+  color: #4a9eff;
+}
+
+/* ============================================================
+   DARK MODE OVERRIDES
+   ============================================================ */
+
+body.nypt-dark {
+  background-color: #111 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Main content wrappers */
+body.nypt-dark .elementor-section,
+body.nypt-dark .e-con,
+body.nypt-dark .elementor-container,
+body.nypt-dark .elementor-widget-wrap,
+body.nypt-dark main,
+body.nypt-dark article,
+body.nypt-dark .site-main {
+  background-color: #111 !important;
+}
+
+/* White / light backgrounds → dark */
+body.nypt-dark [style*="background-color: #fff"],
+body.nypt-dark [style*="background-color:#fff"],
+body.nypt-dark [style*="background-color: rgb(255, 255, 255)"],
+body.nypt-dark [style*="background-color:white"],
+body.nypt-dark [style*="background-color: white"] {
+  background-color: #1a1a1a !important;
+}
+
+/* Sections with light backgrounds */
+body.nypt-dark .elementor-section.elementor-section-boxed > .elementor-container,
+body.nypt-dark .e-con-full {
+  background-color: transparent !important;
+}
+
+/* Text colors */
+body.nypt-dark p,
+body.nypt-dark li,
+body.nypt-dark span:not(.elementor-icon):not([class*="eicon"]):not([class*="fa-"]),
+body.nypt-dark .elementor-text-editor,
+body.nypt-dark .elementor-widget-text-editor {
+  color: #d0d0d0 !important;
+}
+
+body.nypt-dark h1,
+body.nypt-dark h2,
+body.nypt-dark h3,
+body.nypt-dark h4,
+body.nypt-dark h5,
+body.nypt-dark h6,
+body.nypt-dark .elementor-heading-title {
+  color: #f0f0f0 !important;
+}
+
+body.nypt-dark a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]) {
+  color: #7db8ff !important;
+}
+
+/* Navigation */
+body.nypt-dark .elementor-nav-menu,
+body.nypt-dark .elementor-nav-menu--main,
+body.nypt-dark .ekit-nav-menu-container {
+  background-color: rgba(0,0,0,0.9) !important;
+}
+body.nypt-dark .elementor-nav-menu a,
+body.nypt-dark .elementor-nav-menu li a {
+  color: #e0e0e0 !important;
+}
+
+/* Header / navbar */
+body.nypt-dark .elementor-element.elementor-section:first-of-type,
+body.nypt-dark header,
+body.nypt-dark .site-header {
+  background-color: rgba(0,0,0,0.95) !important;
+}
+
+/* Cards and boxes */
+body.nypt-dark .elementor-flip-box,
+body.nypt-dark .elementor-price-table,
+body.nypt-dark .eael-pricing-table {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+
+/* White section backgrounds that ruin the look */
+body.nypt-dark .elementor-section[data-settings*='"background_color":"#fff"'],
+body.nypt-dark .elementor-section[data-settings*='"background_color":"#ffffff"'],
+body.nypt-dark .elementor-section[data-settings*='"background_color":"#FFFFFF"'] {
+  background-color: #1a1a1a !important;
+}
+
+/* Price tables */
+body.nypt-dark .eael-pricing-table-wrap,
+body.nypt-dark .eael-pricing-table {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+  color: #e0e0e0 !important;
+}
+
+/* FAQ accordion */
+body.nypt-dark .elementor-accordion-item {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+body.nypt-dark .elementor-accordion-title,
+body.nypt-dark .elementor-tab-title {
+  color: #f0f0f0 !important;
+  background-color: #222 !important;
+}
+body.nypt-dark .elementor-accordion-content,
+body.nypt-dark .elementor-tab-content {
+  background-color: #1a1a1a !important;
+}
+
+/* Review / rating sections */
+body.nypt-dark .eael-testimonial-content,
+body.nypt-dark .eael-google-reviews-content {
+  background-color: #1e1e1e !important;
+  color: #d0d0d0 !important;
+}
+
+/* Footer */
+body.nypt-dark footer,
+body.nypt-dark .site-footer,
+body.nypt-dark .elementor-location-footer {
+  background-color: #0a0a0a !important;
+  border-top: 1px solid #222;
+}
+
+/* Buttons - preserve blue CTAs, just darken border */
+body.nypt-dark .elementor-button {
+  border-color: rgba(255,255,255,0.2) !important;
+}
+
+/* GDPR cookie bar */
+body.nypt-dark .be-gdpr-bar,
+body.nypt-dark .be-gdpr-bar-content {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+}
+
+/* Blog cards */
+body.nypt-dark .elementor-post__card,
+body.nypt-dark .elementor-post {
+  background-color: #1e1e1e !important;
+}
+body.nypt-dark .elementor-post__title a {
+  color: #f0f0f0 !important;
+}
+body.nypt-dark .elementor-post__excerpt {
+  color: #b0b0b0 !important;
+}
+
+/* Dividers */
+body.nypt-dark .elementor-divider-separator {
+  border-color: #444 !important;
+}
+
+/* Smooth transition for all color changes */
+body, .elementor-section, .e-con, .elementor-widget-wrap,
+h1,h2,h3,h4,h5,h6,p,a,span,li {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
