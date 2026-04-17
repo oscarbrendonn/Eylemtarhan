@@ -164,6 +164,24 @@ var beGdprConcerns = [];
 .elementor-column:not(:first-child) .elementor-widget-text-editor,
 .elementor-column:not(:first-child){display:none !important;}
 </style>
+
+<style id="single-trainer-brutal-fix">
+/* hide every repeated card in trainers content */
+.elementor-widget-image:not(:first-of-type),
+.elementor-widget-heading:not(:first-of-type),
+.elementor-column:not(:first-of-type),
+.elementor-image-box-wrapper:not(:first-of-type),
+img[src*="es-logo"],
+img[src*="regcrop"],
+img[src*="IMG_6101"],
+img[title*="Jaime"],
+img[title*="Anne"],
+img[title*="Reggie"],
+img[alt*="reggie" i],
+img[alt*="NYC personal trainer" i] { display:none !important; }
+/* keep only peter image */
+img[src*="peter-trainer.jpg"] { display:block !important; max-width:420px !important; margin:0 auto !important; }
+</style>
 </head>
 <body class="wp-singular page-template-default page page-id-5088 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-4218 elementor-page elementor-page-5088 e--ua-firefox e--ua-mac" data-elementor-device-mode="desktop">
 <a class="skip-link screen-reader-text" href="#content">
@@ -266,7 +284,7 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-caa82ba elementor-widget elementor-widget-image" data-element_type="widget" data-id="caa82ba" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.html">
-<img alt="" class="attachment-full size-full wp-image-2883" decoding="async" fetchpriority="high" height="394" src="assets/es-logo.png" title="NYC_PT_logo_final_RGB_white | NYC Personal Training" width="400"/> </a>
+ </a>
 </div>
 </div>
 <div class="elementor-element elementor-element-5717c771 e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="5717c771">
@@ -314,7 +332,7 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-d46775c elementor-widget elementor-widget-image" data-element_type="widget" data-id="d46775c" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.htmlguychard-codio/">
-<img alt="Guy Codio personal trainer NYC" decoding="async" loading="lazy" src="assets/es-logo.png" title="NYC_PT_logo_final_RGB_white | NYC Personal Training"/> </a>
+ </a>
 </div>
 </div>
 <div class="elementor-element elementor-element-a3807ab elementor-widget elementor-widget-heading" data-element_type="widget" data-id="a3807ab" data-widget_type="heading.default">
@@ -331,14 +349,14 @@ var beGdprConcerns = [];
 </div>
 <div class="elementor-element elementor-element-e4f19b2 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="e4f19b2" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-default">Reggie</h3> </div>
+<h3 class="elementor-heading-title elementor-size-default">PETER</h3> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-51db3cc e-con-full e-flex e-con e-child" data-element_type="container" data-id="51db3cc">
 <div class="elementor-element elementor-element-a926f39 elementor-widget elementor-widget-image" data-element_type="widget" data-id="a926f39" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.htmlPETER-dominguez/">
-<img alt="#image_title" decoding="async" loading="lazy" src="assets/es-logo.png" title="matt trainer nyc"/> </a>
+ </a>
 </div>
 </div>
 <div class="elementor-element elementor-element-174c721 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="174c721" data-widget_type="heading.default">
@@ -350,12 +368,12 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-4dddc39 elementor-widget elementor-widget-image" data-element_type="widget" data-id="4dddc39" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.htmlkitsa/">
-<img alt="Kitsa Square NYC personal trainer woman and weight loss expert" decoding="async" loading="lazy" src="assets/es-logo.png" title="kitsa personal trainer nyc"/> </a>
+ </a>
 </div>
 </div>
 <div class="elementor-element elementor-element-dcf9d29 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="dcf9d29" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-default">Kitsa</h3> </div>
+<h3 class="elementor-heading-title elementor-size-default">PETER</h3> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-7c4b3c9 e-con-full e-flex e-con e-child" data-element_type="container" data-id="7c4b3c9">
@@ -376,7 +394,7 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-96f800e elementor-widget elementor-widget-image" data-element_type="widget" data-id="96f800e" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.htmlPETER-ma/">
-<img alt="NYC personal trainer and weight loss expert" decoding="async" loading="lazy" src="assets/es-logo.png" title="PETER personal trainer nyc"/> </a>
+ </a>
 </div>
 </div>
 <div class="elementor-element elementor-element-615e074 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="615e074" data-widget_type="heading.default">
@@ -393,7 +411,7 @@ var beGdprConcerns = [];
 </div>
 <div class="elementor-element elementor-element-f56600c elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f56600c" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-default">Ann</h3> </div>
+<h3 class="elementor-heading-title elementor-size-default">PETER</h3> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-15c93ea e-con-full e-flex e-con e-child" data-element_type="container" data-id="15c93ea">
@@ -444,7 +462,7 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-58e51be elementor-widget elementor-widget-image" data-element_type="widget" data-id="58e51be" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <a href="index.html">
-<img alt="NYC Personal Training wellness experts" class="attachment-full size-full wp-image-3322" height="512" sizes="(max-width: 512px) 100vw, 512px" src="assets/es-logo.png" srcset="assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black.jpg 512w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-150x150.jpg 150w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-300x300.jpg 300w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-50x50.jpg 50w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-270x270.jpg 270w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-192x192.jpg 192w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-180x180.jpg 180w, assets/wp-content_uploads_cropped-NYC_PT_logo_final_RGB_black-32x32.jpg 32w" width="512"/> </a>
+ </a>
 </div>
 </div>
 </div>
