@@ -103,7 +103,27 @@
     "Belgrade": { sr: "Beograd", ru: "Белград" },
     "EliteShape": { sr: "EliteShape", ru: "EliteShape" },
     "EliteShape Belgrade": { sr: "EliteShape Beograd", ru: "EliteShape Белград" },
-    "Skip to content": { sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" }
+    "Skip to content": { sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" },
+
+    // Pricing page
+    "1v1 In-Person Training": { sr: "1v1 trening uživo", ru: "1v1 тренировки очно" },
+    "1v1 Online Coaching": { sr: "1v1 online treninzi", ru: "1v1 онлайн-тренировки" },
+    "Single Session": { sr: "Pojedinačni trening", ru: "Одно занятие" },
+    "Session Package": { sr: "Paket treninga", ru: "Пакет занятий" },
+    "Online Training": { sr: "Online trening", ru: "Онлайн-тренировка" },
+    "Training + Diet": { sr: "Trening + ishrana", ru: "Тренировка + питание" },
+    "Per Session": { sr: "Po treningu", ru: "За занятие" },
+    "Per Month": { sr: "Mesečno", ru: "В месяц" },
+    "In-Person at Studio": { sr: "Uživo u studiju", ru: "Очно в студии" },
+    "10 Sessions": { sr: "10 treninga", ru: "10 занятий" },
+    "Save vs. single sessions": { sr: "Povoljnije od pojedinačnih treninga", ru: "Выгоднее одиночных занятий" },
+    "1v1 Monthly Program": { sr: "1v1 mesečni program", ru: "1v1 месячная программа" },
+    "Training + Nutrition Plan": { sr: "Trening i plan ishrane", ru: "Тренировка и план питания" },
+    "Get Started": { sr: "Počnite", ru: "Начать" },
+    "Book anytime": { sr: "Zakažite kada želite", ru: "Запись в любое время" },
+    "Cancel anytime": { sr: "Otkažite kada želite", ru: "Отмена в любое время" },
+    "Personalised workouts plus a full nutrition plan built around your goals.": { sr: "Personalizovani treninzi i kompletan plan ishrane prilagođen vašim ciljevima.", ru: "Персональные тренировки и полный план питания под ваши цели." },
+    "promotions": { sr: "promocije", ru: "акции" }
   };
 
   // -- State --
