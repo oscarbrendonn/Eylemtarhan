@@ -2,6 +2,26 @@
    NYPT Site Controls — Dark Mode + Language Switcher Styles
    ============================================================ */
 
+/* Offcanvas sidebar must cover page logo/hero (which uses z-index:999).
+   Raise the fixed header (which contains the offcanvas) above the logo's z-index
+   so the offcanvas panel's own 999999 z-index can paint over page content. */
+.ekit-template-content-header .e-con.e-parent[data-settings*='"position":"fixed"'],
+.e-con.e-parent[data-settings*='"position":"fixed"']:has(.ekit-sidebar-group) {
+  z-index: 1000 !important;
+}
+.ekit-sidebar-group.ekit_isActive,
+.ekit-sidebar-group .ekit-sidebar-widget,
+.ekit-sidebar-group .ekit-overlay {
+  z-index: 1000000 !important;
+}
+.ekit-sidebar-group {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 1000000 !important;
+  pointer-events: none;
+}
+.ekit-sidebar-group.ekit_isActive { pointer-events: auto; }
+
 /* ---- Control Bar ---- */
 #nypt-controls {
   position: fixed;
