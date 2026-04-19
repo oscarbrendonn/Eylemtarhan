@@ -29,6 +29,24 @@ body.page-id-2996 .elementor-2996 {
   padding-top: 45px !important;
 }
 
+/* Elementor pattern dividers (hard black dotted block) → clean 1px line.
+   User flagged the original SVG pattern as clashing with every background. */
+.elementor-widget-divider--separator-type-pattern .elementor-divider {
+  --divider-pattern-url: none !important;
+  mask: none !important;
+  -webkit-mask: none !important;
+  background: none !important;
+  height: 1px !important;
+  border-top: 1px solid rgba(0,0,0,0.12);
+  padding: 0 !important;
+}
+.elementor-widget-divider--separator-type-pattern .elementor-divider-separator {
+  display: none !important;
+}
+html[data-theme="dark"] .elementor-widget-divider--separator-type-pattern .elementor-divider {
+  border-top-color: rgba(255,255,255,0.12);
+}
+
 /* ---- Control Bar ---- */
 #nypt-controls {
   position: fixed;

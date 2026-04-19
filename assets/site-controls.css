@@ -55,24 +55,306 @@
   color:#fff;
 }
 
-/* Dark mode via inverted-filter trick. Body is inverted; media & controls get counter-invert. */
+/* Dark mode — direct colour overrides only. No filter:invert tricks: they
+   inverted hero backgrounds, broke counter-inverts on iframes/canvas, and
+   produced unreadable off-colour text on pages with custom colours. */
+html[data-theme="dark"] {
+  background:#0f0f11;
+}
 html[data-theme="dark"] body{
-  background:#fff;
-  filter:invert(1) hue-rotate(180deg);
+  background:#0f0f11 !important;
+  color:#e6e6e6 !important;
 }
+
+/* Text colours */
+html[data-theme="dark"] body p,
+html[data-theme="dark"] body li,
+html[data-theme="dark"] body span:not(.elementor-icon):not([class*="eicon"]):not([class*="fa-"]):not(.elementor-screen-only):not(.elementor-button-text):not(.elementor-button-content-wrapper),
+html[data-theme="dark"] body .elementor-text-editor,
+html[data-theme="dark"] body .elementor-widget-text-editor{
+  color:#d8d8d8 !important;
+}
+html[data-theme="dark"] body h1,
+html[data-theme="dark"] body h2,
+html[data-theme="dark"] body h3,
+html[data-theme="dark"] body h4,
+html[data-theme="dark"] body h5,
+html[data-theme="dark"] body h6,
+html[data-theme="dark"] body .elementor-heading-title{
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body a:not(.elementor-button):not([class*="btn"]):not(.nypt-lang-btn):not(.elementor-social-icon){
+  color:#7db8ff !important;
+}
+
+/* Footer headings/links: always white on dark, not the accent blue.
+   Specificity boosted with extra :not() clauses to outrank the site-wide
+   dark-mode anchor colour rule above. */
+html[data-theme="dark"] body .ekit-template-content-footer a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]),
+html[data-theme="dark"] body footer a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]),
+html[data-theme="dark"] body .site-footer a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]),
+html[data-theme="dark"] body .ekit-template-content-footer a,
+html[data-theme="dark"] body footer a,
+html[data-theme="dark"] body .site-footer a,
+html[data-theme="dark"] body .ekit-template-content-footer h1,
+html[data-theme="dark"] body .ekit-template-content-footer h2,
+html[data-theme="dark"] body .ekit-template-content-footer h3,
+html[data-theme="dark"] body .ekit-template-content-footer h4,
+html[data-theme="dark"] body .ekit-template-content-footer h5,
+html[data-theme="dark"] body .ekit-template-content-footer h6,
+html[data-theme="dark"] body .ekit-template-content-footer .elementor-heading-title{
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body .ekit-template-content-footer a:hover,
+html[data-theme="dark"] body footer a:hover,
+html[data-theme="dark"] body .site-footer a:hover{
+  color:#ffffff !important;
+  opacity:0.85;
+}
+
+/* Containers / sections with white or light inline backgrounds */
+html[data-theme="dark"] body [style*="background-color: #fff"],
+html[data-theme="dark"] body [style*="background-color:#fff"],
+html[data-theme="dark"] body [style*="background-color: rgb(255, 255, 255)"],
+html[data-theme="dark"] body [style*="background-color:white"],
+html[data-theme="dark"] body [style*="background-color: white"],
+html[data-theme="dark"] body [style*="background:#fff"],
+html[data-theme="dark"] body [style*="background: #fff"]{
+  background-color:#161618 !important;
+}
+
+/* Elementor wrappers */
+html[data-theme="dark"] body .elementor-section,
+html[data-theme="dark"] body .elementor-container,
+html[data-theme="dark"] body .elementor-widget-wrap,
+html[data-theme="dark"] body main#content,
+html[data-theme="dark"] body article,
+html[data-theme="dark"] body .site-main{
+  background-color:transparent !important;
+}
+
+/* Cards (pricing, FAQ accordion, pricing tables, testimonial, post cards) */
+html[data-theme="dark"] body .elementor-flip-box,
+html[data-theme="dark"] body .elementor-price-table,
+html[data-theme="dark"] body .eael-pricing-table,
+html[data-theme="dark"] body .elementor-accordion-item,
+html[data-theme="dark"] body .eael-testimonial-content,
+html[data-theme="dark"] body .elementor-post__card{
+  background-color:#1a1a1d !important;
+  border-color:#2a2a2e !important;
+}
+
+/* Review cards: transparent with a hairline border — the solid gray
+   plate clashed with the dark body. */
+html[data-theme="dark"] body .eael-google-reviews-content,
+html[data-theme="dark"] body .eael-google-reviews-slider-item{
+  background-color:transparent !important;
+  background:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+/* Buttons: inverse colours between light and dark, with a soft shadow,
+   crisp padding, and a subtle lift on hover. */
+html body .elementor-button,
+html body a.elementor-button-link{
+  background-color:#111 !important;
+  color:#ffffff !important;
+  border:1px solid #111 !important;
+  padding:14px 34px !important;
+  border-radius:999px !important;
+  font-family:'Poppins','Inter','Helvetica Neue',Arial,sans-serif !important;
+  font-weight:600 !important;
+  font-size:14px !important;
+  line-height:1 !important;
+  letter-spacing:0.08em !important;
+  text-transform:uppercase !important;
+  text-decoration:none !important;
+  box-shadow:0 2px 6px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.08) !important;
+  transition:transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease !important;
+}
+html body .elementor-button:hover,
+html body a.elementor-button-link:hover{
+  background-color:#000 !important;
+  color:#ffffff !important;
+  transform:translateY(-1px);
+  box-shadow:0 6px 16px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.1) !important;
+}
+html body .elementor-button:active,
+html body a.elementor-button-link:active{
+  transform:translateY(0);
+  box-shadow:0 1px 3px rgba(0,0,0,0.25) !important;
+}
+html[data-theme="dark"] body .elementor-button,
+html[data-theme="dark"] body a.elementor-button-link{
+  background-color:#ffffff !important;
+  color:#111111 !important;
+  border-color:#ffffff !important;
+  box-shadow:0 2px 8px rgba(0,0,0,0.5), inset 0 -1px 0 rgba(0,0,0,0.08) !important;
+}
+html[data-theme="dark"] body .elementor-button:hover,
+html[data-theme="dark"] body a.elementor-button-link:hover{
+  background-color:#f2f2f2 !important;
+  color:#000000 !important;
+  transform:translateY(-1px);
+  box-shadow:0 6px 20px rgba(0,0,0,0.6), inset 0 -1px 0 rgba(0,0,0,0.1) !important;
+}
+html[data-theme="dark"] body .elementor-button:active,
+html[data-theme="dark"] body a.elementor-button-link:active{
+  transform:translateY(0);
+  box-shadow:0 1px 4px rgba(0,0,0,0.5) !important;
+}
+/* Button inner spans — set colour directly rather than inherit, because
+   the generic dark-mode span override has extra specificity from 4×:not() */
+body .elementor-button .elementor-button-content-wrapper,
+body .elementor-button .elementor-button-text,
+body a.elementor-button-link .elementor-button-content-wrapper,
+body a.elementor-button-link .elementor-button-text{
+  color:#ffffff !important;
+  font-family:'Poppins','Inter','Helvetica Neue',Arial,sans-serif !important;
+  font-weight:600 !important;
+  letter-spacing:0.08em !important;
+  text-transform:uppercase !important;
+}
+html[data-theme="dark"] body .elementor-button .elementor-button-content-wrapper,
+html[data-theme="dark"] body .elementor-button .elementor-button-text,
+html[data-theme="dark"] body a.elementor-button-link .elementor-button-content-wrapper,
+html[data-theme="dark"] body a.elementor-button-link .elementor-button-text{
+  color:#111111 !important;
+}
+
+/* Swiper arrows (prev/next) and pagination dots — make them visible on dark */
+html[data-theme="dark"] body .swiper-button-prev,
+html[data-theme="dark"] body .swiper-button-next,
+html[data-theme="dark"] body .swiper-button-prev i,
+html[data-theme="dark"] body .swiper-button-next i,
+html[data-theme="dark"] body .swiper-button-prev::before,
+html[data-theme="dark"] body .swiper-button-next::before,
+html[data-theme="dark"] body .swiper-button-prev::after,
+html[data-theme="dark"] body .swiper-button-next::after{
+  color:#fff !important;
+}
+html[data-theme="dark"] body .swiper-pagination-bullet{
+  background-color:rgba(255,255,255,0.4) !important;
+  opacity:1 !important;
+}
+html[data-theme="dark"] body .swiper-pagination-bullet-active{
+  background-color:#fff !important;
+}
+
+/* Review card inner text — override hardcoded dark colors so they remain
+   readable on the dark card background */
+html[data-theme="dark"] body .eael-google-review-reviewer-name,
+html[data-theme="dark"] body .eael-google-review-reviewer-name a,
+html[data-theme="dark"] body .eael-testimonial-user,
+html[data-theme="dark"] body .eael-testimonial-user-company{
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body .eael-google-review-text,
+html[data-theme="dark"] body .eael-google-review-text *,
+html[data-theme="dark"] body .eael-testimonial-content p{
+  color:#d8d8d8 !important;
+}
+html[data-theme="dark"] body .elementor-accordion-title,
+html[data-theme="dark"] body .elementor-tab-title{
+  background-color:#1e1e22 !important;
+  color:#f4f4f4 !important;
+}
+
+/* Header / footer */
+html[data-theme="dark"] body header,
+html[data-theme="dark"] body .site-header,
+html[data-theme="dark"] body .ekit-template-content-header,
+html[data-theme="dark"] body footer,
+html[data-theme="dark"] body .site-footer,
+html[data-theme="dark"] body .ekit-template-content-footer,
+html[data-theme="dark"] body .ekit-template-content-footer .e-con,
+html[data-theme="dark"] body .ekit-template-content-footer .e-con-inner,
+html[data-theme="dark"] body .ekit-template-content-footer [data-settings*="background_background"]{
+  background-color:#0a0a0c !important;
+  background-image:none !important;
+}
+
+/* Footer logo (es-logo.png has a solid white plate → clashes on dark).
+   Swap it for the transparent white-seal variant in dark mode. */
+html[data-theme="dark"] body .ekit-template-content-footer img[src*="es-logo.png"],
+html[data-theme="dark"] body footer img[src*="es-logo.png"]{
+  content:url('es-logo-circle.png');
+}
+
+/* Social icons — Instagram gets the brand gradient on both themes so it's
+   recognisable on dark and light. Adds rounded square + white glyph. */
+body .elementor-social-icon-,
+body .elementor-social-icon-instagram,
+body a[href*="instagram.com"].elementor-social-icon{
+  background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+  color:#ffffff !important;
+  border-radius:10px !important;
+  padding:8px !important;
+  width:36px !important;
+  height:36px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  box-shadow:0 1px 3px rgba(0,0,0,0.25);
+}
+body .elementor-social-icon-instagram svg path,
+body .elementor-social-icon- svg path,
+body a[href*="instagram.com"].elementor-social-icon svg path{
+  fill:#ffffff !important;
+}
+body .elementor-social-icon-instagram svg,
+body .elementor-social-icon- svg,
+body a[href*="instagram.com"].elementor-social-icon svg{
+  color:#ffffff !important;
+}
+html[data-theme="dark"] body .elementor-social-icon-instagram,
+html[data-theme="dark"] body .elementor-social-icon-,
+html[data-theme="dark"] body a[href*="instagram.com"].elementor-social-icon{
+  background:linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+}
+body .elementor-social-icon-instagram:hover,
+body .elementor-social-icon-:hover,
+body a[href*="instagram.com"].elementor-social-icon:hover{
+  filter:brightness(1.08) saturate(1.05);
+}
+
+/* Offcanvas side panel */
+html[data-theme="dark"] body .ekit-sidebar-widget{
+  background-color:#111114 !important;
+  color:#e6e6e6 !important;
+}
+html[data-theme="dark"] body .ekit-sidebar-widget a,
+html[data-theme="dark"] body .ekit-nav-menu a{
+  color:#e6e6e6 !important;
+}
+
+/* Dividers */
+html[data-theme="dark"] body .elementor-divider-separator{
+  border-color:#333 !important;
+}
+
+/* GDPR / cookie bar */
+html[data-theme="dark"] body .be-gdpr-bar,
+html[data-theme="dark"] body .be-gdpr-bar-content{
+  background-color:#16161a !important;
+  color:#e6e6e6 !important;
+  border-color:#2a2a2e !important;
+}
+
+/* Preserve images and videos — never filter them */
 html[data-theme="dark"] body img,
-html[data-theme="dark"] body picture,
+html[data-theme="dark"] body picture img,
 html[data-theme="dark"] body video,
-html[data-theme="dark"] body svg,
 html[data-theme="dark"] body iframe,
-html[data-theme="dark"] body canvas,
-html[data-theme="dark"] body [style*="background-image"],
-html[data-theme="dark"] body [data-no-invert]{
-  filter:invert(1) hue-rotate(180deg);
+html[data-theme="dark"] body canvas{
+  filter:none !important;
 }
+
+/* Site controls on dark */
 html[data-theme="dark"] #site-controls button,
 html[data-theme="dark"] #site-controls .sc-lang{
-  background:rgba(30,30,32,.9);
+  background:rgba(30,30,32,.92);
   color:#eee;
   border-color:rgba(255,255,255,.18);
   box-shadow:0 2px 10px rgba(0,0,0,.5);
