@@ -23,6 +23,12 @@
 }
 .ekit-sidebar-group.ekit_isActive { pointer-events: auto; }
 
+/* Pricing page: push the first card section below the fixed header/menu */
+body.page-id-2996 main#content,
+body.page-id-2996 .elementor-2996 {
+  padding-top: 45px !important;
+}
+
 /* ---- Control Bar ---- */
 #nypt-controls {
   position: fixed;
