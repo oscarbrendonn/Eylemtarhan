@@ -149,6 +149,25 @@
       'POPULAR KETTLEBELL WORKOUTS:': 'POPULARNI TRENINZI SA GIRJAMA:',
       /* Blog */
       'Archives': 'Arhiva',
+      /* Pricing */
+      '1v1 In-Person Training': '1v1 trening uživo',
+      '1v1 Online Coaching': '1v1 online treninzi',
+      'Single Session': 'Pojedinačni trening',
+      'Session Package': 'Paket treninga',
+      'Online Training': 'Online trening',
+      'Training + Diet': 'Trening + ishrana',
+      'Per Session': 'Po treningu',
+      'Per Month': 'Mesečno',
+      'In-Person at Studio': 'Uživo u studiju',
+      '10 Sessions': '10 treninga',
+      'Save vs. single sessions': 'Povoljnije od pojedinačnih treninga',
+      '1v1 Monthly Program': '1v1 mesečni program',
+      'Training + Nutrition Plan': 'Trening i plan ishrane',
+      'Get Started': 'Počnite',
+      'Book anytime': 'Zakažite kada želite',
+      'Cancel anytime': 'Otkažite kada želite',
+      'Personalised workouts plus a full nutrition plan built around your goals.': 'Personalizovani treninzi i kompletan plan ishrane prilagođen vašim ciljevima.',
+      'promotions': 'promocije',
       /* Reviews */
       '4.9': '4,9',
       'Add Arrows': '',
@@ -293,6 +312,25 @@
       'POPULAR KETTLEBELL WORKOUTS:': 'ПОПУЛЯРНЫЕ УПРАЖНЕНИЯ С ГИРЯМИ:',
       /* Blog */
       'Archives': 'Архив',
+      /* Pricing */
+      '1v1 In-Person Training': '1v1 тренировки очно',
+      '1v1 Online Coaching': '1v1 онлайн-тренировки',
+      'Single Session': 'Одно занятие',
+      'Session Package': 'Пакет занятий',
+      'Online Training': 'Онлайн-тренировка',
+      'Training + Diet': 'Тренировка + питание',
+      'Per Session': 'За занятие',
+      'Per Month': 'В месяц',
+      'In-Person at Studio': 'Очно в студии',
+      '10 Sessions': '10 занятий',
+      'Save vs. single sessions': 'Выгоднее одиночных занятий',
+      '1v1 Monthly Program': '1v1 месячная программа',
+      'Training + Nutrition Plan': 'Тренировка и план питания',
+      'Get Started': 'Начать',
+      'Book anytime': 'Запись в любое время',
+      'Cancel anytime': 'Отмена в любое время',
+      'Personalised workouts plus a full nutrition plan built around your goals.': 'Персональные тренировки и полный план питания под ваши цели.',
+      'promotions': 'акции',
       /* Misc */
       '4.9': '4,9',
       'Add Arrows': '',
@@ -332,6 +370,9 @@
   }
 
   function applyLang(lang) {
+    // Cache is built once with the pristine English DOM text; never rebuild
+    // after a translation has been applied, or the "original" would drift
+    // into whatever language was last shown (breaking SR→RU or RU→EN).
     if (!nodeCache) buildNodeCache();
     const dict = T[lang] || {};
     for (const { node, original } of nodeCache) {
@@ -342,14 +383,10 @@
         const trailing = original.match(/\s*$/)[0];
         node.textContent = translated === '' ? '' : (leading + translated + trailing);
       } else {
-        // Restore English
         node.textContent = original;
       }
     }
-    // Update <html lang> attribute
     document.documentElement.lang = lang === 'sr' ? 'sr' : lang === 'ru' ? 'ru' : 'en';
-    // Refresh cache after DOM changes (lang change modifies text nodes)
-    nodeCache = null;
   }
 
   function setLang(lang) {
