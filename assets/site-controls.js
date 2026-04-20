@@ -410,4 +410,126 @@
   } else {
     setTimeout(initOrphanCarousels, 600);
   }
+
+  /* ------------------------------------------------------------
+     Scroll reveal — fade + slide-up as text enters the viewport
+     ------------------------------------------------------------ */
+  function initScrollReveal() {
+    if (!("IntersectionObserver" in window)) return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    var skipSelectors = [
+      "#site-controls",
+      "#nypt-controls",
+      ".ekit-sidebar-group",
+      ".ekit-template-content-header",
+      ".ekit-template-content-footer",
+      "header",
+      "footer"
+    ].join(",");
+
+    // Animate heading + following paragraph pairs in text-editor widgets —
+    // i.e. section intros like "WELCOME" / "Located in Vračar…".  Skip
+    // pricing labels, card titles, nav items, button text.
+    var candidates = [];
+    var seen = new Set();
+
+    // Pair 1: long paragraphs in text-editor widgets (body copy / intros)
+    Array.prototype.forEach.call(
+      document.querySelectorAll(
+        "main .Text-sc-w62x9v-0, " +
+        "main .elementor-widget-text-editor p"
+      ),
+      function (el) {
+        if (!el || !el.textContent) return;
+        var txt = el.textContent.trim();
+        if (txt.length < 90) return;
+        if (el.querySelector("p, h1, h2, h3, h4, h5, ul, ol, table, img")) return;
+        if (seen.has(el)) return;
+        seen.add(el);
+        candidates.push(el);
+      }
+    );
+
+    // Pair 2: headings that sit immediately above those intros.  We grab
+    // any h2/h3 whose parent widget is siblinged to one of the paragraphs
+    // we already queued — this picks up "WELCOME", "DOBRODOŠLI" etc.
+    Array.prototype.forEach.call(
+      document.querySelectorAll("main .elementor-widget-heading h1, main .elementor-widget-heading h2, main .elementor-widget-heading h3"),
+      function (h) {
+        var widget = h.closest(".elementor-widget-heading");
+        if (!widget) return;
+        var parent = widget.parentElement;
+        if (!parent) return;
+        var hasLongSibling = false;
+        for (var i = 0; i < parent.children.length; i++) {
+          var sib = parent.children[i];
+          if (sib === widget) continue;
+          var t = (sib.textContent || "").trim();
+          if (t.length >= 90 && /elementor-widget-text-editor/.test(sib.className||"")) {
+            hasLongSibling = true;
+            break;
+          }
+        }
+        if (!hasLongSibling) return;
+        if (seen.has(h)) return;
+        seen.add(h);
+        candidates.push(h);
+      }
+    );
+
+    candidates.forEach(function (el) {
+      if (!el || el.closest(skipSelectors)) return;
+      if (el.classList.contains("es-reveal")) return;
+      el.classList.add("es-reveal");
+    });
+
+    // Split paragraph text into word-span wrappers when the element enters
+    // the viewport, fire the staggered animation, and flatten back to a
+    // plain text node once done so the language-switcher's text-node walker
+    // keeps working for future SR/RU/EN toggles.
+    function splitAndAnimate(el) {
+      if (el._esAnimated) return;
+      el._esAnimated = true;
+      var text = el.textContent;
+      var tokens = text.split(/(\s+)/);
+      var html = "";
+      var wordIdx = 0;
+      tokens.forEach(function (tok) {
+        if (/^\s+$/.test(tok) || tok === "") { html += tok; return; }
+        var delay = Math.min(wordIdx * 45, 1400);
+        html += '<span class="es-word" style="--es-word-delay:' + delay + 'ms">' + tok + "</span>";
+        wordIdx++;
+      });
+      el.innerHTML = html;
+      // Force a paint, then toggle .es-visible so transitions fire.
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () { el.classList.add("es-visible"); });
+      });
+      // Flatten back to plain text after all words finish animating so the
+      // translation walker can still find a single text node to swap later.
+      var totalMs = wordIdx * 45 + 600;
+      setTimeout(function () {
+        el.textContent = text;
+        el.classList.remove("es-visible");
+      }, totalMs + 200);
+    }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          splitAndAnimate(e.target);
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15, rootMargin: "0px 0px -60px 0px" });
+
+    document.querySelectorAll(".es-reveal").forEach(function (el) { io.observe(el); });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () { setTimeout(initScrollReveal, 200); }, { once: true });
+  } else {
+    setTimeout(initScrollReveal, 200);
+  }
 })();

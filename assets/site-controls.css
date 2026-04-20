@@ -416,6 +416,29 @@ html[data-theme="dark"] body .ekit-nav-menu a:hover{
 }
 
 /* ============================================================
+   Scroll-reveal (fade + slide-up as element enters viewport)
+   ============================================================ */
+/* Word-by-word scroll reveal. The .es-reveal container stays visible —
+   only the split <span class="es-word"> children animate, each with a
+   staggered delay set inline by the JS splitter. */
+.es-reveal .es-word{
+  display:inline-block;
+  opacity:0;
+  transform:translate3d(0, 18px, 0);
+  transition:opacity .55s cubic-bezier(.22,.61,.36,1),
+             transform .55s cubic-bezier(.22,.61,.36,1);
+  transition-delay:var(--es-word-delay, 0ms);
+  will-change:opacity, transform;
+}
+.es-reveal.es-visible .es-word{
+  opacity:1;
+  transform:translate3d(0, 0, 0);
+}
+@media (prefers-reduced-motion: reduce){
+  .es-reveal .es-word{ opacity:1 !important; transform:none !important; transition:none !important; }
+}
+
+/* ============================================================
    Info-card grids (What's Included / How It Works / Stats)
    Reused across pricing.html + personal-training.html
    ============================================================ */
