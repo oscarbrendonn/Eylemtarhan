@@ -149,7 +149,7 @@ var beGdprConcerns = [];
 .list-item:not(:first-child), .gallery-grid-item-wrapper:not(:first-child), .gallery-grid-item:not(:first-child), .fluid-engine .grid-item:not(:first-child){display:none !important;}
 .list-grid, .gallery-grid, .fluid-engine{grid-template-columns:minmax(0,520px) !important;justify-content:center !important;}
 </style>
-<link rel="stylesheet" href="assets/site-controls.css?v=1776637099"/><script src="assets/site-controls.js?v=1776637099" defer></script></head>
+<link rel="stylesheet" href="assets/site-controls.css?v=1776646241"/><script src="assets/site-controls.js?v=1776646241" defer></script></head>
 <body class="wp-singular page-template-default page page-id-3994 wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-4218 elementor-page elementor-page-3994 e--ua-firefox e--ua-mac" data-elementor-device-mode="desktop">
 <a class="skip-link screen-reader-text" href="#content">
 			Skip to content		</a>
@@ -253,7 +253,116 @@ var beGdprConcerns = [];
 <div class="elementor-element elementor-element-f5ee9af e-con-full e-flex e-con e-parent e-lazyloaded" data-element_type="container" data-id="f5ee9af">
 <div class="elementor-element elementor-element-6f033520 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="6f033520" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
-<iframe frameborder="0" height="1200px" src="https://open.pushpress.com/interested/framed/1" title="description" width="90%"></iframe> </div>
+
+<!-- ES contact form -->
+<div class="es-contact-form-wrap">
+  <h2 class="es-contact-title">Get in touch</h2>
+  <p class="es-contact-sub">Fill in the form and we'll get back to you via WhatsApp or email.</p>
+
+  <form id="es-contact-form" action="https://formsubmit.co/peter@eliteshape.rs" method="POST" novalidate>
+    <input type="hidden" name="_subject" value="New inquiry from eliteshape.rs">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="_honey" style="display:none">
+
+    <div class="es-field">
+      <label for="es-name">Full name</label>
+      <input id="es-name" name="Name" type="text" autocomplete="name" required>
+    </div>
+
+    <div class="es-row">
+      <div class="es-field">
+        <label for="es-email">Email</label>
+        <input id="es-email" name="Email" type="email" autocomplete="email" required>
+      </div>
+      <div class="es-field">
+        <label for="es-phone">Phone <span class="es-optional">(optional)</span></label>
+        <input id="es-phone" name="Phone" type="tel" autocomplete="tel">
+      </div>
+    </div>
+
+    <div class="es-field">
+      <label for="es-goal">Goal</label>
+      <select id="es-goal" name="Goal">
+        <option value="">Choose…</option>
+        <option>Weight loss</option>
+        <option>Muscle gain</option>
+        <option>General fitness</option>
+        <option>Online training</option>
+        <option>Training + Diet</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="es-field">
+      <label for="es-msg">Message</label>
+      <textarea id="es-msg" name="Message" rows="4" placeholder="Tell us a bit about your goals…"></textarea>
+    </div>
+
+    <div class="es-actions">
+      <button type="submit" class="es-btn es-btn-primary">Send</button>
+      <button type="button" class="es-btn es-btn-whatsapp" id="es-whatsapp-btn" aria-label="Send via WhatsApp">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.37 0 0 5.37 0 12a11.94 11.94 0 0 0 1.64 6.06L0 24l6.18-1.62A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12a11.93 11.93 0 0 0-3.48-8.52ZM12 21.82a9.82 9.82 0 0 1-5-1.37l-.36-.21-3.67.96.98-3.58-.23-.37A9.82 9.82 0 1 1 12 21.82Zm5.39-7.34c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.08-.3-.15-1.26-.46-2.4-1.48-.88-.78-1.48-1.75-1.66-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.11 3.22 5.1 4.51.71.31 1.27.5 1.71.63.72.23 1.37.2 1.89.12.58-.09 1.76-.72 2.01-1.42.25-.69.25-1.28.17-1.42-.07-.14-.27-.22-.57-.37Z"/></svg>
+        WhatsApp
+      </button>
+    </div>
+
+    <p id="es-status" class="es-status" role="status" aria-live="polite"></p>
+  </form>
+</div>
+
+<script>
+(function(){
+  var form = document.getElementById('es-contact-form');
+  var waBtn = document.getElementById('es-whatsapp-btn');
+  var status = document.getElementById('es-status');
+  var WA_NUMBER = '381692707321';
+
+  function buildWhatsAppMessage() {
+    var name  = form.Name.value.trim();
+    var email = form.Email.value.trim();
+    var phone = form.Phone.value.trim();
+    var goal  = form.Goal.value.trim();
+    var msg   = form.Message.value.trim();
+    var lines = ['Hi Peter, I would like to get in touch.'];
+    if (name)  lines.push('Name: '  + name);
+    if (email) lines.push('Email: ' + email);
+    if (phone) lines.push('Phone: ' + phone);
+    if (goal)  lines.push('Goal: '  + goal);
+    if (msg)   lines.push('Message: ' + msg);
+    return lines.join('\n');
+  }
+
+  waBtn.addEventListener('click', function(){
+    // WhatsApp only needs a name so Peter knows who is writing.
+    // Temporarily drop "required" from email so browser validation
+    // doesn't block the WhatsApp-only flow.
+    var emailEl = form.Email;
+    var hadRequired = emailEl.hasAttribute('required');
+    emailEl.removeAttribute('required');
+    if (!form.Name.value.trim()) {
+      form.Name.focus();
+      form.Name.reportValidity();
+      if (hadRequired) emailEl.setAttribute('required','');
+      return;
+    }
+    var text = encodeURIComponent(buildWhatsAppMessage());
+    window.open('https://wa.me/' + WA_NUMBER + '?text=' + text, '_blank', 'noopener');
+    if (hadRequired) emailEl.setAttribute('required','');
+  });
+
+  form.addEventListener('submit', function(e){
+    // Open WhatsApp draft alongside the email submission as a friendly fallback.
+    try {
+      var text = encodeURIComponent(buildWhatsAppMessage());
+      window.open('https://wa.me/' + WA_NUMBER + '?text=' + text, '_blank', 'noopener');
+    } catch(err){}
+    status.textContent = 'Sending… you will get a confirmation email.';
+    status.classList.add('es-status-ok');
+  });
+})();
+</script>
+</div>
 </div>
 </div>
 <div class="elementor-element elementor-element-ead4437 e-con-full e-flex e-con e-parent e-lazyloaded" data-element_type="container" data-id="ead4437">

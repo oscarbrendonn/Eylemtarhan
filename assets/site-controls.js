@@ -105,6 +105,36 @@
     "EliteShape Belgrade": { sr: "EliteShape Beograd", ru: "EliteShape Белград" },
     "Skip to content": { sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" },
 
+    // Welcome / homepage long copy
+    "Located in Vračar, Belgrade, EliteShape maintains an educated, skilled and friendly health services team that is dedicated to providing the specialized attention, training and knowledge needed to help our clients attain their unique fitness objectives.  As ardent students of the latest developments in fitness, weight loss and strength training exercise programs, we maintain the highest standards for Your Trainer ensuring they regularly develop their skills through related courses throughout the year.": {
+      sr: "Smešten u Vračaru, Beograd, EliteShape okuplja obrazovan, stručan i prijateljski tim zdravstvenih i trenažnih radnika posvećen pružanju specijalizovane pažnje, treninga i znanja koje je potrebno da naši klijenti ostvare svoje fitnes ciljeve. Kao posvećeni pratioci najnovijih dostignuća u fitnesu, mršavljenju i programima trening snage, održavamo najviše standarde za vašeg trenera, kroz redovno usavršavanje i pohađanje stručnih kurseva tokom cele godine.",
+      ru: "Расположенный в районе Врачар, Белград, EliteShape объединяет образованную, опытную и дружелюбную команду тренеров и специалистов по здоровью, готовых оказать индивидуальное внимание и поделиться знаниями, чтобы наши клиенты достигли своих фитнес-целей. Мы внимательно следим за последними достижениями в фитнесе, снижении веса и силовых тренировках, и поддерживаем высокие стандарты вашего тренера через постоянное обучение в течение года."
+    },
+    "Keep up with the latest news, trends and information regarding health, fitness, and nutrition.": {
+      sr: "Budite u toku sa najnovijim vestima, trendovima i informacijama o zdravlju, fitnesu i ishrani.",
+      ru: "Следите за последними новостями, трендами и информацией о здоровье, фитнесе и питании."
+    },
+
+    // Blog post titles (rebranded, NYCPT removed)
+    "Why Barre Is the Ultimate Low-Impact Workout for Maximum Results": {
+      sr: "Zašto je Barre najbolji trening niskog opterećenja za maksimalne rezultate",
+      ru: "Почему Barre — лучшая тренировка с низкой нагрузкой для максимальных результатов"
+    },
+    "5 Common Barre Mistakes and How to Fix Them for Better Results": {
+      sr: "5 čestih grešaka u Barre treningu i kako ih ispraviti za bolje rezultate",
+      ru: "5 распространённых ошибок в Barre-тренировках и как их исправить для лучших результатов"
+    },
+    "EliteShape Open House: Spring Edition": {
+      sr: "EliteShape Otvoreni dan: Prolećno izdanje",
+      ru: "EliteShape День открытых дверей: Весеннее издание"
+    },
+    "Case Study": { sr: "Studija slučaja", ru: "Кейс" },
+    "read more": { sr: "pročitaj više", ru: "читать далее" },
+    "READ MORE": { sr: "PROČITAJ VIŠE", ru: "ЧИТАТЬ ДАЛЕЕ" },
+    "Read More": { sr: "Pročitaj više", ru: "Читать далее" },
+    "Latest": { sr: "Najnovije", ru: "Последнее" },
+    "LATEST": { sr: "NAJNOVIJE", ru: "ПОСЛЕДНЕЕ" },
+
     // Pricing page
     "1v1 In-Person Training": { sr: "1v1 trening uživo", ru: "1v1 тренировки очно" },
     "1v1 Online Coaching": { sr: "1v1 online treninzi", ru: "1v1 онлайн-тренировки" },
@@ -123,7 +153,42 @@
     "Book anytime": { sr: "Zakažite kada želite", ru: "Запись в любое время" },
     "Cancel anytime": { sr: "Otkažite kada želite", ru: "Отмена в любое время" },
     "Personalised workouts plus a full nutrition plan built around your goals.": { sr: "Personalizovani treninzi i kompletan plan ishrane prilagođen vašim ciljevima.", ru: "Персональные тренировки и полный план питания под ваши цели." },
-    "promotions": { sr: "promocije", ru: "акции" }
+    "promotions": { sr: "promocije", ru: "акции" },
+
+    // Contact page + form
+    "Regardless of your fitness background or the stage of life you find yourself in, Elite Shape Personal Training is dedicated to providing a supportive and inclusive environment. Our goal is to guide and inspire you, whether you’re stepping into the world of fitness for the first time or maintaining an elite athletic performance. Join us, and let’s embark on a wellness journey tailored to your unique goals, celebrating every achievement along the way. Experience top personal training today!": {
+      sr: "Bez obzira na vaše fitnes iskustvo ili životnu fazu u kojoj se nalazite, Elite Shape Personal Training je posvećen pružanju podržavajuće i prijateljske atmosfere. Naš cilj je da vas vodimo i inspirišemo, bilo da tek zakoračujete u svet fitnesa ili održavate elitne sportske rezultate. Pridružite nam se i zajedno krenite na put do željenih ciljeva — slavimo svaki napredak na putu ka vama najboljima. Pružamo vrhunski personalni trening!",
+      ru: "Независимо от вашего опыта в фитнесе или этапа жизни, Elite Shape Personal Training создаёт дружелюбную и поддерживающую среду. Наша цель — направить и вдохновить вас, будь то первые шаги или поддержание элитной спортивной формы. Присоединяйтесь — мы построим путь к вашим целям и будем отмечать каждый шаг. Первоклассные персональные тренировки!"
+    },
+    "Get in touch": { sr: "Kontaktirajte nas", ru: "Свяжитесь с нами" },
+    "Fill in the form and we'll get back to you via WhatsApp or email.": {
+      sr: "Popunite formu i javićemo vam se putem WhatsApp-a ili email-a.",
+      ru: "Заполните форму — мы свяжемся с вами через WhatsApp или по email."
+    },
+    "Full name": { sr: "Ime i prezime", ru: "Имя и фамилия" },
+    "Email": { sr: "Email", ru: "Email" },
+    "Phone": { sr: "Telefon", ru: "Телефон" },
+    "(optional)": { sr: "(opciono)", ru: "(необязательно)" },
+    "Goal": { sr: "Cilj", ru: "Цель" },
+    "Choose…": { sr: "Izaberi…", ru: "Выберите…" },
+    "Weight loss": { sr: "Mršavljenje", ru: "Снижение веса" },
+    "Muscle gain": { sr: "Povećanje mišićne mase", ru: "Набор мышечной массы" },
+    "General fitness": { sr: "Opšta kondicija", ru: "Общая физическая форма" },
+    "Other": { sr: "Drugo", ru: "Другое" },
+    "Message": { sr: "Poruka", ru: "Сообщение" },
+    "Tell us a bit about your goals…": {
+      sr: "Recite nam nešto o svojim ciljevima…",
+      ru: "Расскажите немного о своих целях…"
+    },
+    "Send": { sr: "Pošalji", ru: "Отправить" },
+    "Send via WhatsApp": { sr: "Pošalji preko WhatsApp-a", ru: "Отправить через WhatsApp" },
+    "Sending… you will get a confirmation email.": {
+      sr: "Šaljemo… dobićete email potvrdu.",
+      ru: "Отправка… вы получите письмо-подтверждение."
+    },
+    "Address": { sr: "Adresa", ru: "Адрес" },
+    "Opening hours": { sr: "Radno vreme", ru: "Часы работы" },
+    "Every day: 9:00 - 21:00": { sr: "Svaki dan: 9:00 - 21:00", ru: "Ежедневно: 9:00 - 21:00" }
   };
 
   // -- State --
@@ -298,5 +363,51 @@
     document.addEventListener("DOMContentLoaded", init, { once: true });
   } else {
     init();
+  }
+
+  // Fallback init for Elementor image carousels whose frontend handler failed
+  // to wire up Swiper. Without this the prev/next chevrons and pagination
+  // dots are present in the DOM but inert on this static-export site.
+  function initOrphanCarousels() {
+    if (typeof Swiper !== "function") return;
+    var widgets = document.querySelectorAll(".elementor-widget-image-carousel");
+    widgets.forEach(function (w) {
+      var wrapper = w.querySelector(".elementor-image-carousel-wrapper.swiper");
+      if (!wrapper || wrapper.swiper) return;
+      var settings = {};
+      try { settings = JSON.parse(w.dataset.settings || "{}"); } catch (e) {}
+      var slidesDesktop = parseInt(settings.slides_to_show, 10) || 3;
+      var slidesTablet  = parseInt(settings.slides_to_show_tablet, 10)
+                        || Math.max(2, Math.min(slidesDesktop, 3));
+      var slidesMobile  = parseInt(settings.slides_to_show_mobile, 10) || 2;
+      var next = w.querySelector(".elementor-swiper-button-next");
+      var prev = w.querySelector(".elementor-swiper-button-prev");
+      var pagination = w.querySelector(".swiper-pagination");
+      try {
+        new Swiper(wrapper, {
+          slidesPerView: slidesMobile,
+          spaceBetween: 12,
+          loop: settings.infinite === "yes",
+          speed: parseInt(settings.speed, 10) || 500,
+          autoplay: settings.autoplay === "yes" ? {
+            delay: parseInt(settings.autoplay_speed, 10) || 4000,
+            disableOnInteraction: settings.pause_on_interaction === "yes"
+          } : false,
+          navigation: next && prev ? { nextEl: next, prevEl: prev } : false,
+          pagination: pagination ? { el: pagination, clickable: true } : false,
+          breakpoints: {
+            768:  { slidesPerView: slidesTablet,  spaceBetween: 16 },
+            1024: { slidesPerView: slidesDesktop, spaceBetween: 20 }
+          }
+        });
+      } catch (e) { /* swallow — Swiper will tell us in console */ }
+    });
+  }
+
+  // Run after Elementor's own init has had its chance.
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () { setTimeout(initOrphanCarousels, 600); }, { once: true });
+  } else {
+    setTimeout(initOrphanCarousels, 600);
   }
 })();

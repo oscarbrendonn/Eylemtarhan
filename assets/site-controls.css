@@ -223,23 +223,59 @@ html[data-theme="dark"] body a.elementor-button-link .elementor-button-text{
   color:#111111 !important;
 }
 
-/* Swiper arrows (prev/next) and pagination dots — make them visible on dark */
+/* Swiper arrows (prev/next) and pagination dots — make them visible on dark.
+   Covers both the eael-* swiper buttons AND Elementor's own
+   .elementor-swiper-button (used by the image carousel widget). */
 html[data-theme="dark"] body .swiper-button-prev,
 html[data-theme="dark"] body .swiper-button-next,
+html[data-theme="dark"] body .elementor-swiper-button,
+html[data-theme="dark"] body .elementor-swiper-button-prev,
+html[data-theme="dark"] body .elementor-swiper-button-next,
 html[data-theme="dark"] body .swiper-button-prev i,
 html[data-theme="dark"] body .swiper-button-next i,
+html[data-theme="dark"] body .elementor-swiper-button i,
+html[data-theme="dark"] body .elementor-swiper-button svg,
+html[data-theme="dark"] body .elementor-swiper-button svg path,
 html[data-theme="dark"] body .swiper-button-prev::before,
 html[data-theme="dark"] body .swiper-button-next::before,
 html[data-theme="dark"] body .swiper-button-prev::after,
 html[data-theme="dark"] body .swiper-button-next::after{
-  color:#fff !important;
+  color:#ffffff !important;
+  fill:#ffffff !important;
 }
 html[data-theme="dark"] body .swiper-pagination-bullet{
   background-color:rgba(255,255,255,0.4) !important;
   opacity:1 !important;
 }
 html[data-theme="dark"] body .swiper-pagination-bullet-active{
-  background-color:#fff !important;
+  background-color:#ffffff !important;
+}
+
+/* Swiper arrow chips: subtle pill so they pop on any background */
+body .elementor-swiper-button{
+  background-color:rgba(255,255,255,0.85) !important;
+  width:36px !important;
+  height:36px !important;
+  border-radius:999px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  color:#111 !important;
+  cursor:pointer;
+  z-index:5 !important;
+}
+body .elementor-swiper-button svg{
+  width:18px !important;
+  height:18px !important;
+  fill:#111 !important;
+}
+html[data-theme="dark"] body .elementor-swiper-button{
+  background-color:rgba(20,20,22,0.8) !important;
+  color:#ffffff !important;
+}
+html[data-theme="dark"] body .elementor-swiper-button svg,
+html[data-theme="dark"] body .elementor-swiper-button svg path{
+  fill:#ffffff !important;
 }
 
 /* Review card inner text — override hardcoded dark colors so they remain
@@ -319,14 +355,266 @@ body a[href*="instagram.com"].elementor-social-icon:hover{
   filter:brightness(1.08) saturate(1.05);
 }
 
-/* Offcanvas side panel */
-html[data-theme="dark"] body .ekit-sidebar-widget{
-  background-color:#111114 !important;
-  color:#e6e6e6 !important;
+/* Offcanvas side panel — force dark on shells but explicitly exclude
+   buttons / pills so the universal white-button rule keeps its plate. */
+html[data-theme="dark"] body .ekit-sidebar-group,
+html[data-theme="dark"] body .ekit-sidebar-widget,
+html[data-theme="dark"] body .ekit-wid-con .ekit-sidebar-widget,
+html[data-theme="dark"] body .ekit_sidebar-widget-container,
+html[data-theme="dark"] body .ekit_widget-heading,
+html[data-theme="dark"] body .ekit_sidebar-textwidget,
+html[data-theme="dark"] body .ekit-sidebar-widget .elementor-widget-wrap,
+html[data-theme="dark"] body .ekit-sidebar-widget .elementor-section,
+html[data-theme="dark"] body .ekit-sidebar-widget .e-con,
+html[data-theme="dark"] body .ekit-sidebar-widget .e-con-inner,
+html[data-theme="dark"] body .ekit-sidebar-widget .elementor-element:not(.elementor-widget-button):not(:has(.elementor-button)),
+html[data-theme="dark"] body .ekit-sidebar-widget .eael-simple-menu-container,
+html[data-theme="dark"] body .ekit-sidebar-widget ul,
+html[data-theme="dark"] body .ekit-sidebar-widget li,
+html[data-theme="dark"] body .ekit-sidebar-widget .sub-menu,
+html[data-theme="dark"] body .ekit-sidebar-widget .eael-simple-menu-dropdown{
+  background-color:#0c0c0e !important;
+  background-image:none !important;
 }
+
+/* eael "has submenu" indicator chip — paints as a white block on dark.
+   Make it transparent so it disappears visually but stays in the layout. */
+html[data-theme="dark"] body .ekit-sidebar-widget .eael-simple-menu-indicator,
+body .ekit-sidebar-widget .eael-simple-menu-indicator{
+  background:transparent !important;
+  background-color:transparent !important;
+  border:none !important;
+  box-shadow:none !important;
+  color:transparent !important;
+}
+/* Text colours inside the panel — links get white, but skip the button
+   wrappers so the inverse-coloured button keeps its black-on-white text. */
+html[data-theme="dark"] body .ekit-sidebar-widget,
+html[data-theme="dark"] body .ekit-sidebar-widget li,
+html[data-theme="dark"] body .ekit-sidebar-widget p,
+html[data-theme="dark"] body .ekit-sidebar-widget span:not(.elementor-button-text):not(.elementor-button-content-wrapper),
+html[data-theme="dark"] body .ekit-sidebar-widget h1,
+html[data-theme="dark"] body .ekit-sidebar-widget h2,
+html[data-theme="dark"] body .ekit-sidebar-widget h3,
+html[data-theme="dark"] body .ekit-sidebar-widget h4,
+html[data-theme="dark"] body .ekit-sidebar-widget h5,
+html[data-theme="dark"] body .ekit-sidebar-widget h6{
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body .ekit-sidebar-widget a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]),
+html[data-theme="dark"] body .ekit-nav-menu a:not(.elementor-button):not(.elementor-social-icon):not([class*="btn"]),
 html[data-theme="dark"] body .ekit-sidebar-widget a,
 html[data-theme="dark"] body .ekit-nav-menu a{
-  color:#e6e6e6 !important;
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body .ekit-sidebar-widget a:hover,
+html[data-theme="dark"] body .ekit-nav-menu a:hover{
+  color:#ffffff !important;
+}
+
+/* ============================================================
+   Contact form (contact.html)
+   ============================================================ */
+.es-contact-form-wrap{
+  max-width:640px;
+  margin:48px auto;
+  padding:40px 32px;
+  border-radius:18px;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.08);
+  box-shadow:0 10px 40px rgba(0,0,0,.06);
+  font-family:'Poppins','Inter','Helvetica Neue',Arial,sans-serif;
+}
+.es-contact-title{
+  font-family:'Poppins',sans-serif;
+  font-size:28px;
+  font-weight:700;
+  margin:0 0 6px;
+  letter-spacing:0.01em;
+  color:#111 !important;
+}
+.es-contact-sub{
+  margin:0 0 24px;
+  color:#555 !important;
+  font-size:14px;
+}
+.es-contact-form-wrap .es-field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin-bottom:16px;
+}
+.es-contact-form-wrap .es-row{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+@media (max-width:600px){ .es-contact-form-wrap .es-row{ grid-template-columns:1fr; } }
+.es-contact-form-wrap label{
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:#555 !important;
+}
+.es-contact-form-wrap .es-optional{
+  font-weight:400;
+  letter-spacing:0;
+  text-transform:none;
+  color:#999 !important;
+  font-size:11px;
+  margin-left:6px;
+}
+html[data-theme="dark"] body .es-contact-form-wrap .es-optional{ color:#888 !important; }
+.es-contact-form-wrap input,
+.es-contact-form-wrap select,
+.es-contact-form-wrap textarea{
+  appearance:none;
+  -webkit-appearance:none;
+  width:100%;
+  padding:12px 14px;
+  border:1px solid rgba(0,0,0,.15);
+  border-radius:12px;
+  background:#fafafa;
+  color:#111 !important;
+  font-family:inherit;
+  font-size:14px;
+  line-height:1.45;
+  transition:border-color .15s, background .15s, box-shadow .15s;
+}
+.es-contact-form-wrap input:focus,
+.es-contact-form-wrap select:focus,
+.es-contact-form-wrap textarea:focus{
+  outline:none;
+  border-color:#111;
+  background:#fff;
+  box-shadow:0 0 0 3px rgba(17,17,17,.08);
+}
+.es-contact-form-wrap textarea{ resize:vertical; min-height:110px; }
+.es-contact-form-wrap .es-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-top:8px;
+}
+.es-contact-form-wrap .es-btn{
+  flex:1 1 auto;
+  min-width:180px;
+  padding:14px 22px;
+  border-radius:999px;
+  border:1px solid transparent;
+  font-family:inherit;
+  font-weight:600;
+  font-size:13px;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  transition:transform .15s, background .15s, box-shadow .15s;
+}
+.es-contact-form-wrap .es-btn-primary{
+  background:#111;
+  color:#fff !important;
+  border-color:#111;
+  box-shadow:0 2px 6px rgba(0,0,0,.18);
+}
+.es-contact-form-wrap .es-btn-primary:hover{ background:#000; transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.25); }
+.es-contact-form-wrap .es-btn-whatsapp{
+  background:#25D366;
+  color:#fff !important;
+  border-color:#25D366;
+  box-shadow:0 2px 6px rgba(37,211,102,.35);
+}
+.es-contact-form-wrap .es-btn-whatsapp:hover{ background:#1ebe5a; transform:translateY(-1px); box-shadow:0 6px 16px rgba(37,211,102,.45); }
+.es-contact-form-wrap .es-status{
+  margin:14px 0 0;
+  font-size:13px;
+  min-height:1.1em;
+  color:#555 !important;
+}
+.es-contact-form-wrap .es-status-ok{ color:#1a8a3a !important; }
+
+/* Dark mode */
+html[data-theme="dark"] body .es-contact-form-wrap{
+  background:#1a1a1d;
+  border-color:rgba(255,255,255,.08);
+  box-shadow:0 10px 40px rgba(0,0,0,.5);
+}
+html[data-theme="dark"] body .es-contact-title{ color:#f4f4f4 !important; }
+html[data-theme="dark"] body .es-contact-sub,
+html[data-theme="dark"] body .es-contact-form-wrap label,
+html[data-theme="dark"] body .es-contact-form-wrap .es-status{ color:#c9c9c9 !important; }
+html[data-theme="dark"] body .es-contact-form-wrap input,
+html[data-theme="dark"] body .es-contact-form-wrap select,
+html[data-theme="dark"] body .es-contact-form-wrap textarea{
+  background:#0f0f12;
+  border-color:rgba(255,255,255,.12);
+  color:#f4f4f4 !important;
+}
+html[data-theme="dark"] body .es-contact-form-wrap input:focus,
+html[data-theme="dark"] body .es-contact-form-wrap select:focus,
+html[data-theme="dark"] body .es-contact-form-wrap textarea:focus{
+  border-color:#fff;
+  background:#111114;
+  box-shadow:0 0 0 3px rgba(255,255,255,.1);
+}
+html[data-theme="dark"] body .es-contact-form-wrap .es-btn-primary{
+  background:#fff;
+  color:#111 !important;
+  border-color:#fff;
+}
+html[data-theme="dark"] body .es-contact-form-wrap .es-btn-primary:hover{ background:#f0f0f0; }
+
+/* Hamburger / offcanvas-trigger icon: black in light mode, white in dark */
+body .ekit_navSidebar-button,
+body .ekit_navSidebar-button i,
+body .ekit_navSidebar-button i::before,
+body .ekit_navSidebar-button svg,
+body .ekit_navSidebar-button svg path{
+  color:#111 !important;
+  fill:#111 !important;
+}
+html[data-theme="dark"] body .ekit_navSidebar-button,
+html[data-theme="dark"] body .ekit_navSidebar-button i,
+html[data-theme="dark"] body .ekit_navSidebar-button i::before,
+html[data-theme="dark"] body .ekit_navSidebar-button svg,
+html[data-theme="dark"] body .ekit_navSidebar-button svg path{
+  color:#ffffff !important;
+  fill:#ffffff !important;
+}
+
+/* Side-menu close X chip in dark mode (white background → near-invisible icon) */
+html[data-theme="dark"] body .ekit_close-side-widget,
+html[data-theme="dark"] body .ekit-sidebar-widget [class*="close"]{
+  background-color:rgba(255,255,255,0.12) !important;
+  color:#ffffff !important;
+  border-color:rgba(255,255,255,0.25) !important;
+}
+html[data-theme="dark"] body .ekit_close-side-widget *,
+html[data-theme="dark"] body .ekit_close-side-widget svg,
+html[data-theme="dark"] body .ekit_close-side-widget svg path{
+  color:#ffffff !important;
+  fill:#ffffff !important;
+  stroke:#ffffff !important;
+}
+html[data-theme="dark"] body .ekit_close-side-widget:hover{
+  background-color:rgba(255,255,255,0.22) !important;
+}
+
+/* Light-mode close X polish (it had no styling either) */
+body .ekit_close-side-widget{
+  background-color:rgba(0,0,0,0.06);
+  border:1px solid rgba(0,0,0,0.12);
+  border-radius:999px;
+  color:#111;
+  width:38px;
+  height:38px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 /* Dividers */
