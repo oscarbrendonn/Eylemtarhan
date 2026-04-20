@@ -356,8 +356,11 @@ body a[href*="instagram.com"].elementor-social-icon:hover{
 }
 
 /* Offcanvas side panel — force dark on shells but explicitly exclude
-   buttons / pills so the universal white-button rule keeps its plate. */
-html[data-theme="dark"] body .ekit-sidebar-group,
+   buttons / pills so the universal white-button rule keeps its plate.
+   IMPORTANT: only tint .ekit-sidebar-group when it's ACTIVE, otherwise
+   its position:fixed; inset:0 shell paints a black overlay across the
+   whole viewport and hides the page behind it. */
+html[data-theme="dark"] body .ekit-sidebar-group.ekit_isActive,
 html[data-theme="dark"] body .ekit-sidebar-widget,
 html[data-theme="dark"] body .ekit-wid-con .ekit-sidebar-widget,
 html[data-theme="dark"] body .ekit_sidebar-widget-container,
