@@ -1,0 +1,6 @@
+.claude/
+*.command
+fix_*.py
+grab_*.py
+localize_site.py
+claude_task.txt
