@@ -1,6 +1,14 @@
 {
   "cleanUrls": false,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/barre-class.html", "destination": "/strength-training.html", "permanent": true },
+    { "source": "/barre-class", "destination": "/strength-training.html", "permanent": true },
+    { "source": "/kettlebell-workout.html", "destination": "/body-transformation.html", "permanent": true },
+    { "source": "/kettlebell-workout", "destination": "/body-transformation.html", "permanent": true },
+    { "source": "/reformer-pilates-class.html", "destination": "/weight-loss-coaching.html", "permanent": true },
+    { "source": "/reformer-pilates-class", "destination": "/weight-loss-coaching.html", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
