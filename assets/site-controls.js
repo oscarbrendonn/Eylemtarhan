@@ -749,7 +749,160 @@
     "Yes. Life happens — illness, travel, work. If you request a pause in advance, we adjust your programme with no loss of paid sessions.": {
       sr: "Da. Život se dešava — bolest, putovanja, posao. Ako zatražiš pauzu unapred, prilagodićemo program bez gubitka plaćenih sesija.",
       ru: "Да. Бывают болезни, поездки, работа. Если запросите паузу заранее, мы скорректируем программу без потери оплаченных сессий."
-    }
+    },
+
+    // ============================================================
+    // strength-training.html
+    // ============================================================
+    "What is Strength Training?": {
+      sr: "Šta je Trening Snage?",
+      ru: "Что такое силовые тренировки?"
+    },
+    "Strength training is the foundation of every great physique and every lasting result. It's a smart, progressive way of loading your muscles with resistance — barbells, dumbbells, kettlebells, cables, machines, or your own bodyweight — so they adapt, grow, and get stronger. In my sessions we work compound lifts like squats, deadlifts, presses, and rows alongside focused accessory work, so you build muscle, burn fat, and move better in everyday life. Whether you're new to the gym or chasing serious gains, I'll program every rep around your body, your goals, and how you actually feel that day.": {
+      sr: "Trening snage je temelj svakog dobrog tela i svakog trajnog rezultata. To je pametan, progresivan način opterećenja mišića otporom — šipkama, bučicama, kettlebellovima, kablovima, spravama ili sopstvenom težinom — kako bi se prilagodili, rasli i postali jači. Na mojim sesijama radimo kompleksne vežbe poput čučnja, mrtvog dizanja, potiska i veslanja, uz fokusiran dodatni rad, da izgradiš mišićnu masu, sagoriš masti i bolje se krećeš u svakodnevnom životu. Bio si nov u teretani ili juriš ozbiljne rezultate, svaku ponavljanje programiram prema tvom telu, ciljevima i tome kako se zaista osećaš tog dana.",
+      ru: "Силовые тренировки — это фундамент каждого красивого тела и долговременного результата. Это умный, прогрессивный способ нагружать мышцы сопротивлением — штангой, гантелями, гирями, блоками, тренажёрами или собственным весом — чтобы они адаптировались, росли и становились сильнее. На моих занятиях мы делаем базовые упражнения — приседания, становую тягу, жимы, тяги — плюс целенаправленную вспомогательную работу, чтобы ты рос в мышцах, сжигал жир и двигался лучше в обычной жизни. Новичок ты или гонишься за серьёзным прогрессом, я программирую каждый повтор под твоё тело, твои цели и то, как ты реально чувствуешь себя в этот день."
+    },
+    "BUILD REAL, FUNCTIONAL STRENGTH:": {
+      sr: "IZGRADI STVARNU, FUNKCIONALNU SNAGU:",
+      ru: "НАСТОЯЩАЯ, ФУНКЦИОНАЛЬНАЯ СИЛА:"
+    },
+    "Strength training teaches your body to produce force safely and efficiently. You'll lift heavier week after week, move more powerfully, and handle everyday tasks — stairs, groceries, sport, kids — with zero effort and no aches afterward.": {
+      sr: "Trening snage uči tvoje telo da proizvodi silu bezbedno i efikasno. Dizaćeš teže iz nedelje u nedelju, kretati se snažnije i obavljati svakodnevne zadatke — stepenice, kese, sport, decu — bez napora i bez bolova nakon.",
+      ru: "Силовые тренировки учат тело производить силу безопасно и эффективно. Неделя за неделей ты поднимаешь больше, движешься мощнее и справляешься с повседневными задачами — лестница, сумки, спорт, дети — без усилий и без болей после."
+    },
+    "MORE MUSCLE, LESS FAT:": {
+      sr: "VIŠE MIŠIĆA, MANJE MASTI:",
+      ru: "БОЛЬШЕ МЫШЦ, МЕНЬШЕ ЖИРА:"
+    },
+    "Lifting builds lean muscle, and more muscle means a higher metabolism around the clock. You keep burning calories long after you leave the gym, your body composition shifts fast, and the results actually stick — because muscle is what shapes you.": {
+      sr: "Dizanje gradi čistu mišićnu masu, a više mišića znači brži metabolizam 24/7. Kalorije sagorevaš još dugo nakon izlaska iz teretane, sastav tela se menja brzo, a rezultati zaista ostaju — jer te mišići oblikuju.",
+      ru: "Тренировки строят сухую мышечную массу, а больше мышц — это ускоренный метаболизм круглые сутки. Ты сжигаешь калории ещё долго после зала, состав тела меняется быстро, а результаты реально держатся — ведь форму тебе придают именно мышцы."
+    },
+    "STRONGER BONES AND JOINTS:": {
+      sr: "JAČE KOSTI I ZGLOBOVI:",
+      ru: "КРЕПКИЕ КОСТИ И СУСТАВЫ:"
+    },
+    "Progressive resistance stimulates bone density and reinforces the tendons and ligaments around every joint. It's your best insurance against injury, back pain, and the effects of age — so you keep training hard for decades, not months.": {
+      sr: "Progresivan otpor stimuliše gustinu kostiju i jača tetive i ligamente oko svakog zgloba. To je najbolje osiguranje protiv povreda, bolova u leđima i efekata starenja — tako treniraš snažno decenijama, ne mesecima.",
+      ru: "Прогрессивное сопротивление стимулирует плотность костей и укрепляет сухожилия и связки вокруг каждого сустава. Это твоя лучшая страховка от травм, боли в спине и возрастных изменений — так ты тренируешься всерьёз десятилетиями, а не месяцами."
+    },
+    "CONFIDENCE BEYOND THE GYM:": {
+      sr: "SAMOPOUZDANJE VAN TERETANE:",
+      ru: "УВЕРЕННОСТЬ ЗА ПРЕДЕЛАМИ ЗАЛА:"
+    },
+    "Adding weight to the bar week after week is proof you can do hard things. That confidence follows you out of the studio — into work, into sport, into how you carry yourself — and it's honestly the part my clients tell me they love the most.": {
+      sr: "Dodavanje težine na šipku iz nedelje u nedelju je dokaz da možeš da radiš teške stvari. To samopouzdanje te prati i van studija — na posao, u sport, u način na koji se držiš — i iskreno, to je deo koji mi klijenti kažu da vole najviše.",
+      ru: "Каждую неделю добавляя вес на штангу, ты доказываешь, что способен на сложное. Эта уверенность выходит из зала вместе с тобой — на работу, в спорт, в то, как ты держишь себя — и честно, клиенты говорят, что именно это они любят больше всего."
+    },
+
+    // ============================================================
+    // body-transformation.html
+    // ============================================================
+    "WHAT IS BODY TRANSFORMATION AND WHY IT MATTERS?": {
+      sr: "ŠTA JE TRANSFORMACIJA TELA I ZAŠTO JE VAŽNA?",
+      ru: "ЧТО ТАКОЕ ТРАНСФОРМАЦИЯ ТЕЛА И ПОЧЕМУ ЭТО ВАЖНО?"
+    },
+    "A real body transformation isn't a 30-day challenge or a crash diet — it's a structured 1-on-1 program built around you. We combine progressive strength training, smart conditioning, and honest nutrition guidance so your body composition, energy, and confidence all change together. I track your progress session by session, adjust the plan as your body adapts, and hold you accountable when motivation dips. The result is a stronger, leaner version of you that actually stays that way.": {
+      sr: "Prava transformacija tela nije izazov od 30 dana ni brza dijeta — to je strukturiran 1-na-1 program napravljen za tebe. Kombinujemo progresivan trening snage, pametno kondicioniranje i iskrene savete o ishrani, tako da se sastav tela, energija i samopouzdanje menjaju zajedno. Pratim tvoj napredak sesiju po sesiju, prilagođavam plan dok se telo menja i držim te odgovornim kada motivacija oslabi. Rezultat je snažnija, čvršća verzija tebe — koja zaista ostaje takva.",
+      ru: "Настоящая трансформация тела — это не челлендж на 30 дней и не жёсткая диета. Это структурная программа 1-на-1, построенная под тебя. Мы соединяем прогрессивные силовые тренировки, умное кондиционирование и честные рекомендации по питанию — чтобы менялись состав тела, энергия и уверенность одновременно. Я отслеживаю прогресс от сессии к сессии, корректирую план по мере того, как тело адаптируется, и держу тебя в тонусе, когда мотивация падает. Результат — более сильная, подтянутая версия тебя, которая действительно остаётся."
+    },
+    "WHO IS IT FOR?": {
+      sr: "ZA KOGA JE?",
+      ru: "ДЛЯ КОГО ЭТО?"
+    },
+    "Anyone who wants visible, lasting change — whether you're 10+ kg over where you want to be, starting fitness for the first time, rebuilding after a long break, or a busy professional who just needs structure and a plan that works. I adapt the program to your level, your schedule, and your life — not the other way around.": {
+      sr: "Svako ko želi vidljivu, trajnu promenu — imao 10+ kg viška od cilja, krenuo sa fitnesom prvi put, vraćao se nakon duže pauze ili bio zauzet profesionalac kome treba struktura i plan koji radi. Program prilagođavam tvom nivou, rasporedu i životu — a ne obrnuto.",
+      ru: "Любой, кому нужны заметные, устойчивые изменения — будь ты на 10+ кг выше цели, только начинаешь тренироваться, возвращаешься после долгого перерыва или ты занятой профессионал, которому нужны структура и работающий план. Я подстраиваю программу под твой уровень, график и жизнь — а не наоборот."
+    },
+    "HOW IT WORKS:": {
+      sr: "KAKO FUNKCIONIŠE:",
+      ru: "КАК ЭТО РАБОТАЕТ:"
+    },
+    "Every transformation starts with an honest assessment — body composition, movement, lifestyle, nutrition habits. From there I build your training plan, give you simple nutrition targets you can actually live with, and we check in every week to review progress, adjust, and keep the momentum. Expect real conversations, clear feedback, and small wins that stack up fast.": {
+      sr: "Svaka transformacija počinje iskrenom procenom — sastav tela, pokret, stil života, navike u ishrani. Zatim pravim tvoj plan treninga, dajem ti jednostavne ciljeve ishrane sa kojima zaista možeš da živiš, i svake nedelje pratimo napredak, prilagođavamo i održavamo tempo. Očekuj iskrene razgovore, jasnu povratnu informaciju i male pobede koje se brzo nižu.",
+      ru: "Каждая трансформация начинается с честной оценки — состав тела, движение, образ жизни, привычки в питании. Дальше я строю твой тренировочный план, даю простые цели по питанию, с которыми реально можно жить, и каждую неделю мы сверяемся, корректируем и поддерживаем темп. Жди честных разговоров, ясной обратной связи и маленьких побед, которые быстро складываются в большую."
+    },
+    "READY TO TRANSFORM?": {
+      sr: "SPREMAN ZA TRANSFORMACIJU?",
+      ru: "ГОТОВ К ТРАНСФОРМАЦИИ?"
+    },
+    "If you've tried programs that didn't stick, let's do this differently. Personal coaching, clear steps, and someone in your corner every single week. Book a consultation and we'll map out your transformation together — from where you are today to the version of you that you actually want to be.": {
+      sr: "Ako si probao programe koji nisu izdržali, hajde da radimo drugačije. Lični koučing, jasni koraci i neko ko je uz tebe svake nedelje. Zakaži konsultaciju i zajedno mapiramo tvoju transformaciju — od tačke gde si danas do verzije sebe kakvu stvarno želiš.",
+      ru: "Если ты пробовал программы, которые не приживались — давай сделаем иначе. Персональный коучинг, чёткие шаги и человек рядом с тобой каждую неделю. Запишись на консультацию — и мы вместе составим карту твоей трансформации: от того, где ты сегодня, к той версии себя, которой ты действительно хочешь быть."
+    },
+    "WHAT'S IN YOUR TRANSFORMATION PROGRAM:": {
+      sr: "ŠTA JE U TVOM PROGRAMU TRANSFORMACIJE:",
+      ru: "ЧТО ВХОДИТ В ТВОЮ ПРОГРАММУ ТРАНСФОРМАЦИИ:"
+    },
+    "Compound Lifts (Squat, Deadlift, Press, Row)": {
+      sr: "Kompleksne vežbe (Čučanj, Mrtvo dizanje, Potisak, Veslanje)",
+      ru: "Базовые упражнения (присед, становая, жим, тяга)"
+    },
+    "Kettlebell Complexes": { sr: "Kettlebell kompleksi", ru: "Комплексы с гирями" },
+    "HIIT Conditioning": { sr: "HIIT kondicioniranje", ru: "HIIT-кондиция" },
+    "Metabolic Finishers": { sr: "Metabolički finišeri", ru: "Метаболические финишеры" },
+    "Cable & Machine Work": { sr: "Rad na kablovima i spravama", ru: "Работа на блоках и тренажёрах" },
+    "Core & Stability": { sr: "Jezgro i stabilnost", ru: "Кор и стабилизация" },
+    "Mobility & Warm-Up Drills": { sr: "Mobilnost i drilovi za zagrevanje", ru: "Мобилити и разминочные дриллы" },
+    "Body Composition Assessment": { sr: "Procena sastava tela", ru: "Оценка состава тела" },
+    "Nutrition Coaching": { sr: "Koučing ishrane", ru: "Коучинг по питанию" },
+    "Weekly Progress Tracking": { sr: "Nedeljno praćenje napretka", ru: "Еженедельный трекинг прогресса" },
+    "1-on-1 Check-Ins": { sr: "1-na-1 nedeljne provere", ru: "Индивидуальные чек-ины 1-на-1" },
+    "Accountability & Plan Adjustments": { sr: "Odgovornost i prilagođavanje plana", ru: "Подотчётность и корректировки плана" },
+    "Recovery & Sleep Guidance": { sr: "Saveti za oporavak i san", ru: "Рекомендации по восстановлению и сну" },
+    "Realistic Meal Planning": { sr: "Realno planiranje obroka", ru: "Реалистичное планирование приёмов пищи" },
+    "Hydration & Supplement Advice": { sr: "Saveti za hidrataciju i suplemente", ru: "Советы по гидратации и добавкам" },
+    "Posture & Movement Coaching": { sr: "Koučing držanja i pokreta", ru: "Коучинг осанки и движения" },
+    "Cardio Programming": { sr: "Programiranje kardija", ru: "Программирование кардио" },
+    "Resistance Band Work": { sr: "Rad sa elastičnim trakama", ru: "Работа с резиновыми лентами" },
+    "Bodyweight Progressions": { sr: "Progresije sa sopstvenom težinom", ru: "Прогрессии с собственным весом" },
+    "Long-Term Lifestyle Strategy": { sr: "Dugoročna životna strategija", ru: "Долгосрочная стратегия образа жизни" },
+
+    // ============================================================
+    // weight-loss-coaching.html
+    // ============================================================
+    "What is Weight Loss Coaching?": {
+      sr: "Šta je Koučing za Mršavljenje?",
+      ru: "Что такое коучинг по снижению веса?"
+    },
+    "Weight loss coaching is a guided, 1-on-1 program built to get you lean the right way — and keep you that way. I pair smart training with simple nutrition principles you can actually stick to, so fat loss becomes a result of your lifestyle, not a battle against it. I measure what matters — body composition, energy, habits — and adjust your plan every week based on how your body responds. No crash diets. No quick fixes. No starving yourself. Just a clear path, steady progress, and someone who holds you accountable until the weight is gone for good.": {
+      sr: "Koučing za mršavljenje je vođen 1-na-1 program napravljen da te dovede u formu na pravi način — i tamo te zadrži. Kombinujem pametan trening sa jednostavnim principima ishrane kojih zaista možeš da se držiš, tako da gubitak masti postaje rezultat tvog životnog stila, a ne bitka protiv njega. Merim ono što je važno — sastav tela, energiju, navike — i svake nedelje prilagođavam tvoj plan prema tome kako telo reaguje. Bez crash dijeta. Bez brzih rešenja. Bez gladovanja. Samo jasan put, stabilan napredak i neko ko te drži odgovornim dok kilogrami ne odu za stalno.",
+      ru: "Коучинг по снижению веса — это ведомая программа 1-на-1, созданная, чтобы привести тебя в форму правильно — и удержать в ней. Я соединяю умные тренировки с простыми принципами питания, которых реально можно придерживаться, чтобы похудение стало результатом твоего образа жизни, а не борьбой с ним. Я измеряю то, что действительно важно — состав тела, энергию, привычки — и каждую неделю корректирую план по реакции твоего тела. Никаких жёстких диет. Никаких быстрых решений. Никакого голодания. Только ясный путь, стабильный прогресс и человек, который держит тебя в ответственности, пока вес не уйдёт навсегда."
+    },
+    "A PLAN BUILT FOR YOUR BODY:": {
+      sr: "PLAN NAPRAVLJEN ZA TVOJE TELO:",
+      ru: "ПЛАН ПОД ТВОЁ ТЕЛО:"
+    },
+    "Every body burns fat at a different rate. I assess your current baseline — weight, body composition, activity level, eating habits, sleep, stress — and build a training and nutrition plan around you, not a generic template. Everything is personal, adjustable, and designed to fit the life you actually live.": {
+      sr: "Svako telo sagoreva masti drugačijim tempom. Procenjujem tvoju trenutnu bazu — težinu, sastav tela, nivo aktivnosti, navike u ishrani, san, stres — i gradim plan treninga i ishrane oko tebe, ne po generičkom šablonu. Sve je lično, prilagodljivo i napravljeno da se uklopi u život koji zaista živiš.",
+      ru: "Каждое тело сжигает жир со своей скоростью. Я оцениваю твою отправную точку — вес, состав тела, уровень активности, пищевые привычки, сон, стресс — и строю план тренировок и питания вокруг тебя, а не по шаблону. Всё индивидуально, адаптируемо и сделано под ту жизнь, которой ты реально живёшь."
+    },
+    "NUTRITION WITHOUT THE MYTHS:": {
+      sr: "ISHRANA BEZ MITOVA:",
+      ru: "ПИТАНИЕ БЕЗ МИФОВ:"
+    },
+    "Forget detoxes, zero-carb diets, and 800-calorie plans. You'll learn a simple, sustainable way to eat — balanced protein, smart carbs, real food — that fits your schedule and keeps the weight coming off week after week. No food is off-limits, and every meal still feels like yours.": {
+      sr: "Zaboravi detoks, dijete bez ugljenih hidrata i planove od 800 kalorija. Naučićeš jednostavan, održiv način ishrane — uravnotežen protein, pametni ugljeni hidrati, prava hrana — koji se uklapa u tvoj raspored i nastavlja da ti skida kilograme iz nedelje u nedelju. Nijedna hrana nije zabranjena, a svaki obrok i dalje deluje kao tvoj.",
+      ru: "Забудь про детоксы, безуглеводки и планы на 800 калорий. Ты научишься простому, устойчивому способу есть — сбалансированный белок, умные углеводы, настоящая еда — который вписывается в твой график и каждую неделю продолжает снимать вес. Никакая еда не под запретом, и каждый приём пищи по-прежнему твой."
+    },
+    "TRAINING THAT BURNS AND BUILDS:": {
+      sr: "TRENING KOJI SAGOREVA I GRADI:",
+      ru: "ТРЕНИРОВКА, КОТОРАЯ СЖИГАЕТ И СТРОИТ:"
+    },
+    "Cardio alone shrinks you. My combination of strength work, conditioning, and targeted fat-loss sessions reshapes you — you lose fat while keeping (and often building) muscle, so the body underneath looks as good as the number on the scale. You don't just get smaller; you get better.": {
+      sr: "Samo kardio te smanjuje. Moja kombinacija treninga snage, kondicioniranja i ciljanih sesija za gubitak masti te preoblikuje — gubiš masti uz zadržavanje (a često i rast) mišića, pa telo ispod izgleda isto tako dobro kao brojka na vagi. Ne postaješ samo manji; postaješ bolji.",
+      ru: "Только кардио — ты просто становишься меньше. Моё сочетание силовой работы, кондиционирования и целевых жиросжигающих сессий пересобирает тебя — ты теряешь жир, сохраняя (а часто и набирая) мышцы, так что тело под одеждой выглядит не хуже цифры на весах. Ты не просто уменьшаешься — ты становишься лучше."
+    },
+    "ACCOUNTABILITY & WEEKLY CHECK-INS:": {
+      sr: "ODGOVORNOST I NEDELJNI CHECK-INI:",
+      ru: "ПОДОТЧЁТНОСТЬ И ЕЖЕНЕДЕЛЬНЫЕ ЧЕК-ИНЫ:"
+    },
+    "The biggest reason diets fail is nobody follows up. Every week we review your numbers, adjust the plan, and keep you on track. You're never guessing, never alone, and never stuck on a plateau — just steady, honest progress with someone in your corner until you hit your goal.": {
+      sr: "Najveći razlog što dijete propadaju je što niko ne prati dalje. Svake nedelje pregledamo tvoje brojeve, prilagođavamo plan i držimo te u koloseku. Nikad ne nagađaš, nikad nisi sam i nikad ne zapneš na platou — samo stabilan, iskren napredak sa nekim uz tebe dok ne stigneš do cilja.",
+      ru: "Главная причина, по которой диеты проваливаются — никто не даёт обратной связи. Каждую неделю мы пересматриваем твои цифры, корректируем план и держим тебя в ритме. Никаких догадок, никакого одиночества и никакого плато — только стабильный, честный прогресс, пока ты не достигнешь цели, с человеком рядом."
+    },
+    "PETER": { sr: "PETER", ru: "ПИТЕР" },
+    "Bio": { sr: "Biografija", ru: "Биография" }
   };
 
   // -- State --
