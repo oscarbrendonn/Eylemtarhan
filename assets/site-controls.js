@@ -1,115 +1,115 @@
 (function () {
   "use strict";
 
-  var LS_THEME = "es_theme";
-  var LS_LANG = "es_lang";
-  var DEFAULT_LANG = "sr";
-  var LANGS = ["sr", "en", "ru"];
+  var LS_THEME = "et_theme";
+  var LS_LANG = "et_lang";
+  var DEFAULT_LANG = "tr";
+  var LANGS = ["tr", "sr", "en", "ru"];
 
   // Translation dictionary. Keys = canonical English text (exact, trimmed).
-  // Values: { sr, ru }. Missing keys fall back to English.
+  // Values: { tr, sr, ru }. Missing keys fall back to English (the canonical source text in HTML).
   var DICT = {
-    "HOME": { sr: "POČETNA", ru: "ГЛАВНАЯ" },
-    "Home": { sr: "Početna", ru: "Главная" },
-    "Services": { sr: "Usluge", ru: "Услуги" },
-    "Service": { sr: "Usluga", ru: "Услуга" },
-    "Personal Training": { sr: "Personalni Trening", ru: "Персональные тренировки" },
-    "Personal training": { sr: "Personalni trening", ru: "Персональные тренировки" },
-    "personal training": { sr: "personalni trening", ru: "персональные тренировки" },
-    "PERSONAL TRAINING": { sr: "PERSONALNI TRENING", ru: "ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ" },
-    "Trainer": { sr: "Trener", ru: "Тренер" },
-    "TRAINER": { sr: "TRENER", ru: "ТРЕНЕР" },
-    "Trainers": { sr: "Treneri", ru: "Тренеры" },
-    "TRAINERS": { sr: "TRENERI", ru: "ТРЕНЕРЫ" },
-    "MEET YOUR TRAINER": { sr: "UPOZNAJTE SVOG TRENERA", ru: "ПОЗНАКОМЬТЕСЬ С ТРЕНЕРОМ" },
-    "Pricing": { sr: "Cene", ru: "Цены" },
-    "Prices": { sr: "Cene", ru: "Цены" },
-    "PRICING": { sr: "CENE", ru: "ЦЕНЫ" },
-    "About": { sr: "O nama", ru: "О нас" },
-    "ABOUT": { sr: "O NAMA", ru: "О НАС" },
-    "About us": { sr: "O nama", ru: "О нас" },
-    "Contact": { sr: "Kontakt", ru: "Контакт" },
-    "CONTACT": { sr: "KONTAKT", ru: "КОНТАКТ" },
-    "Blog": { sr: "Blog", ru: "Блог" },
-    "BLOG": { sr: "BLOG", ru: "БЛОГ" },
-    "FAQ": { sr: "Česta pitanja", ru: "Вопросы и ответы" },
-    "faq": { sr: "česta pitanja", ru: "вопросы и ответы" },
-    "Location": { sr: "Lokacija", ru: "Адрес" },
-    "Our App": { sr: "Naša Aplikacija", ru: "Наше приложение" },
-    "JOIN US": { sr: "PRIDRUŽITE SE", ru: "ПРИСОЕДИНЯЙТЕСЬ" },
-    "Register Now": { sr: "Registrujte se", ru: "Зарегистрироваться" },
-    "Our Friends": { sr: "Naši Prijatelji", ru: "Наши друзья" },
-    "press": { sr: "štampa", ru: "пресса" },
-    "terms & conditions": { sr: "uslovi korišćenja", ru: "условия использования" },
-    "terms & conditions ": { sr: "uslovi korišćenja ", ru: "условия использования " },
+    "HOME": { tr: "ANA SAYFA", sr: "POČETNA", ru: "ГЛАВНАЯ" },
+    "Home": { tr: "Ana Sayfa", sr: "Početna", ru: "Главная" },
+    "Services": { tr: "Hizmetler", sr: "Usluge", ru: "Услуги" },
+    "Service": { tr: "Hizmet", sr: "Usluga", ru: "Услуга" },
+    "Personal Training": { tr: "Kişisel Antrenman", sr: "Personalni Trening", ru: "Персональные тренировки" },
+    "Personal training": { tr: "Kişisel antrenman", sr: "Personalni trening", ru: "Персональные тренировки" },
+    "personal training": { tr: "kişisel antrenman", sr: "personalni trening", ru: "персональные тренировки" },
+    "PERSONAL TRAINING": { tr: "KİŞİSEL ANTRENMAN", sr: "PERSONALNI TRENING", ru: "ПЕРСОНАЛЬНЫЕ ТРЕНИРОВКИ" },
+    "Trainer": { tr: "Antrenör", sr: "Trener", ru: "Тренер" },
+    "TRAINER": { tr: "ANTRENÖR", sr: "TRENER", ru: "ТРЕНЕР" },
+    "Trainers": { tr: "Antrenörler", sr: "Treneri", ru: "Тренеры" },
+    "TRAINERS": { tr: "ANTRENÖRLER", sr: "TRENERI", ru: "ТРЕНЕРЫ" },
+    "MEET YOUR TRAINER": { tr: "ANTRENÖRÜNLE TANIŞ", sr: "UPOZNAJTE SVOG TRENERA", ru: "ПОЗНАКОМЬТЕСЬ С ТРЕНЕРОМ" },
+    "Pricing": { tr: "Fiyatlar", sr: "Cene", ru: "Цены" },
+    "Prices": { tr: "Fiyatlar", sr: "Cene", ru: "Цены" },
+    "PRICING": { tr: "FİYATLAR", sr: "CENE", ru: "ЦЕНЫ" },
+    "About": { tr: "Hakkında", sr: "O nama", ru: "О нас" },
+    "ABOUT": { tr: "HAKKINDA", sr: "O NAMA", ru: "О НАС" },
+    "About us": { tr: "Hakkımızda", sr: "O nama", ru: "О нас" },
+    "Contact": { tr: "İletişim", sr: "Kontakt", ru: "Контакт" },
+    "CONTACT": { tr: "İLETİŞİM", sr: "KONTAKT", ru: "КОНТАКТ" },
+    "Blog": { tr: "Blog", sr: "Blog", ru: "Блог" },
+    "BLOG": { tr: "BLOG", sr: "BLOG", ru: "БЛОГ" },
+    "FAQ": { tr: "SSS", sr: "Česta pitanja", ru: "Вопросы и ответы" },
+    "faq": { tr: "sss", sr: "česta pitanja", ru: "вопросы и ответы" },
+    "Location": { tr: "Konum", sr: "Lokacija", ru: "Адрес" },
+    "Our App": { tr: "Uygulamamız", sr: "Naša Aplikacija", ru: "Наше приложение" },
+    "JOIN US": { tr: "BİZE KATIL", sr: "PRIDRUŽITE SE", ru: "ПРИСОЕДИНЯЙТЕСЬ" },
+    "Register Now": { tr: "Hemen Kaydol", sr: "Registrujte se", ru: "Зарегистрироваться" },
+    "Our Friends": { tr: "Arkadaşlarımız", sr: "Naši Prijatelji", ru: "Наши друзья" },
+    "press": { tr: "basın", sr: "štampa", ru: "пресса" },
+    "terms & conditions": { tr: "kullanım koşulları", sr: "uslovi korišćenja", ru: "условия использования" },
+    "terms & conditions ": { tr: "kullanım koşulları ", sr: "uslovi korišćenja ", ru: "условия использования " },
 
-    "Barre": { sr: "Barre", ru: "Барре" },
-    "BARRE": { sr: "BARRE", ru: "БАРРЕ" },
-    "BRIDAL CUT": { sr: "BRIDAL CUT", ru: "BRIDAL CUT" },
-    "CORRECTIVE EXERCISE": { sr: "KOREKTIVNE VEŽBE", ru: "КОРРЕКТИРУЮЩИЕ УПРАЖНЕНИЯ" },
-    "HIIT": { sr: "HIIT", ru: "HIIT" },
-    "KETTLEBELL WORKOUT": { sr: "KETTLEBELL TRENING", ru: "ТРЕНИРОВКА С ГИРЯМИ" },
-    "STRENGTH TRAINING": { sr: "TRENING SNAGE", ru: "СИЛОВЫЕ ТРЕНИРОВКИ" },
-    "Strength Training": { sr: "Trening snage", ru: "Силовые тренировки" },
-    "BODY TRANSFORMATION": { sr: "TRANSFORMACIJA TELA", ru: "ТРАНСФОРМАЦИЯ ТЕЛА" },
-    "Body Transformation": { sr: "Transformacija tela", ru: "Трансформация тела" },
-    "WEIGHT LOSS COACHING": { sr: "KOUČING ZA MRŠAVLJENJE", ru: "КОУЧИНГ ПО СНИЖЕНИЮ ВЕСА" },
-    "Weight Loss Coaching": { sr: "Koučing za mršavljenje", ru: "Коучинг по снижению веса" },
-    "Marathon Preparation Training": { sr: "Priprema za Maraton", ru: "Подготовка к Марафону" },
-    "marathon preparation training": { sr: "priprema za maraton", ru: "подготовка к марафону" },
-    "MARATHON PREPARATION TRAINING": { sr: "PRIPREMA ZA MARATON", ru: "ПОДГОТОВКА К МАРАФОНУ" },
-    "Massage Therapy": { sr: "Masažna Terapija", ru: "Массажная терапия" },
-    "MASSAGE THERAPY": { sr: "MASAŽNA TERAPIJA", ru: "МАССАЖНАЯ ТЕРАПИЯ" },
-    "Pre & Post Natal Fitness": { sr: "Pre i Postnatalni Fitnes", ru: "Фитнес до и после родов" },
-    "PRE AND POSTNATAL TRAINING": { sr: "PRE I POSTNATALNI TRENING", ru: "ТРЕНИРОВКИ ДО И ПОСЛЕ РОДОВ" },
-    "Reformer Pilates Class": { sr: "Reformer Pilates Čas", ru: "Пилатес на реформере" },
-    "REFORMER PILATES": { sr: "REFORMER PILATES", ru: "ПИЛАТЕС НА РЕФОРМЕРЕ" },
-    "STRETCH THERAPY CLASS": { sr: "ČAS STRETCHING TERAPIJE", ru: "КУРС СТРЕТЧИНГ ТЕРАПИИ" },
+    "Barre": { tr: "Barre", sr: "Barre", ru: "Барре" },
+    "BARRE": { tr: "BARRE", sr: "BARRE", ru: "БАРРЕ" },
+    "BRIDAL CUT": { tr: "GELİNLİK ANTRENMANI", sr: "BRIDAL CUT", ru: "BRIDAL CUT" },
+    "CORRECTIVE EXERCISE": { tr: "KOREKTİF EGZERSİZ", sr: "KOREKTIVNE VEŽBE", ru: "КОРРЕКТИРУЮЩИЕ УПРАЖНЕНИЯ" },
+    "HIIT": { tr: "HIIT", sr: "HIIT", ru: "HIIT" },
+    "KETTLEBELL WORKOUT": { tr: "KETTLEBELL ANTRENMANI", sr: "KETTLEBELL TRENING", ru: "ТРЕНИРОВКА С ГИРЯМИ" },
+    "STRENGTH TRAINING": { tr: "KUVVET ANTRENMANI", sr: "TRENING SNAGE", ru: "СИЛОВЫЕ ТРЕНИРОВКИ" },
+    "Strength Training": { tr: "Kuvvet Antrenmanı", sr: "Trening snage", ru: "Силовые тренировки" },
+    "BODY TRANSFORMATION": { tr: "VÜCUT DÖNÜŞÜMÜ", sr: "TRANSFORMACIJA TELA", ru: "ТРАНСФОРМАЦИЯ ТЕЛА" },
+    "Body Transformation": { tr: "Vücut Dönüşümü", sr: "Transformacija tela", ru: "Трансформация тела" },
+    "WEIGHT LOSS COACHING": { tr: "KİLO VERME KOÇLUĞU", sr: "KOUČING ZA MRŠAVLJENJE", ru: "КОУЧИНГ ПО СНИЖЕНИЮ ВЕСА" },
+    "Weight Loss Coaching": { tr: "Kilo Verme Koçluğu", sr: "Koučing za mršavljenje", ru: "Коучинг по снижению веса" },
+    "Marathon Preparation Training": { tr: "Maraton Hazırlık Antrenmanı", sr: "Priprema za Maraton", ru: "Подготовка к Марафону" },
+    "marathon preparation training": { tr: "maraton hazırlık antrenmanı", sr: "priprema za maraton", ru: "подготовка к марафону" },
+    "MARATHON PREPARATION TRAINING": { tr: "MARATON HAZIRLIK ANTRENMANI", sr: "PRIPREMA ZA MARATON", ru: "ПОДГОТОВКА К МАРАФОНУ" },
+    "Massage Therapy": { tr: "Masaj Terapisi", sr: "Masažna Terapija", ru: "Массажная терапия" },
+    "MASSAGE THERAPY": { tr: "MASAJ TERAPİSİ", sr: "MASAŽNA TERAPIJA", ru: "МАССАЖНАЯ ТЕРАПИЯ" },
+    "Pre & Post Natal Fitness": { tr: "Hamilelik Öncesi ve Sonrası Fitness", sr: "Pre i Postnatalni Fitnes", ru: "Фитнес до и после родов" },
+    "PRE AND POSTNATAL TRAINING": { tr: "HAMİLELİK ÖNCESİ VE SONRASI ANTRENMAN", sr: "PRE I POSTNATALNI TRENING", ru: "ТРЕНИРОВКИ ДО И ПОСЛЕ РОДОВ" },
+    "Reformer Pilates Class": { tr: "Reformer Pilates Dersi", sr: "Reformer Pilates Čas", ru: "Пилатес на реформере" },
+    "REFORMER PILATES": { tr: "REFORMER PİLATES", sr: "REFORMER PILATES", ru: "ПИЛАТЕС НА РЕФОРМЕРЕ" },
+    "STRETCH THERAPY CLASS": { tr: "ESNEME TERAPİSİ DERSİ", sr: "ČAS STRETCHING TERAPIJE", ru: "КУРС СТРЕТЧИНГ ТЕРАПИИ" },
 
-    "WELCOME": { sr: "DOBRODOŠLI", ru: "ДОБРО ПОЖАЛОВАТЬ" },
-    "CLASSES | SERVICES": { sr: "ČASOVI | USLUGE", ru: "ЗАНЯТИЯ | УСЛУГИ" },
-    "5-STAR RATINGS": { sr: "OCENE 5 ZVEZDICA", ru: "ОЦЕНКИ 5 ЗВЁЗД" },
-    "AS FEATURED IN": { sr: "PISALI SU O NAMA", ru: "О НАС ПИСАЛИ" },
-    "Offering now": { sr: "Nudimo sada", ru: "Сейчас предлагаем" },
-    "the team": { sr: "tim", ru: "команда" },
-    "Articles & publications": { sr: "Članci & publikacije", ru: "Статьи и публикации" },
-    "BLOG | NEWS": { sr: "BLOG | VESTI", ru: "БЛОГ | НОВОСТИ" },
-    "Latest": { sr: "Najnovije", ru: "Последнее" },
-    "Personal & Tailored": { sr: "Lično i prilagođeno", ru: "Персонально и индивидуально" },
-    "More Information": { sr: "Više informacija", ru: "Больше информации" },
-    "Class led by": { sr: "Čas vodi", ru: "Занятие ведёт" },
-    "new client promo": { sr: "promocija za nove klijente", ru: "акция для новых клиентов" },
-    "Book a class today with class pass": { sr: "Rezervišite čas danas sa class pass", ru: "Запишитесь на занятие с class pass" },
-    "No matter your goal, we'll get you there!": { sr: "Bez obzira na cilj, dovešćemo vas do njega!", ru: "Неважно, какая у вас цель — мы поможем её достичь!" },
-    "Split your sessions with a partner to save & stay motivated!": { sr: "Podelite sesije s partnerom da uštedite i ostanete motivisani!", ru: "Разделите занятия с партнёром, чтобы сэкономить и оставаться мотивированными!" },
+    "WELCOME": { tr: "HOŞ GELDİN", sr: "DOBRODOŠLI", ru: "ДОБРО ПОЖАЛОВАТЬ" },
+    "CLASSES | SERVICES": { tr: "DERSLER | HİZMETLER", sr: "ČASOVI | USLUGE", ru: "ЗАНЯТИЯ | УСЛУГИ" },
+    "5-STAR RATINGS": { tr: "5 YILDIZLI DEĞERLENDİRMELER", sr: "OCENE 5 ZVEZDICA", ru: "ОЦЕНКИ 5 ЗВЁЗД" },
+    "AS FEATURED IN": { tr: "HAKKIMIZDA YAZANLAR", sr: "PISALI SU O NAMA", ru: "О НАС ПИСАЛИ" },
+    "Offering now": { tr: "Şimdi sunuyoruz", sr: "Nudimo sada", ru: "Сейчас предлагаем" },
+    "the team": { tr: "ekip", sr: "tim", ru: "команда" },
+    "Articles & publications": { tr: "Makaleler ve yayınlar", sr: "Članci & publikacije", ru: "Статьи и публикации" },
+    "BLOG | NEWS": { tr: "BLOG | HABERLER", sr: "BLOG | VESTI", ru: "БЛОГ | НОВОСТИ" },
+    "Latest": { tr: "En Son", sr: "Najnovije", ru: "Последнее" },
+    "Personal & Tailored": { tr: "Kişisel ve Özel", sr: "Lično i prilagođeno", ru: "Персонально и индивидуально" },
+    "More Information": { tr: "Daha Fazla Bilgi", sr: "Više informacija", ru: "Больше информации" },
+    "Class led by": { tr: "Dersi veren", sr: "Čas vodi", ru: "Занятие ведёт" },
+    "new client promo": { tr: "yeni müşteri kampanyası", sr: "promocija za nove klijente", ru: "акция для новых клиентов" },
+    "Book a class today with class pass": { tr: "Class pass ile bugün bir ders rezerve et", sr: "Rezervišite čas danas sa class pass", ru: "Запишитесь на занятие с class pass" },
+    "No matter your goal, we'll get you there!": { tr: "Hedefin ne olursa olsun, seni oraya götüreceğiz!", sr: "Bez obzira na cilj, dovešćemo vas do njega!", ru: "Неважно, какая у вас цель — мы поможем её достичь!" },
+    "Split your sessions with a partner to save & stay motivated!": { tr: "Tasarruf etmek ve motive kalmak için seanslarını bir partnerle paylaş!", sr: "Podelite sesije s partnerom da uštedite i ostanete motivisani!", ru: "Разделите занятия с партнёром, чтобы сэкономить и оставаться мотивированными!" },
 
-    "CALL TO SCHEDULE": { sr: "POZOVITE ZA TERMIN", ru: "ПОЗВОНИТЬ И ЗАПИСАТЬСЯ" },
-    "Get in touch": { sr: "Kontaktirajte nas", ru: "Связаться с нами" },
-    "View All Services": { sr: "Sve Usluge", ru: "Все услуги" },
-    "read more": { sr: "pročitaj više", ru: "читать далее" },
-    "Read More": { sr: "Pročitaj više", ru: "Читать далее" },
-    "Submit": { sr: "Pošalji", ru: "Отправить" },
-    "Send": { sr: "Pošalji", ru: "Отправить" },
+    "CALL TO SCHEDULE": { tr: "RANDEVU İÇİN ARA", sr: "POZOVITE ZA TERMIN", ru: "ПОЗВОНИТЬ И ЗАПИСАТЬСЯ" },
+    "Get in touch": { tr: "İletişime geç", sr: "Kontaktirajte nas", ru: "Связаться с нами" },
+    "View All Services": { tr: "Tüm Hizmetleri Gör", sr: "Sve Usluge", ru: "Все услуги" },
+    "read more": { tr: "devamını oku", sr: "pročitaj više", ru: "читать далее" },
+    "Read More": { tr: "Devamını Oku", sr: "Pročitaj više", ru: "Читать далее" },
+    "Submit": { tr: "Gönder", sr: "Pošalji", ru: "Отправить" },
+    "Send": { tr: "Gönder", sr: "Pošalji", ru: "Отправить" },
 
-    "1 Session": { sr: "1 Sesija", ru: "1 Занятие" },
-    "12 Sessions": { sr: "12 Sesija", ru: "12 Занятий" },
-    "25 Sessions": { sr: "25 Sesija", ru: "25 Занятий" },
-    "40 Sessions": { sr: "40 Sesija", ru: "40 Занятий" },
-    "duet 10": { sr: "duet 10", ru: "дуэт 10" },
-    "1 class": { sr: "1 čas", ru: "1 занятие" },
-    "5 classes": { sr: "5 časova", ru: "5 занятий" },
-    "10 classes": { sr: "10 časova", ru: "10 занятий" },
-    "2 class promo": { sr: "promocija 2 časa", ru: "акция на 2 занятия" },
-    "5 class promo": { sr: "promocija 5 časova", ru: "акция на 5 занятий" },
-    "30 min Massage": { sr: "30 min Masaža", ru: "Массаж 30 мин" },
-    "45 min Massage": { sr: "45 min Masaža", ru: "Массаж 45 мин" },
-    "60 min Massage": { sr: "60 min Masaža", ru: "Массаж 60 мин" },
-    "90 min Massage": { sr: "90 min Masaža", ru: "Массаж 90 мин" },
+    "1 Session": { tr: "1 Seans", sr: "1 Sesija", ru: "1 Занятие" },
+    "12 Sessions": { tr: "12 Seans", sr: "12 Sesija", ru: "12 Занятий" },
+    "25 Sessions": { tr: "25 Seans", sr: "25 Sesija", ru: "25 Занятий" },
+    "40 Sessions": { tr: "40 Seans", sr: "40 Sesija", ru: "40 Занятий" },
+    "duet 10": { tr: "düet 10", sr: "duet 10", ru: "дуэт 10" },
+    "1 class": { tr: "1 ders", sr: "1 čas", ru: "1 занятие" },
+    "5 classes": { tr: "5 ders", sr: "5 časova", ru: "5 занятий" },
+    "10 classes": { tr: "10 ders", sr: "10 časova", ru: "10 занятий" },
+    "2 class promo": { tr: "2 ders kampanyası", sr: "promocija 2 časa", ru: "акция на 2 занятия" },
+    "5 class promo": { tr: "5 ders kampanyası", sr: "promocija 5 časova", ru: "акция на 5 занятий" },
+    "30 min Massage": { tr: "30 dk Masaj", sr: "30 min Masaža", ru: "Массаж 30 мин" },
+    "45 min Massage": { tr: "45 dk Masaj", sr: "45 min Masaža", ru: "Массаж 45 мин" },
+    "60 min Massage": { tr: "60 dk Masaj", sr: "60 min Masaža", ru: "Массаж 60 мин" },
+    "90 min Massage": { tr: "90 dk Masaj", sr: "90 min Masaža", ru: "Массаж 90 мин" },
 
-    "Belgrade": { sr: "Beograd", ru: "Белград" },
-    "EliteShape": { sr: "EliteShape", ru: "EliteShape" },
-    "EliteShape Belgrade": { sr: "EliteShape Beograd", ru: "EliteShape Белград" },
-    "Skip to content": { sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" },
+    "Belgrade": { tr: "Belgrad", sr: "Beograd", ru: "Белград" },
+    "EliteShape": { tr: "EliteShape", sr: "EliteShape", ru: "EliteShape" },
+    "EliteShape Belgrade": { tr: "EliteShape Belgrad", sr: "EliteShape Beograd", ru: "EliteShape Белград" },
+    "Skip to content": { tr: "İçeriğe atla", sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" },
 
     // Welcome / homepage long copy
     "Located in Vračar, Belgrade, EliteShape maintains an educated, skilled and friendly health services team that is dedicated to providing the specialized attention, training and knowledge needed to help our clients attain their unique fitness objectives.  As ardent students of the latest developments in fitness, weight loss and strength training exercise programs, we maintain the highest standards for Your Trainer ensuring they regularly develop their skills through related courses throughout the year.": {
@@ -158,34 +158,34 @@
       sr: "Jutarnja rutina od 20 minuta koju Peter daje svakom online klijentu",
       ru: "20-минутная утренняя рутина, которую Peter даёт каждому онлайн-клиенту"
     },
-    "Training": { sr: "Trening", ru: "Тренировка" },
-    "Nutrition": { sr: "Ishrana", ru: "Питание" },
-    "Case Study": { sr: "Studija slučaja", ru: "Кейс" },
+    "Training": { tr: "Antrenman", sr: "Trening", ru: "Тренировка" },
+    "Nutrition": { tr: "Beslenme", sr: "Ishrana", ru: "Питание" },
+    "Case Study": { tr: "Vaka Çalışması", sr: "Studija slučaja", ru: "Кейс" },
     "read more": { sr: "pročitaj više", ru: "читать далее" },
-    "READ MORE": { sr: "PROČITAJ VIŠE", ru: "ЧИТАТЬ ДАЛЕЕ" },
+    "READ MORE": { tr: "DEVAMINI OKU", sr: "PROČITAJ VIŠE", ru: "ЧИТАТЬ ДАЛЕЕ" },
     "Read More": { sr: "Pročitaj više", ru: "Читать далее" },
     "Latest": { sr: "Najnovije", ru: "Последнее" },
-    "LATEST": { sr: "NAJNOVIJE", ru: "ПОСЛЕДНЕЕ" },
+    "LATEST": { tr: "EN SON", sr: "NAJNOVIJE", ru: "ПОСЛЕДНЕЕ" },
 
     // Pricing page
-    "1v1 In-Person Training": { sr: "1v1 trening uživo", ru: "1v1 тренировки очно" },
-    "1v1 Online Coaching": { sr: "1v1 online treninzi", ru: "1v1 онлайн-тренировки" },
-    "Single Session": { sr: "Pojedinačni trening", ru: "Одно занятие" },
-    "Session Package": { sr: "Paket treninga", ru: "Пакет занятий" },
-    "Online Training": { sr: "Online trening", ru: "Онлайн-тренировка" },
-    "Training + Diet": { sr: "Trening + ishrana", ru: "Тренировка + питание" },
-    "Per Session": { sr: "Po treningu", ru: "За занятие" },
-    "Per Month": { sr: "Mesečno", ru: "В месяц" },
-    "In-Person at Studio": { sr: "Uživo u studiju", ru: "Очно в студии" },
-    "10 Sessions": { sr: "10 treninga", ru: "10 занятий" },
-    "Save vs. single sessions": { sr: "Povoljnije od pojedinačnih treninga", ru: "Выгоднее одиночных занятий" },
-    "1v1 Monthly Program": { sr: "1v1 mesečni program", ru: "1v1 месячная программа" },
-    "Training + Nutrition Plan": { sr: "Trening i plan ishrane", ru: "Тренировка и план питания" },
-    "Get Started": { sr: "Počnite", ru: "Начать" },
-    "Book anytime": { sr: "Zakažite kada želite", ru: "Запись в любое время" },
-    "Cancel anytime": { sr: "Otkažite kada želite", ru: "Отмена в любое время" },
-    "Personalised workouts plus a full nutrition plan built around your goals.": { sr: "Personalizovani treninzi i kompletan plan ishrane prilagođen vašim ciljevima.", ru: "Персональные тренировки и полный план питания под ваши цели." },
-    "promotions": { sr: "promocije", ru: "акции" },
+    "1v1 In-Person Training": { tr: "1v1 Yüz Yüze Antrenman", sr: "1v1 trening uživo", ru: "1v1 тренировки очно" },
+    "1v1 Online Coaching": { tr: "1v1 Online Koçluk", sr: "1v1 online treninzi", ru: "1v1 онлайн-тренировки" },
+    "Single Session": { tr: "Tek Seans", sr: "Pojedinačni trening", ru: "Одно занятие" },
+    "Session Package": { tr: "Seans Paketi", sr: "Paket treninga", ru: "Пакет занятий" },
+    "Online Training": { tr: "Online Antrenman", sr: "Online trening", ru: "Онлайн-тренировка" },
+    "Training + Diet": { tr: "Antrenman + Diyet", sr: "Trening + ishrana", ru: "Тренировка + питание" },
+    "Per Session": { tr: "Seans Başına", sr: "Po treningu", ru: "За занятие" },
+    "Per Month": { tr: "Aylık", sr: "Mesečno", ru: "В месяц" },
+    "In-Person at Studio": { tr: "Stüdyoda Yüz Yüze", sr: "Uživo u studiju", ru: "Очно в студии" },
+    "10 Sessions": { tr: "10 Seans", sr: "10 treninga", ru: "10 занятий" },
+    "Save vs. single sessions": { tr: "Tek seanslara göre tasarruf", sr: "Povoljnije od pojedinačnih treninga", ru: "Выгоднее одиночных занятий" },
+    "1v1 Monthly Program": { tr: "1v1 Aylık Program", sr: "1v1 mesečni program", ru: "1v1 месячная программа" },
+    "Training + Nutrition Plan": { tr: "Antrenman + Beslenme Planı", sr: "Trening i plan ishrane", ru: "Тренировка и план питания" },
+    "Get Started": { tr: "Başla", sr: "Počnite", ru: "Начать" },
+    "Book anytime": { tr: "İstediğin zaman rezerve et", sr: "Zakažite kada želite", ru: "Запись в любое время" },
+    "Cancel anytime": { tr: "İstediğin zaman iptal et", sr: "Otkažite kada želite", ru: "Отмена в любое время" },
+    "Personalised workouts plus a full nutrition plan built around your goals.": { tr: "Hedeflerine göre hazırlanmış kişisel antrenmanlar ve kapsamlı bir beslenme planı.", sr: "Personalizovani treninzi i kompletan plan ishrane prilagođen vašim ciljevima.", ru: "Персональные тренировки и полный план питания под ваши цели." },
+    "promotions": { tr: "kampanyalar", sr: "promocije", ru: "акции" },
 
     // Contact page + form
     "Regardless of your fitness background or the stage of life you find yourself in, I’m dedicated to providing a supportive and welcoming training environment. My goal is to guide and inspire you, whether you’re stepping into the world of fitness for the first time or maintaining elite athletic performance. Join me, and let’s embark on a wellness journey tailored to your unique goals, celebrating every achievement along the way. Experience top personal training today!": {
@@ -194,59 +194,59 @@
     },
     "Get in touch": { sr: "Kontaktirajte nas", ru: "Свяжитесь с нами" },
     "Fill in the form and I'll get back to you via WhatsApp or email.": {
-      sr: "Popuni formu i javiću ti se putem WhatsApp-a ili email-a.",
+      tr: "Formu doldur, sana WhatsApp veya e-posta ile dönerim.", sr: "Popuni formu i javiću ti se putem WhatsApp-a ili email-a.",
       ru: "Заполни форму — я свяжусь с тобой через WhatsApp или по email."
     },
-    "Full name": { sr: "Ime i prezime", ru: "Имя и фамилия" },
-    "Email": { sr: "Email", ru: "Email" },
-    "Phone": { sr: "Telefon", ru: "Телефон" },
-    "(optional)": { sr: "(opciono)", ru: "(необязательно)" },
-    "Goal": { sr: "Cilj", ru: "Цель" },
-    "Choose…": { sr: "Izaberi…", ru: "Выберите…" },
-    "Weight loss": { sr: "Mršavljenje", ru: "Снижение веса" },
-    "Muscle gain": { sr: "Povećanje mišićne mase", ru: "Набор мышечной массы" },
-    "General fitness": { sr: "Opšta kondicija", ru: "Общая физическая форма" },
-    "Other": { sr: "Drugo", ru: "Другое" },
-    "Message": { sr: "Poruka", ru: "Сообщение" },
+    "Full name": { tr: "Ad Soyad", sr: "Ime i prezime", ru: "Имя и фамилия" },
+    "Email": { tr: "E-posta", sr: "Email", ru: "Email" },
+    "Phone": { tr: "Telefon", sr: "Telefon", ru: "Телефон" },
+    "(optional)": { tr: "(isteğe bağlı)", sr: "(opciono)", ru: "(необязательно)" },
+    "Goal": { tr: "Hedef", sr: "Cilj", ru: "Цель" },
+    "Choose…": { tr: "Seç…", sr: "Izaberi…", ru: "Выберите…" },
+    "Weight loss": { tr: "Kilo verme", sr: "Mršavljenje", ru: "Снижение веса" },
+    "Muscle gain": { tr: "Kas kazanma", sr: "Povećanje mišićne mase", ru: "Набор мышечной массы" },
+    "General fitness": { tr: "Genel fitness", sr: "Opšta kondicija", ru: "Общая физическая форма" },
+    "Other": { tr: "Diğer", sr: "Drugo", ru: "Другое" },
+    "Message": { tr: "Mesaj", sr: "Poruka", ru: "Сообщение" },
     "Tell me a bit about your goals…": {
-      sr: "Reci mi nešto o svojim ciljevima…",
+      tr: "Hedeflerin hakkında biraz bilgi ver…", sr: "Reci mi nešto o svojim ciljevima…",
       ru: "Расскажи немного о своих целях…"
     },
     "Send": { sr: "Pošalji", ru: "Отправить" },
-    "Send via WhatsApp": { sr: "Pošalji preko WhatsApp-a", ru: "Отправить через WhatsApp" },
+    "Send via WhatsApp": { tr: "WhatsApp ile Gönder", sr: "Pošalji preko WhatsApp-a", ru: "Отправить через WhatsApp" },
     "Sending… you will get a confirmation email.": {
-      sr: "Šaljemo… dobićete email potvrdu.",
+      tr: "Gönderiliyor… onay e-postası alacaksın.", sr: "Šaljemo… dobićete email potvrdu.",
       ru: "Отправка… вы получите письмо-подтверждение."
     },
-    "Address": { sr: "Adresa", ru: "Адрес" },
-    "Opening hours": { sr: "Radno vreme", ru: "Часы работы" },
-    "Every day: 9:00 - 21:00": { sr: "Svaki dan: 9:00 - 21:00", ru: "Ежедневно: 9:00 - 21:00" },
+    "Address": { tr: "Adres", sr: "Adresa", ru: "Адрес" },
+    "Opening hours": { tr: "Açılış saatleri", sr: "Radno vreme", ru: "Часы работы" },
+    "Every day: 9:00 - 21:00": { tr: "Her gün: 9:00 - 21:00", sr: "Svaki dan: 9:00 - 21:00", ru: "Ежедневно: 9:00 - 21:00" },
 
     // Shared footer / legal / a11y
-    "Hamburger Toggle Menu": { sr: "Otvori / zatvori meni", ru: "Переключить меню" },
-    "Belgrade, Serbia 11000": { sr: "Beograd, Srbija 11000", ru: "Белград, Сербия 11000" },
+    "Hamburger Toggle Menu": { tr: "Menüyü aç / kapat", sr: "Otvori / zatvori meni", ru: "Переключить меню" },
+    "Belgrade, Serbia 11000": { tr: "Belgrad, Sırbistan 11000", sr: "Beograd, Srbija 11000", ru: "Белград, Сербия 11000" },
     "© All Rights Reserved Elite Shape Personal Training": {
-      sr: "© Sva prava zadržana — Elite Shape Personal Training",
+      tr: "© Tüm Hakları Saklıdır — Elite Shape Personal Training", sr: "© Sva prava zadržana — Elite Shape Personal Training",
       ru: "© Все права защищены — Elite Shape Personal Training"
     },
     "© All Rights Reserved EliteShape RS": {
-      sr: "© Sva prava zadržana — EliteShape RS",
+      tr: "© Tüm Hakları Saklıdır — EliteShape RS", sr: "© Sva prava zadržana — EliteShape RS",
       ru: "© Все права защищены — EliteShape RS"
     },
-    "Privacy Settings": { sr: "Podešavanja privatnosti", ru: "Настройки приватности" },
+    "Privacy Settings": { tr: "Gizlilik Ayarları", sr: "Podešavanja privatnosti", ru: "Настройки приватности" },
     "We use cookies to enhance your experience while using our website. If you are using our Services via a browser you can restrict, block or remove cookies through your web browser settings. We also use content and scripts from third parties that may use tracking technologies. You can selectively provide your consent below to allow such third party embeds. For complete information about the cookies we use, data we collect and how we process them, please check our": {
       sr: "Koristimo kolačiće kako bismo poboljšali vaše iskustvo prilikom korišćenja naše veb-stranice. Ako koristite naše usluge preko pregledača, možete ograničiti, blokirati ili ukloniti kolačiće preko podešavanja vašeg pregledača. Takođe koristimo sadržaj i skripte trećih strana koje mogu koristiti tehnologije praćenja. Ispod možete selektivno dati saglasnost za takve ugradnje trećih strana. Za potpune informacije o kolačićima koje koristimo, podacima koje prikupljamo i kako ih obrađujemo, pogledajte našu",
       ru: "Мы используем файлы cookie для улучшения работы с нашим сайтом. Если вы используете наши сервисы через браузер, вы можете ограничить, заблокировать или удалить cookie в настройках браузера. Мы также используем контент и скрипты сторонних сервисов, которые могут применять технологии отслеживания. Ниже вы можете выборочно дать согласие на такие сторонние встраивания. Полную информацию о cookie, данных, которые мы собираем и обрабатываем, смотрите в нашей"
     },
-    "Privacy Policy": { sr: "Politika privatnosti", ru: "Политика конфиденциальности" },
+    "Privacy Policy": { tr: "Gizlilik Politikası", sr: "Politika privatnosti", ru: "Политика конфиденциальности" },
 
     // Homepage accordion / CTA tiles
-    "Learn about our services": { sr: "Saznajte više o našim uslugama", ru: "Узнайте о наших услугах" },
-    "Become a member now": { sr: "Postanite član odmah", ru: "Станьте членом прямо сейчас" },
-    "FIRST TIMER": { sr: "PRVI PUT?", ru: "ПЕРВЫЙ РАЗ?" },
-    "Memberships": { sr: "Članstva", ru: "Членство" },
-    "MEMBERSHIPS": { sr: "ČLANSTVA", ru: "ЧЛЕНСТВО" },
-    "Valid for 12 months": { sr: "Važi 12 meseci", ru: "Действует 12 месяцев" },
+    "Learn about our services": { tr: "Hizmetlerimiz hakkında bilgi al", sr: "Saznajte više o našim uslugama", ru: "Узнайте о наших услугах" },
+    "Become a member now": { tr: "Hemen üye ol", sr: "Postanite član odmah", ru: "Станьте членом прямо сейчас" },
+    "FIRST TIMER": { tr: "İLK KEZ Mİ?", sr: "PRVI PUT?", ru: "ПЕРВЫЙ РАЗ?" },
+    "Memberships": { tr: "Üyelikler", sr: "Članstva", ru: "Членство" },
+    "MEMBERSHIPS": { tr: "ÜYELİKLER", sr: "ČLANSTVA", ru: "ЧЛЕНСТВО" },
+    "Valid for 12 months": { tr: "12 ay geçerli", sr: "Važi 12 meseci", ru: "Действует 12 месяцев" },
     "No matter your goal, we'll get you there!": {
       sr: "Bez obzira na tvoj cilj, dovešćemo te tamo!",
       ru: "Какой бы ни была твоя цель, мы поможем её достичь!"
@@ -299,10 +299,10 @@
     // ============================================================
     // INTERIOR PAGES — shared English body copy (about.html / personal-training.html)
     // ============================================================
-    "ABOUT US": { sr: "O NAMA", ru: "О НАС" },
-    "ABOUT ME": { sr: "O MENI", ru: "ОБО МНЕ" },
+    "ABOUT US": { tr: "HAKKIMIZDA", sr: "O NAMA", ru: "О НАС" },
+    "ABOUT ME": { tr: "HAKKIMDA", sr: "O MENI", ru: "ОБО МНЕ" },
     "Available at: Elite Shape Personal Training": {
-      sr: "Dostupno u: Elite Shape Personal Training",
+      tr: "Konum: Elite Shape Personal Training", sr: "Dostupno u: Elite Shape Personal Training",
       ru: "Доступно в: Elite Shape Personal Training"
     },
     "At EliteShape we redefine your perception of Personal Training. We make it fun and exciting to work with a personal trainer, while always making sure you reach your personal goals the fastest, most effective way possible. No matter your goal, we will get you there!": {
@@ -353,8 +353,8 @@
       sr: "✓ 200+ zadovoljnih klijenata",
       ru: "✓ 200+ довольных клиентов"
     },
-    "SCHEDULE NOW": { sr: "REZERVIŠI TERMIN", ru: "ЗАПИСАТЬСЯ СЕЙЧАС" },
-    "What drives me": { sr: "ŠTA ME POKREĆE", ru: "ЧТО ДВИЖЕТ МНОЙ" },
+    "SCHEDULE NOW": { tr: "ŞİMDİ RANDEVU AL", sr: "REZERVIŠI TERMIN", ru: "ЗАПИСАТЬСЯ СЕЙЧАС" },
+    "What drives me": { tr: "Beni ne motive ediyor", sr: "ŠTA ME POKREĆE", ru: "ЧТО ДВИЖЕТ МНОЙ" },
     "Stepping outside the comfort zone is what fuels me. It’s what drives me to help you reach new heights. I’ve always felt the need to change the status quo and redefine the standards. So I made it happen. I’ve built a next-level training experience that goes beyond the norm. Why? I believe health & fitness empower successful living, and exercise should be fun, exciting and engaging in an innovative way.": {
       sr: "Izlazak iz zone komfora je ono što me pokreće. To je ono što me tera da ti pomognem da dostigneš nove visine. Oduvek sam osećao potrebu da promenim pravila i redefinišem standarde. Tako sam i uradio. Stvorio sam trening iskustvo na višem nivou, koje izlazi iz okvira. Zašto? Verujem da zdravlje i fitnes pokreću uspešan život, a vežbanje treba da bude zabavno, uzbudljivo i inovativno.",
       ru: "Выход из зоны комфорта — моё топливо. Именно он толкает меня помогать тебе достигать новых высот. Я всегда чувствовал необходимость ломать статус-кво и переопределять стандарты. Поэтому я создал тренировочный опыт нового уровня — за рамками привычного. Почему? Я верю, что здоровье и фитнес дают силу для успешной жизни, а тренировка должна быть увлекательной, вдохновляющей и инновационной."
@@ -363,27 +363,27 @@
       sr: "Izazivam te da osetiš kako je to. Otkrij moj trening na višem nivou već danas.",
       ru: "Бросаю тебе вызов — почувствуй это сам. Откройте для себя мою тренировку нового уровня прямо сейчас."
     },
-    "I’M COMMITTED": { sr: "POSVEĆEN SAM", ru: "Я ПРЕДАН ДЕЛУ" },
+    "I’M COMMITTED": { tr: "KARARLIYIM", sr: "POSVEĆEN SAM", ru: "Я ПРЕДАН ДЕЛУ" },
     "I make a commitment to you to be here, ready and focused on your next level. I’m fully dedicated to helping you reach your goals. You will train weekly to make this a lifestyle decision.": {
       sr: "Obećavam ti da ću biti tu — spreman i fokusiran na tvoj sledeći nivo. Potpuno sam posvećen tome da ti pomognem da dostigneš svoje ciljeve. Treniraćeš nedeljno kako bi ovo postalo životni stil.",
       ru: "Я обязуюсь быть рядом — готовым и сосредоточенным на твоём следующем уровне. Я полностью посвящён тому, чтобы помочь тебе достичь цели. Ты будешь тренироваться еженедельно, превращая это в стиль жизни."
     },
-    "HABITS-BASED APPROACH": { sr: "PRISTUP ZASNOVAN NA NAVIKAMA", ru: "ПОДХОД НА ОСНОВЕ ПРИВЫЧЕК" },
+    "HABITS-BASED APPROACH": { tr: "ALIŞKANLIK TEMELLİ YAKLAŞIM", sr: "PRISTUP ZASNOVAN NA NAVIKAMA", ru: "ПОДХОД НА ОСНОВЕ ПРИВЫЧЕК" },
     "My habits-based approach focuses on the daily opportunities of the four pillars of health (sleep, stress, nutrition, movement), improving where we can to optimize your results.": {
       sr: "Moj pristup zasnovan na navikama fokusira se na svakodnevne prilike u okviru četiri stuba zdravlja (san, stres, ishrana, pokret), poboljšavajući ono što možemo da bismo optimizovali tvoje rezultate.",
       ru: "Мой подход на основе привычек фокусируется на ежедневных возможностях четырёх столпов здоровья (сон, стресс, питание, движение), улучшая то, что в наших силах, для твоих оптимальных результатов."
     },
-    "MONTHLY CHECK-INS": { sr: "MESEČNE PROVERE", ru: "ЕЖЕМЕСЯЧНЫЕ ПРОВЕРКИ" },
+    "MONTHLY CHECK-INS": { tr: "AYLIK KONTROLLER", sr: "MESEČNE PROVERE", ru: "ЕЖЕМЕСЯЧНЫЕ ПРОВЕРКИ" },
     "Using my EliteShape app I track biomarkers such as muscle mass, body fat, strength, endurance and other various metrics to assess your progress.": {
       sr: "Kroz svoju EliteShape aplikaciju pratim biomarkere poput mišićne mase, procenta masti, snage, izdržljivosti i drugih metrika kako bih procenio tvoj napredak.",
       ru: "Через своё приложение EliteShape я отслеживаю биомаркеры — мышечную массу, процент жира, силу, выносливость и другие показатели — чтобы оценить твой прогресс."
     },
-    "KNOWLEDGE IS POWER": { sr: "ZNANJE JE MOĆ", ru: "ЗНАНИЕ — СИЛА" },
+    "KNOWLEDGE IS POWER": { tr: "BİLGİ GÜÇTÜR", sr: "ZNANJE JE MOĆ", ru: "ЗНАНИЕ — СИЛА" },
     "While training with me, I believe in teaching you the how and why behind my programming, so that you have the tools to be successful in any environment.": {
       sr: "Dok treniraš sa mnom, verujem da te treba naučiti kako i zašto iza mog programa, kako bi imao alate da budeš uspešan u bilo kom okruženju.",
       ru: "Тренируясь со мной, ты узнаёшь не только «как», но и «почему» за моей программой — чтобы у тебя были инструменты для успеха в любой обстановке."
     },
-    "Your Personal Trainer": { sr: "Tvoj Personalni Trener", ru: "Ваш персональный тренер" },
+    "Your Personal Trainer": { tr: "Kişisel Antrenörün", sr: "Tvoj Personalni Trener", ru: "Ваш персональный тренер" },
     "Peter does whatever it takes to help you cross the line. He has put in the hours and done the work. Now he is here to help you reach the next level. Meet the coach who is going to help you level up — the one in your corner, every session.": {
       sr: "Peter je spreman na sve da ti pomogne da pređeš cilj. Uložio je sate i prošao kroz rad. Sada je tu da ti pomogne da dostigneš sledeći nivo. Upoznaj trenera koji će te podići na viši nivo — onog ko stoji uz tebe, svaku sesiju.",
       ru: "Питер готов на всё, чтобы помочь тебе пересечь финишную черту. Он вложил часы и прошёл всю работу. Теперь он здесь, чтобы помочь тебе выйти на новый уровень. Познакомься с тренером, который поможет тебе расти — тем, кто в твоём углу, каждую сессию."
@@ -392,22 +392,22 @@
     // ============================================================
     // personal-training.html — unique sections
     // ============================================================
-    "WHAT’S IN IT FOR ME": { sr: "ŠTA TI OVO DONOSI", ru: "ЧТО ПОЛУЧАЕТЕ ВЫ" },
+    "WHAT’S IN IT FOR ME": { tr: "BENİM İÇİN NE VAR", sr: "ŠTA TI OVO DONOSI", ru: "ЧТО ПОЛУЧАЕТЕ ВЫ" },
     "Achieve amazing results by gradually discovering the transformation process. My commitment is coaching you both inside the gym through training and outside the gym with lifestyle habits (sleep, stress, nutrition) to accomplish your goals.": {
       sr: "Postigni izuzetne rezultate postepeno otkrivajući proces transformacije. Moja posvećenost je rad s tobom unutar teretane kroz trening i van nje kroz životne navike (san, stres, ishrana) da dostigneš svoje ciljeve.",
       ru: "Добивайся впечатляющих результатов, постепенно проходя процесс трансформации. Моё обязательство — сопровождать тебя и в зале через тренировки, и вне его — через образ жизни (сон, стресс, питание), чтобы ты достиг своих целей."
     },
-    "HOW DOES IT WORK?": { sr: "KAKO FUNKCIONIŠE?", ru: "КАК ЭТО РАБОТАЕТ?" },
+    "HOW DOES IT WORK?": { tr: "NASIL ÇALIŞIR?", sr: "KAKO FUNKCIONIŠE?", ru: "КАК ЭТО РАБОТАЕТ?" },
     "The first step of your next-level transformation begins with a 55-minute intake session. During this intake session, I will assess and coach you on your movement patterns, health status, and body measurements based on your goals. I will create a personalized, custom plan to achieve the results you want.": {
       sr: "Prvi korak tvoje transformacije na sledeći nivo počinje 55-minutnom uvodnom sesijom. Tokom ove sesije, ja ću proceniti i savetovati te o obrascima pokreta, zdravstvenom statusu i telesnim merama u odnosu na tvoje ciljeve. Kreiraću personalizovan plan prilagođen rezultatima koje želiš.",
       ru: "Первый шаг твоей трансформации — 55-минутная вводная сессия. На ней я оценю паттерны движения, состояние здоровья и параметры тела с учётом твоих целей и составлю индивидуальный план для достижения желаемого результата."
     },
-    "GOAL SETTING": { sr: "POSTAVLJANJE CILJEVA", ru: "ПОСТАНОВКА ЦЕЛЕЙ" },
+    "GOAL SETTING": { tr: "HEDEF BELİRLEME", sr: "POSTAVLJANJE CILJEVA", ru: "ПОСТАНОВКА ЦЕЛЕЙ" },
     "While focusing on your journey I take all details into account. Together we discuss your current training program, nutrition plan, sleep habits, physical and mental stressors and main fitness goals to understand where we are and where you want to go.": {
       sr: "Dok se fokusiram na tvoj put, uzimam u obzir sve detalje. Zajedno razgovaramo o tvom trenutnom programu treninga, planu ishrane, navikama spavanja, fizičkim i mentalnim stresorima i glavnim fitnes ciljevima, kako bismo razumeli gde smo i gde želiš da stigneš.",
       ru: "Работая над твоим маршрутом, я учитываю все детали. Вместе мы обсуждаем твою текущую программу тренировок, питание, сон, физические и ментальные стрессоры и основные фитнес-цели — чтобы понять, где мы сейчас и куда ты хочешь прийти."
     },
-    "PERSONALIZED PLAN": { sr: "PERSONALIZOVAN PLAN", ru: "ИНДИВИДУАЛЬНЫЙ ПЛАН" },
+    "PERSONALIZED PLAN": { tr: "KİŞİSEL PLAN", sr: "PERSONALIZOVAN PLAN", ru: "ИНДИВИДУАЛЬНЫЙ ПЛАН" },
     "By measuring your progress, I use various biomarkers such as my Inbody 570 Body Composition Analyzer, movement patterns and energy systems metrics. I create a custom plan and timeline to achieve long-term sustainable results.": {
       sr: "Merim tvoj napredak koristeći različite biomarkere poput svog Inbody 570 analizatora sastava tela, obrazaca pokreta i metrika energetskih sistema. Kreiram plan i vremenski okvir prilagođen dugoročnim, održivim rezultatima.",
       ru: "Измеряя твой прогресс, я использую различные биомаркеры — Inbody 570 анализатор состава тела, паттерны движения и метрики энергосистем. Я составляю индивидуальный план и график для долгосрочных устойчивых результатов."
@@ -416,41 +416,41 @@
     // ============================================================
     // personal-training.html — How It Works, Training Features, Client Progress
     // ============================================================
-    "How It Works": { sr: "Kako funkcioniše", ru: "Как это работает" },
+    "How It Works": { tr: "Nasıl Çalışır", sr: "Kako funkcioniše", ru: "Как это работает" },
     "From first contact to real results in four steps.": {
-      sr: "Od prvog kontakta do stvarnih rezultata u četiri koraka.",
+      tr: "İlk temastan gerçek sonuçlara dört adımda.", sr: "Od prvog kontakta do stvarnih rezultata u četiri koraka.",
       ru: "От первого контакта до реальных результатов — в четыре шага."
     },
-    "01 — Consultation": { sr: "01 — Konsultacija", ru: "01 — Консультация" },
-    "02 — Assessment": { sr: "02 — Procena", ru: "02 — Оценка" },
-    "03 — Your Program": { sr: "03 — Tvoj program", ru: "03 — Ваша программа" },
-    "04 — Results": { sr: "04 — Rezultati", ru: "04 — Результаты" },
-    "Consultation": { sr: "Konsultacija", ru: "Консультация" },
-    "Assessment": { sr: "Procena", ru: "Оценка" },
-    "Your Program": { sr: "Tvoj program", ru: "Ваша программа" },
-    "Results": { sr: "Rezultati", ru: "Результаты" },
+    "01 — Consultation": { tr: "01 — Danışma", sr: "01 — Konsultacija", ru: "01 — Консультация" },
+    "02 — Assessment": { tr: "02 — Değerlendirme", sr: "02 — Procena", ru: "02 — Оценка" },
+    "03 — Your Program": { tr: "03 — Programın", sr: "03 — Tvoj program", ru: "03 — Ваша программа" },
+    "04 — Results": { tr: "04 — Sonuçlar", sr: "04 — Rezultati", ru: "04 — Результаты" },
+    "Consultation": { tr: "Danışma", sr: "Konsultacija", ru: "Консультация" },
+    "Assessment": { tr: "Değerlendirme", sr: "Procena", ru: "Оценка" },
+    "Your Program": { tr: "Programın", sr: "Tvoj program", ru: "Ваша программа" },
+    "Results": { tr: "Sonuçlar", sr: "Rezultati", ru: "Результаты" },
     "A free 20-minute conversation about your goals, training history and any injuries.": {
-      sr: "Besplatan razgovor od 20 minuta o tvojim ciljevima, istoriji treninga i eventualnim povredama.",
+      tr: "Hedeflerin, antrenman geçmişin ve varsa yaralanmaların hakkında ücretsiz 20 dakikalık sohbet.", sr: "Besplatan razgovor od 20 minuta o tvojim ciljevima, istoriji treninga i eventualnim povredama.",
       ru: "Бесплатный 20-минутный разговор о ваших целях, истории тренировок и травмах, если они есть."
     },
     "Body measurements and movement analysis in the first session.": {
-      sr: "Merenja tela i analiza pokreta na prvoj sesiji.",
+      tr: "İlk seansta vücut ölçümleri ve hareket analizi.", sr: "Merenja tela i analiza pokreta na prvoj sesiji.",
       ru: "Замеры тела и анализ движения на первой сессии."
     },
     "You receive a fully personalised training and nutrition plan built for you.": {
-      sr: "Dobijaš potpuno personalizovan plan treninga i ishrane napravljen za tebe.",
+      tr: "Sana özel, tamamen kişiselleştirilmiş antrenman ve beslenme planı alırsın.", sr: "Dobijaš potpuno personalizovan plan treninga i ishrane napravljen za tebe.",
       ru: "Вы получаете полностью персонализированный план тренировок и питания под вас."
     },
     "We track progress every week, adjust the plan, and celebrate every win.": {
-      sr: "Svake nedelje pratimo napredak, prilagođavamo plan i slavimo svaku pobedu.",
+      tr: "Her hafta ilerlemeni takip ederiz, planı güncelleriz ve her kazanımı kutlarız.", sr: "Svake nedelje pratimo napredak, prilagođavamo plan i slavimo svaku pobedu.",
       ru: "Каждую неделю отслеживаем прогресс, корректируем план и празднуем каждую победу."
     },
-    "Training Features": { sr: "Karakteristike treninga", ru: "Особенности тренировок" },
+    "Training Features": { tr: "Antrenman Özellikleri", sr: "Karakteristike treninga", ru: "Особенности тренировок" },
     "A session that is 100% yours. Peter watches every rep, corrects every error and pushes you further than you would push yourself.": {
       sr: "Sesija koja je 100% tvoja. Peter prati svaku repeticiju, ispravlja svaku grešku i gura te dalje nego što bi ti sam sebe.",
       ru: "Сессия, которая на 100% ваша. Peter следит за каждым повторением, исправляет каждую ошибку и подталкивает вас дальше, чем вы сами бы себя."
     },
-    "Precise Technique": { sr: "Precizna tehnika", ru: "Точная техника" },
+    "Precise Technique": { tr: "Kesin Teknik", sr: "Precizna tehnika", ru: "Точная техника" },
     "Your trainer watches every movement, corrects errors in real time and makes sure you train safely and efficiently — every single rep.": {
       sr: "Tvoj trener prati svaki pokret, ispravlja greške u realnom vremenu i brine da treniraš bezbedno i efikasno — svaku repeticiju.",
       ru: "Ваш тренер следит за каждым движением, исправляет ошибки в реальном времени и следит, чтобы вы тренировались безопасно и эффективно — в каждом повторении."
@@ -459,12 +459,12 @@
       sr: "Tvoj trener prati svaki pokret, ispravlja greške u realnom vremenu i brine da treniraš bezbedno i efikasno.",
       ru: "Ваш тренер следит за каждым движением, исправляет ошибки в реальном времени и следит, чтобы вы тренировались безопасно и эффективно."
     },
-    "Flexible Schedule": { sr: "Fleksibilan raspored", ru: "Гибкий график" },
+    "Flexible Schedule": { tr: "Esnek Program", sr: "Fleksibilan raspored", ru: "Гибкий график" },
     "Morning, afternoon or evening — we fit training around your life, not the other way around.": {
-      sr: "Jutro, popodne ili veče — trening prilagođavamo tvom životu, a ne obrnuto.",
+      tr: "Sabah, öğleden sonra veya akşam — antrenmanı hayatına biz uyduruyoruz, tersi değil.", sr: "Jutro, popodne ili veče — trening prilagođavamo tvom životu, a ne obrnuto.",
       ru: "Утро, день или вечер — подстраиваем тренировки под вашу жизнь, а не наоборот."
     },
-    "Intensity on Your Terms": { sr: "Intenzitet po tvojim uslovima", ru: "Интенсивность под вас" },
+    "Intensity on Your Terms": { tr: "Senin Tempona Göre Yoğunluk", sr: "Intenzitet po tvojim uslovima", ru: "Интенсивность под вас" },
     "Beginner or advanced, the programme adapts to your current level and progressively challenges you as you grow stronger.": {
       sr: "Bio početnik ili napredan, program se prilagođava tvom trenutnom nivou i progresivno te izaziva kako postaješ jači.",
       ru: "Новичок или опытный — программа подстраивается под ваш текущий уровень и постепенно усложняется по мере роста силы."
@@ -473,7 +473,7 @@
       sr: "Bio početnik ili napredan — program se prilagođava tvom trenutnom nivou i progresivno te izaziva kako postaješ jači.",
       ru: "Новичок или опытный — программа подстраивается под ваш текущий уровень и постепенно усложняется по мере роста силы."
     },
-    "Measurable Progress": { sr: "Merljiv napredak", ru: "Измеримый прогресс" },
+    "Measurable Progress": { tr: "Ölçülebilir İlerleme", sr: "Merljiv napredak", ru: "Измеримый прогресс" },
     "Every session is logged and every metric tracked. You always know exactly how far you have come and what is next on your journey.": {
       sr: "Svaka sesija je zabeležena i svaka metrika praćena. Uvek znaš tačno koliko si daleko stigao i šta je sledeće na tvom putu.",
       ru: "Каждая сессия записана и каждый показатель отслеживается. Вы всегда точно знаете, как далеко продвинулись и что следующее на пути."
@@ -482,20 +482,20 @@
       sr: "Svaka sesija je zabeležena i svaka metrika praćena. Uvek znaš tačno koliko si daleko stigao.",
       ru: "Каждая сессия записана и каждый показатель отслеживается. Вы всегда точно знаете, как далеко продвинулись."
     },
-    "Client Progress": { sr: "Napredak klijenata", ru: "Прогресс клиентов" },
+    "Client Progress": { tr: "Müşteri İlerlemesi", sr: "Napredak klijenata", ru: "Прогресс клиентов" },
     "Average results after 12 weeks of coaching.": {
-      sr: "Prosečni rezultati posle 12 nedelja coaching-a.",
+      tr: "12 haftalık koçluk sonrası ortalama sonuçlar.", sr: "Prosečni rezultati posle 12 nedelja coaching-a.",
       ru: "Средние результаты через 12 недель коучинга."
     },
-    "Strength (bench press)": { sr: "Snaga (bench press)", ru: "Сила (жим лёжа)" },
-    "Body fat reduction": { sr: "Smanjenje masnog tkiva", ru: "Снижение жира" },
-    "Lean muscle gained": { sr: "Dobijena mišićna masa", ru: "Набор мышечной массы" },
-    "Training consistency": { sr: "Doslednost treninga", ru: "Постоянство тренировок" },
-    "Strength": { sr: "Snaga", ru: "Сила" },
-    "Bench press 1-rep max.": { sr: "Bench press 1RM.", ru: "Жим лёжа — максимум на 1 повторение." },
-    "Body Fat": { sr: "Masno tkivo", ru: "Жировая масса" },
+    "Strength (bench press)": { tr: "Güç (bench press)", sr: "Snaga (bench press)", ru: "Сила (жим лёжа)" },
+    "Body fat reduction": { tr: "Vücut yağında azalma", sr: "Smanjenje masnog tkiva", ru: "Снижение жира" },
+    "Lean muscle gained": { tr: "Kazanılan yağsız kas", sr: "Dobijena mišićna masa", ru: "Набор мышечной массы" },
+    "Training consistency": { tr: "Antrenman tutarlılığı", sr: "Doslednost treninga", ru: "Постоянство тренировок" },
+    "Strength": { tr: "Güç", sr: "Snaga", ru: "Сила" },
+    "Bench press 1-rep max.": { tr: "Bench press 1 tekrar max.", sr: "Bench press 1RM.", ru: "Жим лёжа — максимум на 1 повторение." },
+    "Body Fat": { tr: "Vücut Yağı", sr: "Masno tkivo", ru: "Жировая масса" },
     "Measured reduction across scans.": {
-      sr: "Mereno smanjenje kroz skenove.",
+      tr: "Ölçümler boyunca azalma.", sr: "Mereno smanjenje kroz skenove.",
       ru: "Измеренное снижение по результатам сканов."
     },
     "Lean Muscle": { sr: "Mišićna masa", ru: "Мышечная масса" },
@@ -901,8 +901,8 @@
       sr: "Najveći razlog što dijete propadaju je što niko ne prati dalje. Svake nedelje pregledamo tvoje brojeve, prilagođavamo plan i držimo te u koloseku. Nikad ne nagađaš, nikad nisi sam i nikad ne zapneš na platou — samo stabilan, iskren napredak sa nekim uz tebe dok ne stigneš do cilja.",
       ru: "Главная причина, по которой диеты проваливаются — никто не даёт обратной связи. Каждую неделю мы пересматриваем твои цифры, корректируем план и держим тебя в ритме. Никаких догадок, никакого одиночества и никакого плато — только стабильный, честный прогресс, пока ты не достигнешь цели, с человеком рядом."
     },
-    "PETER": { sr: "PETER", ru: "ПИТЕР" },
-    "Bio": { sr: "Biografija", ru: "Биография" }
+    "PETER": { tr: "PETER", sr: "PETER", ru: "ПИТЕР" },
+    "Bio": { tr: "Biyografi", sr: "Biografija", ru: "Биография" }
   };
 
   // -- State --
