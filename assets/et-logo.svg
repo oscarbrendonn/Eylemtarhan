@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Eylem Tarhan Personal Training Ankara">
+  <defs>
+    <!-- Top arc: left → right curving over the top (upright text) -->
+    <path id="et-topArc" d="M 192 512 A 320 320 0 0 1 832 512" fill="none"/>
+    <!-- Bottom arc: right → left curving under the bottom (upright text) -->
+    <path id="et-bottomArc" d="M 832 512 A 320 320 0 0 1 192 512" fill="none"/>
+  </defs>
+
+  <!-- Outer dotted ring -->
+  <circle cx="512" cy="512" r="460" fill="none" stroke="#fff" stroke-width="6"
+          stroke-dasharray="2 18" stroke-linecap="round"/>
+
+  <!-- Inner double ring -->
+  <circle cx="512" cy="512" r="410" fill="none" stroke="#fff" stroke-width="4"/>
+  <circle cx="512" cy="512" r="394" fill="none" stroke="#fff" stroke-width="2"/>
+
+  <!-- Decorative side bullets flanking ANKARA -->
+  <circle cx="120" cy="512" r="10" fill="#fff"/>
+  <circle cx="904" cy="512" r="10" fill="#fff"/>
+
+  <!-- Inner rectangular frame holding "ET" -->
+  <rect x="300" y="360" width="424" height="304" fill="none" stroke="#fff" stroke-width="6"/>
+
+  <!-- ET letters -->
+  <text x="512" y="520" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Playfair Display','Georgia',serif" font-weight="700"
+        font-size="240" fill="#fff"
+        style="letter-spacing:-4px">ET</text>
+
+  <!-- ANKARA curved across the top -->
+  <text font-family="'Helvetica Neue','Inter',Arial,sans-serif" font-weight="700"
+        font-size="68" fill="#fff"
+        style="letter-spacing:18px">
+    <textPath href="#et-topArc" startOffset="50%" text-anchor="middle">ANKARA</textPath>
+  </text>
+
+  <!-- PERSONAL TRAINING curved along the bottom -->
+  <text font-family="'Helvetica Neue','Inter',Arial,sans-serif" font-weight="700"
+        font-size="54" fill="#fff"
+        style="letter-spacing:12px">
+    <textPath href="#et-bottomArc" startOffset="50%" text-anchor="middle">PERSONAL TRAINING</textPath>
+  </text>
+</svg>

@@ -4,10 +4,10 @@
   var LS_THEME = "et_theme";
   var LS_LANG = "et_lang";
   var DEFAULT_LANG = "tr";
-  var LANGS = ["tr", "sr", "en", "ru"];
+  var LANGS = ["tr", "en", "ru"];
 
   // Translation dictionary. Keys = canonical English text (exact, trimmed).
-  // Values: { tr, sr, ru }. Missing keys fall back to English (the canonical source text in HTML).
+  // Values: { tr, ru }. Missing keys fall back to English (the canonical source text in HTML).
   var DICT = {
     "HOME": { tr: "ANA SAYFA", sr: "POČETNA", ru: "ГЛАВНАЯ" },
     "Home": { tr: "Ana Sayfa", sr: "Početna", ru: "Главная" },
@@ -106,15 +106,15 @@
     "60 min Massage": { tr: "60 dk Masaj", sr: "60 min Masaža", ru: "Массаж 60 мин" },
     "90 min Massage": { tr: "90 dk Masaj", sr: "90 min Masaža", ru: "Массаж 90 мин" },
 
-    "Belgrade": { tr: "Belgrad", sr: "Beograd", ru: "Белград" },
-    "EliteShape": { tr: "EliteShape", sr: "EliteShape", ru: "EliteShape" },
-    "EliteShape Belgrade": { tr: "EliteShape Belgrad", sr: "EliteShape Beograd", ru: "EliteShape Белград" },
+    "Ankara": { tr: "Ankara", sr: "Ankara", ru: "Анкара" },
+    "Eylem Tarhan": { tr: "Eylem Tarhan", sr: "Eylem Tarhan", ru: "Eylem Tarhan" },
+    "Eylem Tarhan Ankara": { tr: "Eylem Tarhan Ankara", sr: "Eylem Tarhan Ankara", ru: "Eylem Tarhan Анкара" },
     "Skip to content": { tr: "İçeriğe atla", sr: "Preskoči na sadržaj", ru: "Перейти к содержимому" },
 
     // Welcome / homepage long copy
-    "Located in Vračar, Belgrade, EliteShape maintains an educated, skilled and friendly health services team that is dedicated to providing the specialized attention, training and knowledge needed to help our clients attain their unique fitness objectives.  As ardent students of the latest developments in fitness, weight loss and strength training exercise programs, we maintain the highest standards for Your Trainer ensuring they regularly develop their skills through related courses throughout the year.": {
-      sr: "Smešten u Vračaru, Beograd, EliteShape okuplja obrazovan, stručan i prijateljski tim zdravstvenih i trenažnih radnika posvećen pružanju specijalizovane pažnje, treninga i znanja koje je potrebno da naši klijenti ostvare svoje fitnes ciljeve. Kao posvećeni pratioci najnovijih dostignuća u fitnesu, mršavljenju i programima trening snage, održavamo najviše standarde za vašeg trenera, kroz redovno usavršavanje i pohađanje stručnih kurseva tokom cele godine.",
-      ru: "Расположенный в районе Врачар, Белград, EliteShape объединяет образованную, опытную и дружелюбную команду тренеров и специалистов по здоровью, готовых оказать индивидуальное внимание и поделиться знаниями, чтобы наши клиенты достигли своих фитнес-целей. Мы внимательно следим за последними достижениями в фитнесе, снижении веса и силовых тренировках, и поддерживаем высокие стандарты вашего тренера через постоянное обучение в течение года."
+    "Located in Yıldız, Ankara, Eylem Tarhan maintains an educated, skilled and friendly health services team that is dedicated to providing the specialized attention, training and knowledge needed to help our clients attain their unique fitness objectives.  As ardent students of the latest developments in fitness, weight loss and strength training exercise programs, we maintain the highest standards for Your Trainer ensuring they regularly develop their skills through related courses throughout the year.": {
+      sr: "Smešten u Yıldız, Ankara, Eylem Tarhan okuplja obrazovan, stručan i prijateljski tim zdravstvenih i trenažnih radnika posvećen pružanju specijalizovane pažnje, treninga i znanja koje je potrebno da naši klijenti ostvare svoje fitnes ciljeve. Kao posvećeni pratioci najnovijih dostignuća u fitnesu, mršavljenju i programima trening snage, održavamo najviše standarde za vašeg trenera, kroz redovno usavršavanje i pohađanje stručnih kurseva tokom cele godine.",
+      ru: "Расположенный в районе Врачар, Анкара, Eylem Tarhan объединяет образованную, опытную и дружелюбную команду тренеров и специалистов по здоровью, готовых оказать индивидуальное внимание и поделиться знаниями, чтобы наши клиенты достигли своих фитнес-целей. Мы внимательно следим за последними достижениями в фитнесе, снижении веса и силовых тренировках, и поддерживаем высокие стандарты вашего тренера через постоянное обучение в течение года."
     },
     "Keep up with the latest news, trends and information regarding health, fitness, and nutrition.": {
       sr: "Budite u toku sa najnovijim vestima, trendovima i informacijama o zdravlju, fitnesu i ishrani.",
@@ -130,9 +130,9 @@
       sr: "5 čestih grešaka u Barre treningu i kako ih ispraviti za bolje rezultate",
       ru: "5 распространённых ошибок в Barre-тренировках и как их исправить для лучших результатов"
     },
-    "EliteShape Open House: Spring Edition": {
-      sr: "EliteShape Otvoreni dan: Prolećno izdanje",
-      ru: "EliteShape День открытых дверей: Весеннее издание"
+    "Eylem Tarhan Open House: Spring Edition": {
+      sr: "Eylem Tarhan Otvoreni dan: Prolećno izdanje",
+      ru: "Eylem Tarhan День открытых дверей: Весеннее издание"
     },
     "Push / Pull / Legs: The Best Workout Split for Building Real Muscle": {
       sr: "Push / Pull / Legs: najbolja podela treninga za pravi rast mišića",
@@ -142,29 +142,26 @@
       sr: "Koliko serija po mišiću nedeljno? Odgovor potkrepljen naukom",
       ru: "Сколько подходов на мышцу в неделю? Ответ с научной базой"
     },
-    "Protein, Carbs, Fats: The Simple Macro Split Peter Uses With New Clients": {
-      sr: "Proteini, ugljeni hidrati, masti: jednostavna makro podela koju Peter koristi sa novim klijentima",
-      ru: "Белки, углеводы, жиры: простой макро-сплит, который Peter использует с новыми клиентами"
+    "Protein, Carbs, Fats: The Simple Macro Split Eylem Uses With New Clients": {
+      sr: "Proteini, ugljeni hidrati, masti: jednostavna makro podela koju Eylem koristi sa novim klijentima",
+      ru: "Белки, углеводы, жиры: простой макро-сплит, который Eylem использует с новыми клиентами"
     },
-    "Cutting vs. Bulking: How Peter Structures Your Fitness Phases": {
-      sr: "Sušenje vs. masa: kako Peter strukturira tvoje faze treninga",
-      ru: "Сушка против массы: как Peter выстраивает фазы тренировок"
+    "Cutting vs. Bulking: How Eylem Structures Your Fitness Phases": {
+      sr: "Sušenje vs. masa: kako Eylem strukturira tvoje faze treninga",
+      ru: "Сушка против массы: как Eylem выстраивает фазы тренировок"
     },
-    "Strength Training After 40: Peter's Framework for Longevity": {
-      sr: "Trening snage posle 40: Peterov okvir za dugovečnost",
-      ru: "Силовые тренировки после 40: система Peter для долголетия"
+    "Strength Training After 40: Eylem's Framework for Longevity": {
+      sr: "Trening snage posle 40: Eylemov okvir za dugovečnost",
+      ru: "Силовые тренировки после 40: система Eylem для долголетия"
     },
-    "The 20-Minute Morning Routine Peter Gives Every Online Client": {
-      sr: "Jutarnja rutina od 20 minuta koju Peter daje svakom online klijentu",
-      ru: "20-минутная утренняя рутина, которую Peter даёт каждому онлайн-клиенту"
+    "The 20-Minute Morning Routine Eylem Gives Every Online Client": {
+      sr: "Jutarnja rutina od 20 minuta koju Eylem daje svakom online klijentu",
+      ru: "20-минутная утренняя рутина, которую Eylem даёт каждому онлайн-клиенту"
     },
     "Training": { tr: "Antrenman", sr: "Trening", ru: "Тренировка" },
     "Nutrition": { tr: "Beslenme", sr: "Ishrana", ru: "Питание" },
     "Case Study": { tr: "Vaka Çalışması", sr: "Studija slučaja", ru: "Кейс" },
-    "read more": { sr: "pročitaj više", ru: "читать далее" },
     "READ MORE": { tr: "DEVAMINI OKU", sr: "PROČITAJ VIŠE", ru: "ЧИТАТЬ ДАЛЕЕ" },
-    "Read More": { sr: "Pročitaj više", ru: "Читать далее" },
-    "Latest": { sr: "Najnovije", ru: "Последнее" },
     "LATEST": { tr: "EN SON", sr: "NAJNOVIJE", ru: "ПОСЛЕДНЕЕ" },
 
     // Pricing page
@@ -192,7 +189,6 @@
       sr: "Bez obzira na tvoje fitnes iskustvo ili životnu fazu u kojoj se nalaziš, posvećen sam pružanju podržavajuće i prijateljske atmosfere za trening. Moj cilj je da te vodim i inspirišem, bilo da tek zakoračuješ u svet fitnesa ili održavaš elitne sportske rezultate. Pridruži mi se i zajedno krenimo na put do željenih ciljeva — slavimo svaki napredak na putu ka tvojoj najboljoj verziji. Doživi vrhunski personalni trening već danas!",
       ru: "Независимо от твоего опыта в фитнесе или этапа жизни, я посвящён созданию дружелюбной и поддерживающей среды для тренировок. Моя цель — направлять и вдохновлять тебя, будь то первые шаги или поддержание элитной спортивной формы. Присоединяйся — вместе построим путь к твоим целям и будем отмечать каждый шаг. Первоклассные персональные тренировки!"
     },
-    "Get in touch": { sr: "Kontaktirajte nas", ru: "Свяжитесь с нами" },
     "Fill in the form and I'll get back to you via WhatsApp or email.": {
       tr: "Formu doldur, sana WhatsApp veya e-posta ile dönerim.", sr: "Popuni formu i javiću ti se putem WhatsApp-a ili email-a.",
       ru: "Заполни форму — я свяжусь с тобой через WhatsApp или по email."
@@ -212,7 +208,6 @@
       tr: "Hedeflerin hakkında biraz bilgi ver…", sr: "Reci mi nešto o svojim ciljevima…",
       ru: "Расскажи немного о своих целях…"
     },
-    "Send": { sr: "Pošalji", ru: "Отправить" },
     "Send via WhatsApp": { tr: "WhatsApp ile Gönder", sr: "Pošalji preko WhatsApp-a", ru: "Отправить через WhatsApp" },
     "Sending… you will get a confirmation email.": {
       tr: "Gönderiliyor… onay e-postası alacaksın.", sr: "Šaljemo… dobićete email potvrdu.",
@@ -224,14 +219,14 @@
 
     // Shared footer / legal / a11y
     "Hamburger Toggle Menu": { tr: "Menüyü aç / kapat", sr: "Otvori / zatvori meni", ru: "Переключить меню" },
-    "Belgrade, Serbia 11000": { tr: "Belgrad, Sırbistan 11000", sr: "Beograd, Srbija 11000", ru: "Белград, Сербия 11000" },
-    "© All Rights Reserved Elite Shape Personal Training": {
-      tr: "© Tüm Hakları Saklıdır — Elite Shape Personal Training", sr: "© Sva prava zadržana — Elite Shape Personal Training",
-      ru: "© Все права защищены — Elite Shape Personal Training"
+    "Ankara, Türkiye 06550": { tr: "Ankara, Türkiye 06550", sr: "Ankara, Türkiye 06550", ru: "Анкара, Турция 11000" },
+    "© All Rights Reserved Eylem Tarhan Personal Training": {
+      tr: "© Tüm Hakları Saklıdır — Eylem Tarhan Personal Training", sr: "© Sva prava zadržana — Eylem Tarhan Personal Training",
+      ru: "© Все права защищены — Eylem Tarhan Personal Training"
     },
-    "© All Rights Reserved EliteShape RS": {
-      tr: "© Tüm Hakları Saklıdır — EliteShape RS", sr: "© Sva prava zadržana — EliteShape RS",
-      ru: "© Все права защищены — EliteShape RS"
+    "© All Rights Reserved Eylem Tarhan": {
+      tr: "© Tüm Hakları Saklıdır — Eylem Tarhan", sr: "© Sva prava zadržana — Eylem Tarhan",
+      ru: "© Все права защищены — Eylem Tarhan"
     },
     "Privacy Settings": { tr: "Gizlilik Ayarları", sr: "Podešavanja privatnosti", ru: "Настройки приватности" },
     "We use cookies to enhance your experience while using our website. If you are using our Services via a browser you can restrict, block or remove cookies through your web browser settings. We also use content and scripts from third parties that may use tracking technologies. You can selectively provide your consent below to allow such third party embeds. For complete information about the cookies we use, data we collect and how we process them, please check our": {
@@ -247,53 +242,49 @@
     "Memberships": { tr: "Üyelikler", sr: "Članstva", ru: "Членство" },
     "MEMBERSHIPS": { tr: "ÜYELİKLER", sr: "ČLANSTVA", ru: "ЧЛЕНСТВО" },
     "Valid for 12 months": { tr: "12 ay geçerli", sr: "Važi 12 meseci", ru: "Действует 12 месяцев" },
-    "No matter your goal, we'll get you there!": {
-      sr: "Bez obzira na tvoj cilj, dovešćemo te tamo!",
-      ru: "Какой бы ни была твоя цель, мы поможем её достичь!"
-    },
 
     // Client reviews — homepage (SR source → EN + RU)
-    "Najbolja investicija u mene samu. Peter je strpljiv, stručan i tačno zna kako da te motiviše i kad ti se uopšte ne dolazi. Za šest meseci dobila sam mišićnu masu koju godinama nisam mogla da izgradim sama u teretani. Držanje mi je bolje, leđa više ne bole. Hvala za sve!": {
-      en: "The best investment I have ever made in myself. Peter is patient, skilled, and knows exactly how to motivate you even on days you do not feel like training. In six months I built muscle I could never build on my own at the gym. My posture is better and my back no longer hurts. Thank you for everything!",
-      ru: "Лучшая инвестиция в саму себя. Peter терпеливый, опытный и точно знает, как мотивировать даже в те дни, когда совсем не хочется идти. За шесть месяцев я набрала мышечную массу, которую годами не могла построить сама в зале. Осанка стала лучше, спина больше не болит. Спасибо за всё!"
+    "Najbolja investicija u mene samu. Eylem je strpljiv, stručan i tačno zna kako da te motiviše i kad ti se uopšte ne dolazi. Za šest meseci dobila sam mišićnu masu koju godinama nisam mogla da izgradim sama u teretani. Držanje mi je bolje, leđa više ne bole. Hvala za sve!": {
+      en: "The best investment I have ever made in myself. Eylem is patient, skilled, and knows exactly how to motivate you even on days you do not feel like training. In six months I built muscle I could never build on my own at the gym. My posture is better and my back no longer hurts. Thank you for everything!",
+      ru: "Лучшая инвестиция в саму себя. Eylem терпеливый, опытный и точно знает, как мотивировать даже в те дни, когда совсем не хочется идти. За шесть месяцев я набрала мышечную массу, которую годами не могла построить сама в зале. Осанка стала лучше, спина больше не болит. Спасибо за всё!"
     },
-    "Iskreno, nisam verovao da mogu za tri meseca da izgubim 12 kilograma i da mi se menja sastav tela. Peter pravi individualne planove, prati ishranu i ne pušta te na pola puta. Ako ste ozbiljni u vezi promene, ovo je pravo mesto.": {
-      en: "Honestly, I did not believe I could drop 12 kilos and change my body composition in three months. Peter builds individual plans, tracks your nutrition, and never lets you stop halfway. If you are serious about change, this is the right place.",
-      ru: "Честно, я не верил, что смогу за три месяца сбросить 12 кг и изменить состав тела. Peter строит индивидуальные планы, следит за питанием и не даёт бросить на полпути. Если вы серьёзно настроены на перемены — это правильное место."
+    "Iskreno, nisam verovao da mogu za tri meseca da izgubim 12 kilograma i da mi se menja sastav tela. Eylem pravi individualne planove, prati ishranu i ne pušta te na pola puta. Ako ste ozbiljni u vezi promene, ovo je pravo mesto.": {
+      en: "Honestly, I did not believe I could drop 12 kilos and change my body composition in three months. Eylem builds individual plans, tracks your nutrition, and never lets you stop halfway. If you are serious about change, this is the right place.",
+      ru: "Честно, я не верил, что смогу за три месяца сбросить 12 кг и изменить состав тела. Eylem строит индивидуальные планы, следит за питанием и не даёт бросить на полпути. Если вы серьёзно настроены на перемены — это правильное место."
     },
-    "Training with Peter changed everything for me. Dropped 7kg, built real strength, and finally learned how to train properly. He pushes hard but always reads how your body responds and adjusts. Best trainer I've worked with in years. Fun, professional, and genuinely invested in your progress.": {
+    "Training with Eylem changed everything for me. Dropped 7kg, built real strength, and finally learned how to train properly. He pushes hard but always reads how your body responds and adjusts. Best trainer I've worked with in years. Fun, professional, and genuinely invested in your progress.": {
       sr: "Trening sa Petrom mi je sve promenio. Skinuo sam 7 kg, izgradio pravu snagu i konačno naučio kako se trenira kako treba. Gura te jako, ali uvek prati kako tvoje telo reaguje i prilagođava program. Najbolji trener sa kojim sam radio godinama. Zabavan, profesionalan i iskreno uključen u tvoj napredak.",
-      ru: "Тренировки с Peter полностью всё изменили. Сбросил 7 кг, набрал реальную силу и наконец понял, как правильно тренироваться. Нагружает жёстко, но всегда читает реакцию тела и корректирует программу. Лучший тренер за много лет. Весёлый, профессиональный и по-настоящему вовлечён в твой прогресс."
+      ru: "Тренировки с Eylem полностью всё изменили. Сбросил 7 кг, набрал реальную силу и наконец понял, как правильно тренироваться. Нагружает жёстко, но всегда читает реакцию тела и корректирует программу. Лучший тренер за много лет. Весёлый, профессиональный и по-настоящему вовлечён в твой прогресс."
     },
     "Sjajan trener! Došao sam sa viškom kilograma i ukočenim leđima posle godina sedenja pred računarom. Posle četiri meseca rada sa Petrom skinuo sam 8 kilograma, leđa me više ne bole i osećam se 10 godina mlađe. Preporučujem svima koji žele stvarne rezultate.": {
-      en: "Great trainer! I came in overweight with a stiff back after years at a desk. After four months working with Peter I dropped 8 kilos, my back no longer hurts, and I feel ten years younger. I recommend him to anyone who wants real results.",
-      ru: "Отличный тренер! Пришёл с лишним весом и зажатой спиной после многих лет за компьютером. После четырёх месяцев работы с Peter сбросил 8 кг, спина больше не болит и чувствую себя на 10 лет моложе. Рекомендую всем, кто хочет реальных результатов."
+      en: "Great trainer! I came in overweight with a stiff back after years at a desk. After four months working with Eylem I dropped 8 kilos, my back no longer hurts, and I feel ten years younger. I recommend him to anyone who wants real results.",
+      ru: "Отличный тренер! Пришёл с лишним весом и зажатой спиной после многих лет за компьютером. После четырёх месяцев работы с Eylem сбросил 8 кг, спина больше не болит и чувствую себя на 10 лет моложе. Рекомендую всем, кто хочет реальных результатов."
     },
     "Пётр настоящий профессионал. За полгода тренировок сбросила 9 кг, набрала тонус и впервые за долгое время полюбила своё отражение в зеркале. Внимательный тренер, который слушает и корректирует программу под тебя. Очень рекомендую!": {
-      sr: "Peter je pravi profesionalac. Za šest meseci treninga skinula sam 9 kg, dobila tonus i po prvi put posle dužeg vremena zavolela svoj odraz u ogledalu. Pažljiv trener koji sluša i prilagođava program tebi. Preporučujem od srca!",
-      en: "Peter is a true professional. In six months of training I lost 9 kg, toned up, and for the first time in a long time fell in love with my reflection in the mirror. An attentive trainer who listens and adjusts the programme to suit you. Highly recommended!"
+      sr: "Eylem je pravi profesionalac. Za šest meseci treninga skinula sam 9 kg, dobila tonus i po prvi put posle dužeg vremena zavolela svoj odraz u ogledalu. Pažljiv trener koji sluša i prilagođava program tebi. Preporučujem od srca!",
+      en: "Eylem is a true professional. In six months of training I lost 9 kg, toned up, and for the first time in a long time fell in love with my reflection in the mirror. An attentive trainer who listens and adjusts the programme to suit you. Highly recommended!"
     },
 
     // Client reviews — interior pages (about.html, etc.)
     "Godinama sam pokušavala da izgradim tonus u teretani sama, bez uspeha. Sa Petrom sam za šest meseci dobila mišićnu masu koju nikad nisam imala i konačno volim svoj odraz u ogledalu. Strpljiv je i zna tačno kako da te motiviše.": {
-      en: "For years I tried to tone up at the gym on my own with no results. With Peter I built muscle in six months that I had never had before, and I finally love my reflection in the mirror. He is patient and knows exactly how to motivate you.",
-      ru: "Годами я пыталась привести мышцы в тонус в зале сама, без результата. С Peter за шесть месяцев я набрала мышцы, которых никогда не было, и наконец люблю своё отражение в зеркале. Терпеливый и точно знает, как мотивировать."
+      en: "For years I tried to tone up at the gym on my own with no results. With Eylem I built muscle in six months that I had never had before, and I finally love my reflection in the mirror. He is patient and knows exactly how to motivate you.",
+      ru: "Годами я пыталась привести мышцы в тонус в зале сама, без результата. С Eylem за шесть месяцев я набрала мышцы, которых никогда не было, и наконец люблю своё отражение в зеркале. Терпеливый и точно знает, как мотивировать."
     },
     "Sjajan trener i stručnjak. Pratimo ishranu, trening i oporavak, sve je isplanirano. Skinuo sam 10 kilograma za četiri meseca bez ekstremnih dijeta. Treninzi su zahtevni ali zanimljivi.": {
       en: "A great trainer and a real professional. We track nutrition, training, and recovery — everything is planned. I dropped 10 kilos in four months without any extreme diets. The sessions are demanding but always interesting.",
       ru: "Отличный тренер и профессионал. Мы отслеживаем питание, тренировки и восстановление — всё распланировано. Я сбросил 10 кг за четыре месяца без экстремальных диет. Тренировки сложные, но увлекательные."
     },
     "Rad sa Petrom je najbolja investicija koju sam napravila u svoje zdravlje. Bolela su me leđa godinama, sada se osećam kao nov čovek. Uvek je tu za savet, čak i van termina. Preporuka za svakoga.": {
-      en: "Working with Peter is the best investment I have ever made in my health. My back used to hurt for years, and now I feel like a new person. He is always there with advice, even outside sessions. A recommendation for everyone.",
-      ru: "Работа с Peter — лучшая инвестиция в моё здоровье. Спина болела годами, теперь чувствую себя новым человеком. Всегда на связи с советом, даже вне тренировки. Рекомендую каждому."
+      en: "Working with Eylem is the best investment I have ever made in my health. My back used to hurt for years, and now I feel like a new person. He is always there with advice, even outside sessions. A recommendation for everyone.",
+      ru: "Работа с Eylem — лучшая инвестиция в моё здоровье. Спина болела годами, теперь чувствую себя новым человеком. Всегда на связи с советом, даже вне тренировки. Рекомендую каждому."
     },
-    "Iskreno nisam verovao da mogu da se vratim u formu posle četrdesete. Peter je pokazao suprotno. Za pet meseci sam osetio razliku u snazi, držanju i kondiciji. Studio u Vračaru je miran, individualan pristup, bez gužve.": {
-      en: "Honestly, I did not believe I could get back in shape after forty. Peter proved the opposite. In five months I felt a real difference in strength, posture, and conditioning. The studio in Vračar is calm, the approach is personal, and there is no crowd.",
-      ru: "Честно, я не верил, что смогу вернуться в форму после сорока. Peter доказал обратное. За пять месяцев я почувствовал разницу в силе, осанке и выносливости. Студия во Врачаре спокойная, подход индивидуальный, без толпы."
+    "Iskreno nisam verovao da mogu da se vratim u formu posle četrdesete. Eylem je pokazao suprotno. Za pet meseci sam osetio razliku u snazi, držanju i kondiciji. Studio u Yıldızu je miran, individualan pristup, bez gužve.": {
+      en: "Honestly, I did not believe I could get back in shape after forty. Eylem proved the opposite. In five months I felt a real difference in strength, posture, and conditioning. The studio in Yıldız is calm, the approach is personal, and there is no crowd.",
+      ru: "Честно, я не верил, что смогу вернуться в форму после сорока. Eylem доказал обратное. За пять месяцев я почувствовал разницу в силе, осанке и выносливости. Студия во Врачаре спокойная, подход индивидуальный, без толпы."
     },
-    "Peter je jedan od retkih trenera koji stvarno prilagodi program tvom telu i tempu. Došao sam kao potpuni početnik, za tri meseca sam skinuo 7 kilograma i dobio više energije u svakodnevnom životu. Preporučujem svima koji su ozbiljni u vezi sebe.": {
-      en: "Peter is one of the rare trainers who truly adapts the programme to your body and your pace. I came in as a complete beginner, and in three months I dropped 7 kilos and gained noticeably more energy in daily life. I recommend him to anyone who is serious about themselves.",
-      ru: "Peter — один из немногих тренеров, который действительно подстраивает программу под твоё тело и темп. Пришёл полным новичком, за три месяца сбросил 7 кг и получил заметно больше энергии в повседневной жизни. Рекомендую всем, кто серьёзно относится к себе."
+    "Eylem je jedan od retkih trenera koji stvarno prilagodi program tvom telu i tempu. Došao sam kao potpuni početnik, za tri meseca sam skinuo 7 kilograma i dobio više energije u svakodnevnom životu. Preporučujem svima koji su ozbiljni u vezi sebe.": {
+      en: "Eylem is one of the rare trainers who truly adapts the programme to your body and your pace. I came in as a complete beginner, and in three months I dropped 7 kilos and gained noticeably more energy in daily life. I recommend him to anyone who is serious about themselves.",
+      ru: "Eylem — один из немногих тренеров, который действительно подстраивает программу под твоё тело и темп. Пришёл полным новичком, за три месяца сбросил 7 кг и получил заметно больше энергии в повседневной жизни. Рекомендую всем, кто серьёзно относится к себе."
     },
 
     // ============================================================
@@ -301,21 +292,21 @@
     // ============================================================
     "ABOUT US": { tr: "HAKKIMIZDA", sr: "O NAMA", ru: "О НАС" },
     "ABOUT ME": { tr: "HAKKIMDA", sr: "O MENI", ru: "ОБО МНЕ" },
-    "Available at: Elite Shape Personal Training": {
-      tr: "Konum: Elite Shape Personal Training", sr: "Dostupno u: Elite Shape Personal Training",
-      ru: "Доступно в: Elite Shape Personal Training"
+    "Available at: Eylem Tarhan Personal Training": {
+      tr: "Konum: Eylem Tarhan Personal Training", sr: "Dostupno u: Eylem Tarhan Personal Training",
+      ru: "Доступно в: Eylem Tarhan Personal Training"
     },
-    "At EliteShape we redefine your perception of Personal Training. We make it fun and exciting to work with a personal trainer, while always making sure you reach your personal goals the fastest, most effective way possible. No matter your goal, we will get you there!": {
-      sr: "U EliteShape-u redefinisaćemo tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaramo u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje lične ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešćemo te tamo!",
-      ru: "В EliteShape мы меняем представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — мы поможем её достичь!"
+    "At Eylem Tarhan we redefine your perception of Personal Training. We make it fun and exciting to work with a personal trainer, while always making sure you reach your personal goals the fastest, most effective way possible. No matter your goal, we will get you there!": {
+      sr: "U Eylem Tarhan-u redefinisaćemo tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaramo u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje lične ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešćemo te tamo!",
+      ru: "В Eylem Tarhan мы меняем представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — мы поможем её достичь!"
     },
-    "At EliteShape I redefine your perception of personal training. I make it fun and exciting to work with a personal trainer, while always making sure you reach your goals the fastest, most effective way possible. No matter your goal, I will get you there.": {
-      sr: "U EliteShape-u redefinišem tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaram u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešću te tamo.",
-      ru: "В EliteShape я меняю ваше представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — я помогу её достичь."
+    "At Eylem Tarhan I redefine your perception of personal training. I make it fun and exciting to work with a personal trainer, while always making sure you reach your goals the fastest, most effective way possible. No matter your goal, I will get you there.": {
+      sr: "U Eylem Tarhan-u redefinišem tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaram u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešću te tamo.",
+      ru: "В Eylem Tarhan я меняю ваше представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — я помогу её достичь."
     },
-    "At EliteShape I redefine your perception of personal training. I make it fun and exciting to work with a personal trainer, while always making sure you reach your goals the fastest, most effective way possible. No matter your goal, I will get you there!": {
-      sr: "U EliteShape-u redefinišem tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaram u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešću te tamo!",
-      ru: "В EliteShape я меняю ваше представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — я помогу её достичь!"
+    "At Eylem Tarhan I redefine your perception of personal training. I make it fun and exciting to work with a personal trainer, while always making sure you reach your goals the fastest, most effective way possible. No matter your goal, I will get you there!": {
+      sr: "U Eylem Tarhan-u redefinišem tvoj pogled na personalni trening. Rad s personalnim trenerom pretvaram u zabavno i uzbudljivo iskustvo, uz garanciju da ćeš svoje ciljeve dostići na najbrži i najefikasniji mogući način. Bez obzira na cilj, dovešću te tamo!",
+      ru: "В Eylem Tarhan я меняю ваше представление о персональных тренировках. Работа с тренером становится увлекательной и мотивирующей, а ваши цели достигаются самым быстрым и эффективным способом. Какой бы ни была ваша цель — я помогу её достичь!"
     },
     "✓ Unique program based on your goals": {
       sr: "✓ Jedinstven program prilagođen tvojim ciljevima",
@@ -374,9 +365,9 @@
       ru: "Мой подход на основе привычек фокусируется на ежедневных возможностях четырёх столпов здоровья (сон, стресс, питание, движение), улучшая то, что в наших силах, для твоих оптимальных результатов."
     },
     "MONTHLY CHECK-INS": { tr: "AYLIK KONTROLLER", sr: "MESEČNE PROVERE", ru: "ЕЖЕМЕСЯЧНЫЕ ПРОВЕРКИ" },
-    "Using my EliteShape app I track biomarkers such as muscle mass, body fat, strength, endurance and other various metrics to assess your progress.": {
-      sr: "Kroz svoju EliteShape aplikaciju pratim biomarkere poput mišićne mase, procenta masti, snage, izdržljivosti i drugih metrika kako bih procenio tvoj napredak.",
-      ru: "Через своё приложение EliteShape я отслеживаю биомаркеры — мышечную массу, процент жира, силу, выносливость и другие показатели — чтобы оценить твой прогресс."
+    "Using my Eylem Tarhan app I track biomarkers such as muscle mass, body fat, strength, endurance and other various metrics to assess your progress.": {
+      sr: "Kroz svoju Eylem Tarhan aplikaciju pratim biomarkere poput mišićne mase, procenta masti, snage, izdržljivosti i drugih metrika kako bih procenio tvoj napredak.",
+      ru: "Через своё приложение Eylem Tarhan я отслеживаю биомаркеры — мышечную массу, процент жира, силу, выносливость и другие показатели — чтобы оценить твой прогресс."
     },
     "KNOWLEDGE IS POWER": { tr: "BİLGİ GÜÇTÜR", sr: "ZNANJE JE MOĆ", ru: "ЗНАНИЕ — СИЛА" },
     "While training with me, I believe in teaching you the how and why behind my programming, so that you have the tools to be successful in any environment.": {
@@ -384,8 +375,8 @@
       ru: "Тренируясь со мной, ты узнаёшь не только «как», но и «почему» за моей программой — чтобы у тебя были инструменты для успеха в любой обстановке."
     },
     "Your Personal Trainer": { tr: "Kişisel Antrenörün", sr: "Tvoj Personalni Trener", ru: "Ваш персональный тренер" },
-    "Peter does whatever it takes to help you cross the line. He has put in the hours and done the work. Now he is here to help you reach the next level. Meet the coach who is going to help you level up — the one in your corner, every session.": {
-      sr: "Peter je spreman na sve da ti pomogne da pređeš cilj. Uložio je sate i prošao kroz rad. Sada je tu da ti pomogne da dostigneš sledeći nivo. Upoznaj trenera koji će te podići na viši nivo — onog ko stoji uz tebe, svaku sesiju.",
+    "Eylem does whatever it takes to help you cross the line. He has put in the hours and done the work. Now he is here to help you reach the next level. Meet the coach who is going to help you level up — the one in your corner, every session.": {
+      sr: "Eylem je spreman na sve da ti pomogne da pređeš cilj. Uložio je sate i prošao kroz rad. Sada je tu da ti pomogne da dostigneš sledeći nivo. Upoznaj trenera koji će te podići na viši nivo — onog ko stoji uz tebe, svaku sesiju.",
       ru: "Питер готов на всё, чтобы помочь тебе пересечь финишную черту. Он вложил часы и прошёл всю работу. Теперь он здесь, чтобы помочь тебе выйти на новый уровень. Познакомься с тренером, который поможет тебе расти — тем, кто в твоём углу, каждую сессию."
     },
 
@@ -446,9 +437,9 @@
       ru: "Каждую неделю отслеживаем прогресс, корректируем план и празднуем каждую победу."
     },
     "Training Features": { tr: "Antrenman Özellikleri", sr: "Karakteristike treninga", ru: "Особенности тренировок" },
-    "A session that is 100% yours. Peter watches every rep, corrects every error and pushes you further than you would push yourself.": {
-      sr: "Sesija koja je 100% tvoja. Peter prati svaku repeticiju, ispravlja svaku grešku i gura te dalje nego što bi ti sam sebe.",
-      ru: "Сессия, которая на 100% ваша. Peter следит за каждым повторением, исправляет каждую ошибку и подталкивает вас дальше, чем вы сами бы себя."
+    "A session that is 100% yours. Eylem watches every rep, corrects every error and pushes you further than you would push yourself.": {
+      sr: "Sesija koja je 100% tvoja. Eylem prati svaku repeticiju, ispravlja svaku grešku i gura te dalje nego što bi ti sam sebe.",
+      ru: "Сессия, которая на 100% ваша. Eylem следит за каждым повторением, исправляет каждую ошибку и подталкивает вас дальше, чем вы сами бы себя."
     },
     "Precise Technique": { tr: "Kesin Teknik", sr: "Precizna tehnika", ru: "Точная техника" },
     "Your trainer watches every movement, corrects errors in real time and makes sure you train safely and efficiently — every single rep.": {
@@ -512,40 +503,14 @@
     // ============================================================
     // contact.html — unique body copy
     // ============================================================
-    "Vračar | Belgrade": { sr: "Vračar | Beograd", ru: "Врачар | Белград" },
+    "Yıldız | Ankara": { sr: "Yıldız | Ankara", ru: "Врачар | Анкара" },
     "Get in touch (contact page)": { sr: "Kontaktiraj me", ru: "Свяжись со мной" },
-    "Full name": { sr: "Ime i prezime", ru: "Имя и фамилия" },
-    "Email": { sr: "E-mail", ru: "E-mail" },
-    "Phone": { sr: "Telefon", ru: "Телефон" },
-    "(optional)": { sr: "(opciono)", ru: "(необязательно)" },
-    "Goal": { sr: "Cilj", ru: "Цель" },
-    "Choose…": { sr: "Izaberi…", ru: "Выберите…" },
     "Online training": { sr: "Online trening", ru: "Онлайн-тренировки" },
-    "Training + Diet": { sr: "Trening + Ishrana", ru: "Тренировки + Питание" },
     "WhatsApp": { sr: "WhatsApp", ru: "WhatsApp" },
 
     // ============================================================
     // pricing.html — packages + What's Included
     // ============================================================
-    "1v1 In-Person Training": { sr: "1v1 Trening Uživo", ru: "Тренировки 1-на-1 лично" },
-    "1v1 Online Coaching": { sr: "1v1 Online Coaching", ru: "Онлайн-коучинг 1-на-1" },
-    "Single Session": { sr: "Pojedinačna Sesija", ru: "Одна сессия" },
-    "Per Session": { sr: "Po sesiji", ru: "За сессию" },
-    "In-Person at Studio": { sr: "Uživo u studiju", ru: "Лично в студии" },
-    "Get Started": { sr: "Započni", ru: "Начать" },
-    "Book anytime": { sr: "Rezerviši bilo kad", ru: "Запись в любое время" },
-    "Session Package": { sr: "Paket Sesija", ru: "Пакет сессий" },
-    "10 Sessions": { sr: "10 Sesija", ru: "10 сессий" },
-    "Save vs. single sessions": { sr: "Ušteda u odnosu na pojedinačne sesije", ru: "Экономия по сравнению с одиночными" },
-    "Online Training": { sr: "Online Trening", ru: "Онлайн-тренировки" },
-    "Per Month": { sr: "Mesečno", ru: "В месяц" },
-    "1v1 Monthly Program": { sr: "1v1 Mesečni Program", ru: "Ежемесячная программа 1-на-1" },
-    "Cancel anytime": { sr: "Otkazivanje bilo kad", ru: "Отмена в любое время" },
-    "Training + Nutrition Plan": { sr: "Plan treninga + ishrane", ru: "План тренировок + питание" },
-    "Personalised workouts plus a full nutrition plan built around your goals.": {
-      sr: "Personalizovani treninzi uz kompletan plan ishrane prilagođen tvojim ciljevima.",
-      ru: "Персональные тренировки плюс полный план питания под ваши цели."
-    },
     "What's Included in Every Program": {
       sr: "Šta je uključeno u svaki program",
       ru: "Что входит в каждую программу"
@@ -584,14 +549,13 @@
       sr: "Mere, fotografije i statistika beleže se kroz aplikaciju.",
       ru: "Замеры, фото и статистика фиксируются в приложении."
     },
-    "Trainers": { sr: "Treneri", ru: "Тренеры" },
 
     // ============================================================
     // faq.html — Q&As
     // ============================================================
-    "Personal Training with Peter": {
+    "Personal Training with Eylem": {
       sr: "Personalni trening sa Petrom",
-      ru: "Персональные тренировки с Peter"
+      ru: "Персональные тренировки с Eylem"
     },
     "Training, Nutrition & Results": {
       sr: "Trening, ishrana i rezultati",
@@ -602,29 +566,29 @@
       ru: "Трекинг, цены и запись"
     },
     "More questions?": { sr: "Još pitanja?", ru: "Остались вопросы?" },
-    "Message Peter directly and get an answer within a day.": {
+    "Message Eylem directly and get an answer within a day.": {
       sr: "Pošalji Petru poruku direktno i dobij odgovor u roku od jednog dana.",
-      ru: "Напишите Peter напрямую и получите ответ в течение дня."
+      ru: "Напишите Eylem напрямую и получите ответ в течение дня."
     },
-    "How does a 1-on-1 personal training session with Peter work?": {
+    "How does a 1-on-1 personal training session with Eylem work?": {
       sr: "Kako izgleda 1-na-1 personalni trening sa Petrom?",
-      ru: "Как проходит персональная тренировка 1-на-1 с Peter?"
+      ru: "Как проходит персональная тренировка 1-на-1 с Eylem?"
     },
-    "Every EliteShape personal training session in Vračar, Belgrade starts with a movement assessment and a short health intake so Peter can build a plan around your body and goals. A typical session runs 60 minutes and combines strength, mobility and conditioning, tailored to whether you are training for weight loss, muscle gain or general fitness. You leave each session with clear progress notes and the next workout scheduled.": {
-      sr: "Svaki EliteShape trening u Vračaru, Beograd počinje procenom pokreta i kratkim zdravstvenim intervjuom, kako bi Peter mogao da napravi plan prilagođen tvom telu i ciljevima. Tipična sesija traje 60 minuta i kombinuje snagu, mobilnost i kondiciju — prilagođeno da li treniraš za mršavljenje, mišićnu masu ili opštu kondiciju. Sa svake sesije odlaziš sa jasnim beleškama o napretku i zakazanim sledećim treningom.",
-      ru: "Каждая персональная тренировка EliteShape во Врачаре, Белград начинается с оценки движения и короткого опроса о здоровье, чтобы Peter построил план под ваше тело и цели. Обычная сессия длится 60 минут и совмещает силу, мобильность и кондиционинг — в зависимости от цели (похудение, набор массы или общая форма). После каждой сессии вы получаете заметки о прогрессе и следующую тренировку в расписании."
+    "Every Eylem Tarhan personal training session in Yıldız, Ankara starts with a movement assessment and a short health intake so Eylem can build a plan around your body and goals. A typical session runs 60 minutes and combines strength, mobility and conditioning, tailored to whether you are training for weight loss, muscle gain or general fitness. You leave each session with clear progress notes and the next workout scheduled.": {
+      sr: "Svaki Eylem Tarhan trening u Yıldız, Ankara počinje procenom pokreta i kratkim zdravstvenim intervjuom, kako bi Eylem mogao da napravi plan prilagođen tvom telu i ciljevima. Tipična sesija traje 60 minuta i kombinuje snagu, mobilnost i kondiciju — prilagođeno da li treniraš za mršavljenje, mišićnu masu ili opštu kondiciju. Sa svake sesije odlaziš sa jasnim beleškama o napretku i zakazanim sledećim treningom.",
+      ru: "Каждая персональная тренировка Eylem Tarhan во Врачаре, Анкара начинается с оценки движения и короткого опроса о здоровье, чтобы Eylem построил план под ваше тело и цели. Обычная сессия длится 60 минут и совмещает силу, мобильность и кондиционинг — в зависимости от цели (похудение, набор массы или общая форма). После каждой сессии вы получаете заметки о прогрессе и следующую тренировку в расписании."
     },
     "Can I book a free consultation before committing?": {
       sr: "Mogu li da zakažem besplatnu konsultaciju pre nego što se odlučim?",
       ru: "Можно ли записаться на бесплатную консультацию перед оплатой?"
     },
-    "Yes. Before you buy a session package, Peter offers a free 20-minute consultation — in person at the Vračar studio or online — where you walk through your goals, training history and schedule. You get an honest opinion on timelines and pricing, and only move forward if the programme fits. No pressure, no sales script.": {
-      sr: "Da. Pre nego što kupiš paket sesija, Peter nudi besplatnu konsultaciju od 20 minuta — uživo u studiju u Vračaru ili onlajn — gde razgovarate o ciljevima, istoriji treninga i rasporedu. Dobijaš iskreno mišljenje o rokovima i ceni i nastavljaš samo ako ti program odgovara. Bez pritiska, bez prodajnih fora.",
-      ru: "Да. Перед покупкой пакета сессий Peter предлагает бесплатную 20-минутную консультацию — лично в студии во Врачаре или онлайн — чтобы обсудить ваши цели, историю тренировок и расписание. Вы получаете честное мнение о сроках и цене и двигаетесь дальше, только если программа подходит. Без давления и продающих сценариев."
+    "Yes. Before you buy a session package, Eylem offers a free 20-minute consultation — in person at the Yıldız studio or online — where you walk through your goals, training history and schedule. You get an honest opinion on timelines and pricing, and only move forward if the programme fits. No pressure, no sales script.": {
+      sr: "Da. Pre nego što kupiš paket sesija, Eylem nudi besplatnu konsultaciju od 20 minuta — uživo u studiju u Yıldızu ili onlajn — gde razgovarate o ciljevima, istoriji treninga i rasporedu. Dobijaš iskreno mišljenje o rokovima i ceni i nastavljaš samo ako ti program odgovara. Bez pritiska, bez prodajnih fora.",
+      ru: "Да. Перед покупкой пакета сессий Eylem предлагает бесплатную 20-минутную консультацию — лично в студии во Врачаре или онлайн — чтобы обсудить ваши цели, историю тренировок и расписание. Вы получаете честное мнение о сроках и цене и двигаетесь дальше, только если программа подходит. Без давления и продающих сценариев."
     },
-    "What if Peter isn't the right fit after the first session?": {
-      sr: "Šta ako se posle prve sesije ispostavi da Peter nije pravi trener za mene?",
-      ru: "Что если после первой сессии Peter окажется не подходящим тренером?"
+    "What if Eylem isn't the right fit after the first session?": {
+      sr: "Šta ako se posle prve sesije ispostavi da Eylem nije pravi trener za mene?",
+      ru: "Что если после первой сессии Eylem окажется не подходящим тренером?"
     },
     "Trainer-client chemistry matters. If the working style doesn't suit you after session one, just tell us — no awkwardness, no pressure. We either adjust the approach or point you toward a better fit elsewhere.": {
       sr: "Hemija između trenera i klijenta je bitna. Ako ti stil rada ne odgovara posle prve sesije, samo nam kaži — bez nelagode, bez pritiska. Ili prilagodimo pristup, ili te uputimo nekome kome više odgovaraš.",
@@ -634,9 +598,9 @@
       sr: "Koliko sesija nedeljno mi je potrebno?",
       ru: "Сколько сессий в неделю мне нужно?"
     },
-    "For fat loss or muscle building Peter recommends 3–4 sessions per week. For general health and fitness, 2–3 sessions work well. We discuss the right cadence for your schedule and goals during the consultation.": {
-      sr: "Za gubitak masti ili izgradnju mišića Peter preporučuje 3–4 sesije nedeljno. Za opšte zdravlje i kondiciju dovoljne su 2–3 sesije. Tačan ritam za tvoj raspored i ciljeve definišemo na konsultaciji.",
-      ru: "Для снижения жира или набора мышц Peter рекомендует 3–4 сессии в неделю. Для общего здоровья и формы хватает 2–3 сессий. Правильный ритм под ваше расписание и цели определяем на консультации."
+    "For fat loss or muscle building Eylem recommends 3–4 sessions per week. For general health and fitness, 2–3 sessions work well. We discuss the right cadence for your schedule and goals during the consultation.": {
+      sr: "Za gubitak masti ili izgradnju mišića Eylem preporučuje 3–4 sesije nedeljno. Za opšte zdravlje i kondiciju dovoljne su 2–3 sesije. Tačan ritam za tvoj raspored i ciljeve definišemo na konsultaciji.",
+      ru: "Для снижения жира или набора мышц Eylem рекомендует 3–4 сессии в неделю. Для общего здоровья и формы хватает 2–3 сессий. Правильный ритм под ваше расписание и цели определяем на консультации."
     },
     "I have an injury — can I still train?": {
       sr: "Imam povredu — da li ipak mogu da treniram?",
@@ -650,45 +614,45 @@
       sr: "Koliko brzo mogu da očekujem rezultate uz personalni trening?",
       ru: "Как быстро можно ожидать результатов от персональных тренировок?"
     },
-    "Most EliteShape clients see real changes — better body composition, more strength, visible fat loss — within 6 to 8 weeks of consistent 2-3 sessions per week. The rate depends on three things Peter tracks every week: training intensity, recovery, and nutrition. If you follow the plan, measurable results in the first month are the norm rather than the exception.": {
-      sr: "Većina EliteShape klijenata vidi stvarne promene — bolji sastav tela, veću snagu, vidljiv gubitak masti — u roku od 6 do 8 nedelja, uz dosledne 2–3 sesije nedeljno. Tempo zavisi od tri stvari koje Peter prati nedeljno: intenzitet treninga, oporavak i ishrana. Ako pratiš plan, merljivi rezultati u prvom mesecu su pravilo, ne izuzetak.",
-      ru: "Большинство клиентов EliteShape замечают реальные изменения — улучшение состава тела, рост силы, заметное снижение жира — за 6–8 недель при постоянных 2–3 сессиях в неделю. Скорость зависит от трёх вещей, которые Peter отслеживает еженедельно: интенсивность тренировок, восстановление и питание. Если следовать плану, измеримые результаты в первый месяц — это правило, а не исключение."
+    "Most Eylem Tarhan clients see real changes — better body composition, more strength, visible fat loss — within 6 to 8 weeks of consistent 2-3 sessions per week. The rate depends on three things Eylem tracks every week: training intensity, recovery, and nutrition. If you follow the plan, measurable results in the first month are the norm rather than the exception.": {
+      sr: "Većina Eylem Tarhan klijenata vidi stvarne promene — bolji sastav tela, veću snagu, vidljiv gubitak masti — u roku od 6 do 8 nedelja, uz dosledne 2–3 sesije nedeljno. Tempo zavisi od tri stvari koje Eylem prati nedeljno: intenzitet treninga, oporavak i ishrana. Ako pratiš plan, merljivi rezultati u prvom mesecu su pravilo, ne izuzetak.",
+      ru: "Большинство клиентов Eylem Tarhan замечают реальные изменения — улучшение состава тела, рост силы, заметное снижение жира — за 6–8 недель при постоянных 2–3 сессиях в неделю. Скорость зависит от трёх вещей, которые Eylem отслеживает еженедельно: интенсивность тренировок, восстановление и питание. Если следовать плану, измеримые результаты в первый месяц — это правило, а не исключение."
     },
     "Do you offer online personal training programs?": {
       sr: "Da li nudite online personalne programe treninga?",
       ru: "Есть ли онлайн-программы персональных тренировок?"
     },
-    "Yes. The €75 monthly online programme gives you a custom training plan delivered through an app, weekly check-ins with Peter, and video form-checks on your lifts. The €125 plan adds a full nutrition plan built around your schedule and preferences. Both are 1-on-1 coaching — not generic templates — and you can start from anywhere in the world.": {
+    "Yes. The €75 monthly online programme gives you a custom training plan delivered through an app, weekly check-ins with Eylem, and video form-checks on your lifts. The €125 plan adds a full nutrition plan built around your schedule and preferences. Both are 1-on-1 coaching — not generic templates — and you can start from anywhere in the world.": {
       sr: "Da. Mesečni online program od €75 uključuje personalizovan plan treninga kroz aplikaciju, nedeljne provere s Petrom i video analize tehnike. Plan od €125 dodaje kompletan plan ishrane prilagođen tvom rasporedu i navikama. Oba su 1-na-1 coaching — ne generički šabloni — i možeš da počneš s bilo kog mesta u svetu.",
-      ru: "Да. Месячная онлайн-программа за €75 включает индивидуальный план тренировок в приложении, еженедельные проверки с Peter и видео-разбор техники. План за €125 добавляет полный план питания под ваше расписание и привычки. Оба — коучинг 1-на-1, а не шаблоны, и начать можно из любой точки мира."
+      ru: "Да. Месячная онлайн-программа за €75 включает индивидуальный план тренировок в приложении, еженедельные проверки с Eylem и видео-разбор техники. План за €125 добавляет полный план питания под ваше расписание и привычки. Оба — коучинг 1-на-1, а не шаблоны, и начать можно из любой точки мира."
     },
     "Is nutrition coaching included in the training plans?": {
       sr: "Da li je savetovanje o ishrani uključeno u planove treninga?",
       ru: "Входит ли консультирование по питанию в планы тренировок?"
     },
-    "Nutrition is included in the Training + Diet plan (€125 per month online, or added to in-person packages). You get a meal-structure that fits your routine, macronutrient targets based on your goal, grocery-list templates in English or Serbian, and weekly adjustments as your body responds. Peter keeps the plan realistic — no extreme cuts, no complicated supplement stacks.": {
-      sr: "Ishrana je uključena u plan Trening + Ishrana (€125 mesečno online ili uz pakete uživo). Dobijaš strukturu obroka prilagođenu tvojoj rutini, makronutrijentske ciljeve prema tvom cilju, šablone lista za kupovinu na srpskom ili engleskom, i nedeljne korekcije kako tvoje telo reaguje. Peter drži plan realnim — bez ekstremnih rezova, bez komplikovanih suplementacija.",
-      ru: "Питание включено в план Тренировки + Питание (€125 в месяц онлайн или к очным пакетам). Вы получаете структуру приёмов пищи под ваш ритм, целевые макронутриенты под цель, шаблоны списков покупок на английском или сербском и еженедельные корректировки. Peter делает план реалистичным — без экстремальных урезаний и сложных стеков добавок."
+    "Nutrition is included in the Training + Diet plan (€125 per month online, or added to in-person packages). You get a meal-structure that fits your routine, macronutrient targets based on your goal, grocery-list templates in English or Turkeyn, and weekly adjustments as your body responds. Eylem keeps the plan realistic — no extreme cuts, no complicated supplement stacks.": {
+      sr: "Ishrana je uključena u plan Trening + Ishrana (€125 mesečno online ili uz pakete uživo). Dobijaš strukturu obroka prilagođenu tvojoj rutini, makronutrijentske ciljeve prema tvom cilju, šablone lista za kupovinu na srpskom ili engleskom, i nedeljne korekcije kako tvoje telo reaguje. Eylem drži plan realnim — bez ekstremnih rezova, bez komplikovanih suplementacija.",
+      ru: "Питание включено в план Тренировки + Питание (€125 в месяц онлайн или к очным пакетам). Вы получаете структуру приёмов пищи под ваш ритм, целевые макронутриенты под цель, шаблоны списков покупок на английском или сербском и еженедельные корректировки. Eylem делает план реалистичным — без экстремальных урезаний и сложных стеков добавок."
     },
-    "Why choose a certified personal trainer in Vračar, Belgrade?": {
-      sr: "Zašto izabrati sertifikovanog personalnog trenera u Vračaru, Beograd?",
-      ru: "Почему стоит выбрать сертифицированного тренера во Врачаре, Белград?"
+    "Why choose a certified personal trainer in Yıldız, Ankara?": {
+      sr: "Zašto izabrati sertifikovanog personalnog trenera u Yıldız, Ankara?",
+      ru: "Почему стоит выбрать сертифицированного тренера во Врачаре, Анкара?"
     },
-    "Training with Peter at EliteShape in Vračar gives you three things a regular gym cannot: a programme built for your body, a trainer who watches every rep, and a plan that evolves with your progress. Most clients come in with back pain, plateaued weight loss or stalled strength — and walk out in 3 months measurably stronger, leaner and confident in the gym. Belgrade-central location, English and Serbian coaching, flexible schedule including online sessions.": {
-      sr: "Trening s Petrom u EliteShape-u u Vračaru daje ti tri stvari koje obična teretana ne može: program napravljen za tvoje telo, trenera koji prati svaku repeticiju i plan koji se razvija sa tvojim napretkom. Većina klijenata dolazi s bolovima u leđima, zastojem u mršavljenju ili snagom koja stoji — a već za 3 meseca izlazi merljivo jači, lakši i siguran u teretani. Centralna lokacija u Beogradu, coaching na engleskom i srpskom, fleksibilan raspored uključujući online sesije.",
-      ru: "Тренировки с Peter в EliteShape во Врачаре дают три вещи, которых нет в обычном зале: программу под ваше тело, тренера, который следит за каждым повторением, и план, который развивается с вашим прогрессом. Большинство клиентов приходят с болями в спине, остановкой в похудении или застоем в силе — и через 3 месяца выходят заметно сильнее, стройнее и увереннее в зале. Центральная локация в Белграде, коучинг на английском и сербском, гибкое расписание, включая онлайн-сессии."
+    "Training with Eylem at Eylem Tarhan in Yıldız gives you three things a regular gym cannot: a programme built for your body, a trainer who watches every rep, and a plan that evolves with your progress. Most clients come in with back pain, plateaued weight loss or stalled strength — and walk out in 3 months measurably stronger, leaner and confident in the gym. Ankara-central location, English and Turkeyn coaching, flexible schedule including online sessions.": {
+      sr: "Trening s Petrom u Eylem Tarhan-u u Yıldızu daje ti tri stvari koje obična teretana ne može: program napravljen za tvoje telo, trenera koji prati svaku repeticiju i plan koji se razvija sa tvojim napretkom. Većina klijenata dolazi s bolovima u leđima, zastojem u mršavljenju ili snagom koja stoji — a već za 3 meseca izlazi merljivo jači, lakši i siguran u teretani. Centralna lokacija u Ankarau, coaching na engleskom i srpskom, fleksibilan raspored uključujući online sesije.",
+      ru: "Тренировки с Eylem в Eylem Tarhan во Врачаре дают три вещи, которых нет в обычном зале: программу под ваше тело, тренера, который следит за каждым повторением, и план, который развивается с вашим прогрессом. Большинство клиентов приходят с болями в спине, остановкой в похудении или застоем в силе — и через 3 месяца выходят заметно сильнее, стройнее и увереннее в зале. Центральная локация в Анкаре, коучинг на английском и сербском, гибкое расписание, включая онлайн-сессии."
     },
     "What does a typical week of online coaching look like?": {
       sr: "Kako izgleda tipična nedelja online coaching-a?",
       ru: "Как выглядит типичная неделя онлайн-коучинга?"
     },
-    "Each week you receive your training and meal plan. After every session you log weights, sets and reps in the app. At the end of the week you send photos and measurements; Peter reviews the data and adjusts the following week accordingly.": {
-      sr: "Svake nedelje dobijaš plan treninga i ishrane. Posle svake sesije beležiš kilažu, serije i ponavljanja u aplikaciji. Na kraju nedelje šalješ fotografije i mere; Peter pregleda podatke i prilagođava sledeću nedelju.",
-      ru: "Каждую неделю вы получаете план тренировок и питания. После каждой сессии вносите веса, подходы и повторения в приложение. В конце недели отправляете фото и замеры; Peter анализирует данные и корректирует следующую неделю."
+    "Each week you receive your training and meal plan. After every session you log weights, sets and reps in the app. At the end of the week you send photos and measurements; Eylem reviews the data and adjusts the following week accordingly.": {
+      sr: "Svake nedelje dobijaš plan treninga i ishrane. Posle svake sesije beležiš kilažu, serije i ponavljanja u aplikaciji. Na kraju nedelje šalješ fotografije i mere; Eylem pregleda podatke i prilagođava sledeću nedelju.",
+      ru: "Каждую неделю вы получаете план тренировок и питания. После каждой сессии вносите веса, подходы и повторения в приложение. В конце недели отправляете фото и замеры; Eylem анализирует данные и корректирует следующую неделю."
     },
-    "I'm not in Serbia — can I still use online coaching?": {
+    "I'm not in Turkey — can I still use online coaching?": {
       sr: "Nisam u Srbiji — mogu li da koristim online coaching?",
-      ru: "Я не в Сербии — можно ли заниматься онлайн?"
+      ru: "Я не в Турции — можно ли заниматься онлайн?"
     },
     "Absolutely. Online coaching was built exactly for this. It works seamlessly across time zones — communication happens through the app or WhatsApp, fast, clear and consistent.": {
       sr: "Apsolutno. Online coaching je upravo za to napravljen. Besprekorno radi kroz vremenske zone — komunikacija ide preko aplikacije ili WhatsApp-a, brzo, jasno i dosledno.",
@@ -698,9 +662,9 @@
       sr: "Da li mi treba teretana ili mogu da treniram kod kuće?",
       ru: "Нужен ли зал, или можно тренироваться дома?"
     },
-    "Either works. When you sign up, you tell us what equipment you have — dumbbells, resistance bands, bodyweight only, or a fully equipped gym — and Peter builds the programme exclusively around that. A gym membership is never a requirement.": {
-      sr: "Oboje funkcioniše. Kada se prijaviš, kažeš nam koju opremu imaš — bučice, gumene trake, samo sopstvenu težinu ili potpuno opremljenu teretanu — i Peter gradi program isključivo oko toga. Članarina u teretani nikada nije uslov.",
-      ru: "Оба варианта подходят. При записи вы указываете, какое оборудование у вас есть — гантели, резинки, только собственный вес или полностью оборудованный зал — и Peter строит программу исключительно под это. Абонемент в зал не обязателен."
+    "Either works. When you sign up, you tell us what equipment you have — dumbbells, resistance bands, bodyweight only, or a fully equipped gym — and Eylem builds the programme exclusively around that. A gym membership is never a requirement.": {
+      sr: "Oboje funkcioniše. Kada se prijaviš, kažeš nam koju opremu imaš — bučice, gumene trake, samo sopstvenu težinu ili potpuno opremljenu teretanu — i Eylem gradi program isključivo oko toga. Članarina u teretani nikada nije uslov.",
+      ru: "Оба варианта подходят. При записи вы указываете, какое оборудование у вас есть — гантели, резинки, только собственный вес или полностью оборудованный зал — и Eylem строит программу исключительно под это. Абонемент в зал не обязателен."
     },
     "How much time does tracking take each day?": {
       sr: "Koliko vremena dnevno oduzima praćenje?",
@@ -714,9 +678,9 @@
       sr: "Da li moram da brojim svaku kaloriju?",
       ru: "Нужно ли считать каждую калорию?"
     },
-    "Not necessarily. Some clients do precise macro tracking; others focus on healthy eating principles without obsessive counting. Peter adapts the approach to your personality and goals.": {
-      sr: "Ne obavezno. Neki klijenti precizno prate makroe; drugi se fokusiraju na principe zdrave ishrane bez opsesivnog brojanja. Peter prilagođava pristup tvojoj ličnosti i ciljevima.",
-      ru: "Необязательно. Кто-то точно считает макросы, кто-то придерживается принципов здорового питания без навязчивого подсчёта. Peter подстраивает подход под вашу личность и цели."
+    "Not necessarily. Some clients do precise macro tracking; others focus on healthy eating principles without obsessive counting. Eylem adapts the approach to your personality and goals.": {
+      sr: "Ne obavezno. Neki klijenti precizno prate makroe; drugi se fokusiraju na principe zdrave ishrane bez opsesivnog brojanja. Eylem prilagođava pristup tvojoj ličnosti i ciljevima.",
+      ru: "Необязательно. Кто-то точно считает макросы, кто-то придерживается принципов здорового питания без навязчивого подсчёта. Eylem подстраивает подход под вашу личность и цели."
     },
     "What if I miss a session or fall off the diet?": {
       sr: "Šta ako propustim sesiju ili odstupim od ishrane?",
@@ -901,8 +865,33 @@
       sr: "Najveći razlog što dijete propadaju je što niko ne prati dalje. Svake nedelje pregledamo tvoje brojeve, prilagođavamo plan i držimo te u koloseku. Nikad ne nagađaš, nikad nisi sam i nikad ne zapneš na platou — samo stabilan, iskren napredak sa nekim uz tebe dok ne stigneš do cilja.",
       ru: "Главная причина, по которой диеты проваливаются — никто не даёт обратной связи. Каждую неделю мы пересматриваем твои цифры, корректируем план и держим тебя в ритме. Никаких догадок, никакого одиночества и никакого плато — только стабильный, честный прогресс, пока ты не достигнешь цели, с человеком рядом."
     },
-    "PETER": { tr: "PETER", sr: "PETER", ru: "ПИТЕР" },
-    "Bio": { tr: "Biyografi", sr: "Biografija", ru: "Биография" }
+    "EYLEM": { tr: "EYLEM", sr: "EYLEM", ru: "ПИТЕР" },
+    "Bio": { tr: "Biyografi", sr: "Biografija", ru: "Биография" },
+
+    // Added for Eylem Tarhan rebrand — TR-first UI strings
+    "Learn about my services": { tr: "Hizmetlerim hakkında bilgi al", ru: "Узнайте о моих услугах" },
+    "About me": { tr: "Hakkımda", ru: "Обо мне" },
+    "ABOUT ME": { tr: "HAKKIMDA", ru: "ОБО МНЕ" },
+    "My App": { tr: "Uygulamam", ru: "Моё приложение" },
+    "MY APP": { tr: "UYGULAMAM", ru: "МОЁ ПРИЛОЖЕНИЕ" },
+    "JOIN ME": { tr: "BANA KATIL", ru: "ПРИСОЕДИНИСЬ" },
+    "Join me": { tr: "Bana katıl", ru: "Присоединись" },
+    "FIRST TIMER": { tr: "İLK KEZ Mİ?", ru: "ПЕРВЫЙ РАЗ?" },
+    "Become a member now": { tr: "Şimdi üye ol", ru: "Стать членом сейчас" },
+    "Memberships": { tr: "Üyelikler", ru: "Членство" },
+    "WELCOME": { tr: "HOŞ GELDİN", ru: "ДОБРО ПОЖАЛОВАТЬ" },
+    "Keep up with the latest news, trends and information regarding health, fitness, and nutrition.": { tr: "Sağlık, fitness ve beslenme ile ilgili en son haberleri, trendleri ve bilgileri takip et.", ru: "Следите за последними новостями, тенденциями и информацией о здоровье, фитнесе и питании." },
+    "Push / Pull / Legs: The Best Workout Split for Building Real Muscle": { tr: "İtme / Çekme / Bacak: Gerçek Kas İnşası İçin En İyi Antrenman Bölümü", ru: "Push / Pull / Legs: Лучшее разделение тренировок для роста мышц" },
+    "How Many Sets Per Muscle Per Week? The Science-Backed Answer": { tr: "Kas Başına Haftada Kaç Set? Bilimsel Yanıt", ru: "Сколько подходов на группу мышц в неделю? Научный ответ" },
+    "Protein, Carbs, Fats: The Simple Macro Split Eylem Uses With New Clients": { tr: "Protein, Karbonhidrat, Yağ: Eylem'in Yeni Danışanlarıyla Kullandığı Basit Makro Dağılımı", ru: "Белки, Углеводы, Жиры: Простое распределение макросов, которое Эйлем использует с новыми клиентами" },
+    "Located in Yıldız, Ankara, I am an educated, skilled and friendly personal trainer dedicated to providing the specialized attention, training and knowledge needed to help my clients attain their unique fitness objectives. As an ardent student of the latest developments in fitness, weight loss and strength training exercise programs, I maintain the highest standards for your training, continually sharpening my skills through related courses throughout the year.": { tr: "Yıldız, Ankara'da yer alıyorum. Müşterilerimin kendilerine özgü fitness hedeflerine ulaşmaları için ihtiyaç duydukları özel ilgiyi, antrenmanı ve bilgiyi sunmaya adanmış, eğitimli, yetenekli ve dost canlısı bir kişisel antrenörüm. Fitness, kilo verme ve kuvvet antrenmanı programlarındaki son gelişmeleri tutkuyla takip eder, yıl boyu ilgili kurslarla kendimi geliştirerek antrenmanların için en yüksek standardı korurum.", ru: "Нахожусь в районе Йылдыз, Анкара. Я — образованный, опытный и дружелюбный персональный тренер, посвятивший себя оказанию индивидуального внимания, проведению тренировок и передаче знаний, необходимых моим клиентам для достижения их уникальных фитнес-целей. Будучи увлечённым студентом последних достижений в области фитнеса, снижения веса и силовых тренировок, я поддерживаю высочайшие стандарты ваших тренировок, постоянно повышая квалификацию через специализированные курсы в течение года." },
+    "GET IN TOUCH": { tr: "İLETİŞİME GEÇ", ru: "СВЯЖИСЬ СО МНОЙ" },
+    "Ready to start?": { tr: "Başlamaya hazır mısın?", ru: "Готов начать?" },
+    "READY TO START?": { tr: "BAŞLAMAYA HAZIR MISIN?", ru: "ГОТОВ НАЧАТЬ?" },
+    "Book Personal Training Today": { tr: "Bugün Kişisel Antrenman Randevusu Al", ru: "Запиши персональную тренировку сегодня" },
+    "Regardless of your fitness background or the stage of life you find yourself in, I'm dedicated to providing a supportive and welcoming training environment. My goal is to guide and inspire you, whether you're stepping into the world of fitness for the first time or maintaining elite athletic performance. Join me, and let's embark on a wellness journey tailored to your unique goals, celebrating every achievement along the way. Experience top personal training today!": { tr: "Fitness geçmişin ya da hayatın hangi döneminde olursan ol, destekleyici ve misafirperver bir antrenman ortamı sunmaya adanmışım. Fitness dünyasına ilk kez adım atıyor olsan da elit atletik performansını sürdürüyor olsan da seni yönlendirmek ve ilham vermek hedefim. Bana katıl; hedeflerine özel bir sağlık yolculuğuna çıkalım ve yol boyunca her başarını birlikte kutlayalım. Bugün zirve kişisel antrenman deneyimini yaşa!", ru: "Независимо от твоего фитнес-опыта или этапа жизни, я посвящаю себя созданию поддерживающей и гостеприимной тренировочной среды. Моя цель — направлять и вдохновлять тебя, делаешь ли ты первые шаги в фитнесе или поддерживаешь элитный уровень. Присоединяйся, и отправимся в оздоровительное путешествие, адаптированное под твои цели, празднуя каждое достижение. Испытай лучшие персональные тренировки уже сегодня!" },
+    "terms of use": { tr: "kullanım koşulları", ru: "условия использования" },
+    "Terms of Use": { tr: "Kullanım Koşulları", ru: "Условия использования" },
   };
 
   // -- State --
@@ -944,7 +933,7 @@
   function applyLanguage() {
     document.documentElement.setAttribute("lang", state.lang);
     // Always run through translateNode / translateAttr — even for EN — so
-    // strings whose source text is NOT English (Serbian reviews, Peter quotes)
+    // strings whose source text is NOT English (Turkeyn reviews, Eylem quotes)
     // can still be rendered in EN/RU via DICT entries keyed on the source.
     // If no DICT entry exists for the current lang, lookup() returns null and
     // the node falls back to its original source text (unchanged).
@@ -1229,7 +1218,7 @@
     ].join(",");
 
     // Animate heading + following paragraph pairs in text-editor widgets —
-    // i.e. section intros like "WELCOME" / "Located in Vračar…".  Skip
+    // i.e. section intros like "WELCOME" / "Located in Yıldız…".  Skip
     // pricing labels, card titles, nav items, button text.
     var candidates = [];
     var seen = new Set();
