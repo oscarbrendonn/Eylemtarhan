@@ -442,6 +442,12 @@ html[data-theme="dark"] body .ekit-nav-menu a:hover{
    Info-card grids (What's Included / How It Works / Stats)
    Reused across pricing.html + personal-training.html
    ============================================================ */
+/* Hide legacy raw paragraph widgets — superseded by .es-info-section cards */
+.elementor-element-hiw-steps,
+.elementor-element-tf-list,
+.elementor-element-cp-stats{
+  display:none !important;
+}
 .es-info-section{
   max-width:1100px;
   margin:64px auto 0;
