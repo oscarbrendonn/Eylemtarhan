@@ -283,7 +283,33 @@
       en: "Eylem is a true professional. In six months of training I lost 9 kg, toned up, and for the first time in a long time fell in love with my reflection in the mirror. An attentive trainer who listens and adjusts the programme to suit you. Highly recommended!"
     },
 
-    // Client reviews — interior pages (about.html, etc.)
+        "EYLEM is an amazing trainer and coach. I was already active, but after two broken bones I needed to add muscle and bone strengthening. EYLEM personalizes every workout and the results are motivating and empowering. Plus Guy and the whole team are welcoming and the facilities are bright and clean.": {
+      tr: "EYLEM harika bir antrenör ve koç. Zaten aktiftim ama iki kırık kemikten sonra kas ve kemik güçlendirmesi eklemem gerekti. EYLEM her antrenmanı kişiselleştiriyor, sonuçlar motive edici ve güç veriyor. Üstüne tüm ekip sıcakkanlı, tesisler de aydınlık ve tertemiz.",
+      sr: "EYLEM je sjajan trener i kouč. Već sam bio aktivan, ali posle dva slomljena kosta trebalo mi je jačanje mišića i kostiju. EYLEM personalizuje svaki trening, a rezultati motivišu i daju snagu. Uz to, ceo tim je gostoljubiv, a prostor svetao i čist.",
+      ru: "EYLEM — потрясающий тренер и коуч. Я уже была активной, но после двух переломов нужно было укреплять мышцы и кости. EYLEM подбирает каждую тренировку индивидуально, результаты мотивируют и придают сил. Вся команда приветливая, а зал светлый и чистый."
+    },
+    "Eylem is the real deal. Over six months of training I dropped 9 kg, got my tone back and — for the first time in years — actually liked what I saw in the mirror. A trainer who listens and tailors the programme around you. Highly recommend.": {
+      tr: "Eylem işin gerçeği. Altı aylık antrenmandan sonra 9 kilo verdim, tonusumu yeniden kazandım ve yıllar sonra ilk kez aynadakini gerçekten beğendim. Dinleyen ve programı sana göre uyarlayan bir antrenör. Şiddetle tavsiye ederim.",
+      sr: "Eylem je pravi pogodak. Tokom šest meseci treninga skinula sam 9 kg, vratila tonus i — po prvi put posle godina — zaista mi se svidelo ono što vidim u ogledalu. Trener koji sluša i prilagođava program tebi. Toplo preporučujem.",
+      ru: "Eylem — настоящая находка. За полгода тренировок я сбросила 9 кг, вернула тонус и впервые за годы по-настоящему полюбила то, что вижу в зеркале. Тренер, который слушает и подстраивает программу под тебя. Очень рекомендую."
+    },
+    "I’ve been coming to this gym for 2+ years. Assumed it would only be a few months of personal training but never left! Great trainers and facilities and has helped me get so much stronger.": {
+      tr: "Bu salona 2+ yıldır geliyorum. Sadece birkaç ay personal training olur sanmıştım, hiç ayrılmadım! Antrenörler ve tesisler harika; çok daha güçlü olmama yardımcı oldular.",
+      sr: "U ovaj studio dolazim već 2+ godine. Mislio sam da će biti samo nekoliko meseci personalnog treninga, ali nisam otišao! Sjajni treneri i prostor — pomogli su mi da budem mnogo jači.",
+      ru: "Хожу в этот зал уже больше двух лет. Думала, будет всего пара месяцев персональных тренировок — но так и не ушла! Отличные тренеры и зал, благодаря им я стала намного сильнее."
+    },
+    "I’ve had an amazing experience training with Guy at Ankara Personal Trainer. He completely changed the way I think about working out,I actually look forward to my sessions now. After just six sessions, I’m already seeing real results, which is incredibly motivating. His approach is both effective and sustainable, making it easier to stay consistent and reach my goals. Highly recommend!": {
+      tr: "Eylem ile antrenman yapmak harika bir deneyim oldu. Spor yapmaya bakışımı tamamen değiştirdi; artık seanslarımı dört gözle bekliyorum. Sadece altı seansın ardından gerçek sonuçlar görmeye başladım, bu da inanılmaz motive edici. Yaklaşımı hem etkili hem sürdürülebilir, bu da düzenli kalıp hedeflerime ulaşmamı kolaylaştırıyor. Şiddetle tavsiye ederim!",
+      sr: "Iskustvo treninga sa Eylem-om bilo je sjajno. Potpuno mi je promenio način na koji razmišljam o treningu — sada se radujem svakoj sesiji. Posle samo šest sesija već vidim prave rezultate, što je neverovatno motivišuće. Pristup mu je i efikasan i održiv, što olakšava doslednost i postizanje ciljeva. Toplo preporučujem!",
+      ru: "Тренироваться с Eylem — потрясающий опыт. Он полностью изменил моё отношение к тренировкам, теперь я с нетерпением жду каждое занятие. Уже после шести сессий я вижу реальные результаты, это безумно мотивирует. Его подход и эффективен, и устойчив, что облегчает регулярность и достижение целей. Очень рекомендую!"
+    },
+    "I love Eylem Tarhan Personal Training and Guy, who puts me in the best mood! I feel so much stronger and Guy creates a great personalised program. 10/10 would recommend - and such fun vibes!": {
+      tr: "Eylem Tarhan Personal Training'i ve insanı en iyi moda sokan Eylem'i çok seviyorum! Çok daha güçlü hissediyorum ve Eylem harika kişiye özel bir program hazırlıyor. 10/10 tavsiye ederim — atmosfer de bir o kadar eğlenceli!",
+      sr: "Obožavam Eylem Tarhan Personal Training i Eylem-a, koji me uvek dovede u najbolje raspoloženje! Osećam se mnogo snažnije, a Eylem pravi sjajan personalizovan program. 10/10 preporuka — i tako zabavna atmosfera!",
+      ru: "Обожаю Eylem Tarhan Personal Training и Eylem-а — после него настроение всегда на высоте! Чувствую себя гораздо сильнее, а Eylem составляет отличную персональную программу. 10/10 рекомендую — и такая классная атмосфера!"
+    },
+
+// Client reviews — interior pages (about.html, etc.)
     "Godinama sam pokušavala da izgradim tonus u teretani sama, bez uspeha. Sa Petrom sam za šest meseci dobila mišićnu masu koju nikad nisam imala i konačno volim svoj odraz u ogledalu. Strpljiv je i zna tačno kako da te motiviše.": {
       tr: "Yıllarca salonda tek başıma tonus kazanmaya çalıştım, başaramadım. Eylem ile altı ayda hiç sahip olmadığım kas kütlesine kavuştum ve nihayet aynadaki yansımamı seviyorum. Sabırlı biri ve seni nasıl motive edeceğini tam olarak biliyor.",
       en: "For years I tried to tone up at the gym on my own with no results. With Eylem I built muscle in six months that I had never had before, and I finally love my reflection in the mirror. He is patient and knows exactly how to motivate you.",
@@ -999,6 +1025,12 @@
       ru: "Главная причина, по которой диеты проваливаются — никто не даёт обратной связи. Каждую неделю мы пересматриваем твои цифры, корректируем план и держим тебя в ритме. Никаких догадок, никакого одиночества и никакого плато — только стабильный, честный прогресс, пока ты не достигнешь цели, с человеком рядом."
     },
     "EYLEM": { tr: "EYLEM", sr: "EYLEM", ru: "ПИТЕР" },
+    "Every client who starts the €125 Training + Diet plan gets the same opening macro target: 1.8 g of protein per kilogram of bodyweight, carbs scaled to training days, fats filling the rest. No \"clean eating\" buzzwords, no cutting out food groups. This post breaks down the exact split Eylem uses, why it works for both cutting and bulking, and three grocery staples in Yıldız markets that make hitting it easy.": {
+      tr: "Eylem’in €125 Antrenman + Diyet planına başlayan her danışan aynı açılış makro hedefini alır: kilogram başına 1.8 g protein, karbonhidrat antrenman günlerine göre ölçeklenir, yağlar gerisini doldurur. \"Clean eating\" türü moda kelimeler yok, gıda gruplarını kesmek yok. Bu yazıda Eylem’in kullandığı tam dağılımı, hem cutting hem bulking için neden işe yaradığını ve Yıldız marketlerinde bu makroyu tutturmayı kolaylaştıran üç temel ürünü anlatıyorum.",
+      sr: "Svaki klijent koji počinje sa €125 Trening + Dijeta planom dobija isti početni makro cilj: 1.8 g proteina po kilogramu telesne težine, ugljeni hidrati skalirani prema danima treninga, masti popunjavaju ostalo. Bez \"clean eating\" buzzword-a, bez izbacivanja grupa namirnica. Ovaj post razlaže tačnu podelu koju Eylem koristi, zašto funkcioniše i za cutting i bulking, i tri prehrambena osnova sa pijaca u Yıldız-u koji olakšavaju da je pogodiš.",
+      ru: "Каждый клиент, начинающий план «Тренировки + Питание» за €125, получает одинаковую стартовую макро-цель: 1.8 г белка на килограмм веса, углеводы масштабируются по тренировочным дням, жиры заполняют остальное. Без модных слов «clean eating» и без вычёркивания групп продуктов. В этом посте — точный сплит, который использует Eylem, почему он работает и для cut, и для bulk, и три базовых продукта с рынков Yıldız, которые помогают легко попадать в макро."
+    },
+
     "Bio": { tr: "Biyografi", sr: "Biografija", ru: "Биография" },
 
     // Added for Eylem Tarhan rebrand — TR-first UI strings
@@ -1025,6 +1057,547 @@
     "Regardless of your fitness background or the stage of life you find yourself in, I'm dedicated to providing a supportive and welcoming training environment. My goal is to guide and inspire you, whether you're stepping into the world of fitness for the first time or maintaining elite athletic performance. Join me, and let's embark on a wellness journey tailored to your unique goals, celebrating every achievement along the way. Experience top personal training today!": { tr: "Fitness geçmişin ya da hayatın hangi döneminde olursan ol, destekleyici ve misafirperver bir antrenman ortamı sunmaya adanmışım. Fitness dünyasına ilk kez adım atıyor olsan da elit atletik performansını sürdürüyor olsan da seni yönlendirmek ve ilham vermek hedefim. Bana katıl; hedeflerine özel bir sağlık yolculuğuna çıkalım ve yol boyunca her başarını birlikte kutlayalım. Bugün zirve kişisel antrenman deneyimini yaşa!", ru: "Независимо от твоего фитнес-опыта или этапа жизни, я посвящаю себя созданию поддерживающей и гостеприимной тренировочной среды. Моя цель — направлять и вдохновлять тебя, делаешь ли ты первые шаги в фитнесе или поддерживаешь элитный уровень. Присоединяйся, и отправимся в оздоровительное путешествие, адаптированное под твои цели, празднуя каждое достижение. Испытай лучшие персональные тренировки уже сегодня!" },
     "terms of use": { tr: "kullanım koşulları", ru: "условия использования" },
     "Terms of Use": { tr: "Kullanım Koşulları", ru: "Условия использования" },
+    "No matter your goal, I’ll get you there!": {
+      tr: "Hedefin ne olursa olsun, seni oraya ulaştırırım!",
+      sr: "Bez obzira na cilj, dovešću te tamo!",
+      ru: "Какой бы ни была цель — я доведу тебя до неё!"
+    },
+    "EXPERIENCE THE DIFFERENCE": {
+      tr: "FARKI HİSSET",
+      sr: "OSETI RAZLIKU",
+      ru: "ПОЧУВСТВУЙ РАЗНИЦУ"
+    },
+    "I track progress every week, adjust the plan, and celebrate every win.": {
+      tr: "Gelişimini her hafta takip ediyorum, planı düzenliyorum ve her zaferi kutluyoruz.",
+      sr: "Tvoj napredak pratim svake nedelje, prilagođavam plan i slavimo svaku pobedu.",
+      ru: "Я отслеживаю прогресс каждую неделю, корректирую план и мы вместе празднуем каждую победу."
+    },
+    "Morning, afternoon or evening — I fit training around your life, not the other way around.": {
+      tr: "Sabah, öğleden sonra ya da akşam — antrenmanı senin hayatına uydururum, tersi değil.",
+      sr: "Jutro, popodne ili veče — trening prilagođavam tvom životu, a ne obrnuto.",
+      ru: "Утро, день или вечер — я подстраиваю тренировку под твою жизнь, а не наоборот."
+    },
+    "25 Per Session": {
+      tr: "Seans başına 25",
+      sr: "25 po sesiji",
+      ru: "25 за сессию"
+    },
+    "Training & Nutrition Blog": {
+      tr: "Antrenman ve Beslenme Blogu",
+      sr: "Blog o treningu i ishrani",
+      ru: "Блог о тренировках и питании"
+    },
+    "Meet Your Trainer": {
+      tr: "Antrenörünle Tanış",
+      sr: "Upoznaj svog trenera",
+      ru: "Познакомься со своим тренером"
+    },
+    "Six-day PPL (push / pull / legs) is still the split Eylem uses with most intermediate clients — and there is a good reason. It lets you hit every muscle group twice a week, keeps the sessions short enough (~60 min), and gives each muscle 72 hours to recover before the next hit. In this post: the exact lift order Eylem puts on the whiteboard, how to scale it to a 4-day PPL if you can't train six days, and the mistake most people make on pull days.": {
+      tr: "Altı günlük PPL (push / pull / legs), Eylem'in orta seviye danışanlarının çoğunda kullandığı ayrımdır — ve haklı bir nedeni var. Her kas grubunu haftada iki kez vurmana, seansları yeterince kısa (~60 dk) tutmana ve bir sonraki vuruştan önce her kasa 72 saat toparlanma süresi vermesine izin veriyor. Bu yazıda: Eylem'in tahtaya yazdığı kesin hareket sırası, altı gün antrenman yapamıyorsan 4 günlük PPL'e nasıl ölçekleyeceğin ve çoğu insanın pull günlerinde yaptığı hata.",
+      sr: "Šestodnevni PPL (push / pull / legs) i dalje je podela koju Eylem koristi sa većinom srednjeg nivoa klijenata — i postoji dobar razlog. Dozvoljava ti da pogodiš svaku mišićnu grupu dva puta nedeljno, drži sesije dovoljno kratke (~60 min) i daje svakom mišiću 72 sata da se oporavi pre sledećeg pogotka. U ovom postu: tačan redosled vežbi koji Eylem stavlja na tablu, kako to skalirati na 4-dnevni PPL ako ne možeš da treniraš šest dana, i greška koju većina pravi na pull danima.",
+      ru: "Шестидневный PPL (push / pull / legs) — это сплит, который Eylem использует с большинством клиентов среднего уровня, и не зря. Он позволяет прорабатывать каждую группу мышц дважды в неделю, держит сессии достаточно короткими (~60 мин) и даёт каждой мышце 72 часа на восстановление до следующего удара. В этом посте: точный порядок упражнений, который Eylem пишет на доске, как масштабировать это в 4-дневный PPL, если шесть дней не получится, и ошибка, которую большинство делают в pull-дни."
+    },
+    "The old \"3 sets of 10\" rule is outdated. Current research lands on 10–20 hard sets per muscle per week for hypertrophy, with diminishing returns above 20. Eylem's 1-on-1 programmes sit at the lower end of that range for busy clients, and the upper end for anyone chasing serious size. This breakdown shows you how to count working sets, why 8-set chest days are a waste, and what \"hard set\" actually means.": {
+      tr: "Eski \"10 tekrarlık 3 set\" kuralı modası geçti. Güncel araştırmalar hipertrofi için kas başına haftada 10–20 zorlu set diyor, 20'nin üstünde getiri azalıyor. Eylem'in birebir programları yoğun danışanlar için bu aralığın alt ucunda, ciddi hacim peşinde olanlar için ise üst ucunda. Bu yazıda: çalışan setleri nasıl sayacağın, 8 setli göğüs günlerinin neden israf olduğu ve \"zorlu set\"in gerçekten ne anlama geldiği.",
+      sr: "Staro pravilo \"3 serije po 10\" je zastarelo. Aktuelna istraživanja kažu 10–20 teških serija po mišiću nedeljno za hipertrofiju, sa opadajućim prinosima iznad 20. Eylem-ovi 1-na-1 programi su u donjem delu tog opsega za zauzete klijente, a u gornjem za one koji jure ozbiljnu masu. Ovaj pregled ti pokazuje kako brojati radne serije, zašto su 8-serijski dani za grudi gubitak vremena i šta zaista znači \"teška serija\".",
+      ru: "Старое правило «3 подхода по 10» устарело. Актуальные исследования сходятся на 10–20 тяжёлых подходах на мышцу в неделю для гипертрофии, с уменьшающейся отдачей выше 20. Программы Eylem 1-на-1 для занятых клиентов лежат в нижней части этого диапазона, а для тех, кто гонится за серьёзной массой — в верхней. Эта разборка показывает, как считать рабочие подходы, почему 8-подходные грудные дни — пустая трата времени и что на самом деле значит «тяжёлый подход»."
+    },
+    "Running a hard cut year-round stalls muscle growth. Endless bulking stacks on fat you will have to cut later. Eylem structures most clients into 8–12-week phases: a lean-bulk to build muscle, a short cut to reveal it, and a maintenance stretch in between so the changes stick. This post covers how to pick the right starting phase, the weekly calorie adjustments, and how to know when to switch.": {
+      tr: "Yıl boyunca sıkı kesim yapmak kas büyümesini durdurur. Sonsuz bulk ise sonra kesmek zorunda kalacağın yağı biriktirir. Eylem çoğu danışanı 8–12 haftalık fazlara yapılandırır: kas yapmak için bir lean-bulk, onu ortaya çıkarmak için kısa bir kesim ve değişikliklerin kalıcı olması için arada bir koruma dönemi. Bu yazıda doğru başlangıç fazını nasıl seçeceğin, haftalık kalori düzenlemeleri ve ne zaman geçiş yapacağını anlatıyorum.",
+      sr: "Stalni hard cut tokom cele godine zaustavlja rast mišića. Beskonačni bulking gomila masti koje ćeš kasnije morati da skineš. Eylem većinu klijenata strukturira u 8–12-nedeljne faze: lean-bulk za izgradnju mišića, kratak cut da bi se otkrili, i faza održavanja između da promene ostanu. Ovaj post pokriva kako odabrati pravu početnu fazu, nedeljna kalorijska podešavanja i kako da znaš kad da prebaciš.",
+      ru: "Жёсткий cut круглый год останавливает рост мышц. Бесконечный bulk нагоняет жир, который потом всё равно придётся срезать. Eylem структурирует большинство клиентов в 8–12-недельные фазы: lean-bulk для набора мышц, короткий cut, чтобы их открыть, и поддерживающий промежуток между ними, чтобы изменения закрепились. В этом посте: как выбрать стартовую фазу, недельные корректировки калорий и когда пора переключаться."
+    },
+    "After forty, muscle mass and bone density start declining about 1% a year unless you actively train against it. Strength work — done right — is the single most effective intervention for long-term mobility, metabolism and independence. Eylem's framework leans on three compound lifts (hinge, push, pull), moderate volume and non-negotiable recovery days. Most over-40 clients are visibly stronger in 8 weeks and still pain-free 12 months in.": {
+      tr: "Kırk yaşından sonra, aktif olarak buna karşı antrenman yapmazsan kas kütlesi ve kemik yoğunluğu yılda yaklaşık %1 azalmaya başlar. Doğru yapılan kuvvet çalışması; uzun vadeli mobilite, metabolizma ve bağımsızlık için tek başına en etkili müdahaledir. Eylem'in çerçevesi üç bileşik harekete (hinge, push, pull), orta hacme ve pazarlığa kapalı toparlanma günlerine dayanır. 40 yaş üstü danışanların çoğu 8 haftada gözle görülür biçimde güçlenir ve 12 ay sonra hâlâ ağrısızdır.",
+      sr: "Posle četrdesete, mišićna masa i gustina kostiju počinju da opadaju oko 1% godišnje ako aktivno ne treniraš protiv toga. Trening snage — pravilno izveden — je sama po sebi najefikasnija intervencija za dugoročnu mobilnost, metabolizam i nezavisnost. Eylem-ova platforma se oslanja na tri bazične vežbe (hinge, push, pull), umeren volumen i obavezne dane za oporavak. Većina klijenata preko 40 je vidljivo jača za 8 nedelja i bez bolova i posle 12 meseci.",
+      ru: "После сорока мышечная масса и плотность костей начинают снижаться примерно на 1% в год, если активно не тренироваться против этого. Силовая работа, выполненная правильно, — самое эффективное вмешательство для долгосрочной подвижности, метаболизма и независимости. Подход Eylem опирается на три базовых движения (hinge, push, pull), умеренный объём и обязательные дни восстановления. Большинство клиентов 40+ заметно сильнее за 8 недель и без боли спустя 12 месяцев."
+    },
+    "You don't need an hour to move the needle — 20 minutes of targeted mobility, activation and short intervals, done first thing, pays back all day. This is the exact routine that ships with the €75 online programme: five minutes of mobility, ten minutes of full-body circuits, and five minutes of breathwork. No equipment, anywhere in the world. Ideal if you travel, work long hours, or just want something you will actually stick to.": {
+      tr: "İğneyi oynatmak için bir saate ihtiyacın yok — 20 dakikalık hedefli mobilite, aktivasyon ve kısa aralıklar, sabahın ilk işi olarak yapıldığında gün boyu geri ödemesini yapar. Bu, €75'lik online program ile birlikte gelen tam rutindir: beş dakika mobilite, on dakika tüm vücut döngüleri ve beş dakika nefes çalışması. Ekipman yok, dünyanın her yerinden. Seyahat ediyorsan, uzun saatler çalışıyorsan ya da gerçekten devam edebileceğin bir şey istiyorsan ideal.",
+      sr: "Ne treba ti sat vremena da napraviš pomak — 20 minuta ciljane mobilnosti, aktivacije i kratkih intervala, urađeno prvo ujutru, vraća se kroz ceo dan. Ovo je tačno rutina koja dolazi uz €75 online program: pet minuta mobilnosti, deset minuta full-body krugova i pet minuta rada na disanju. Bez opreme, bilo gde u svetu. Idealno ako putuješ, radiš duge sate ili samo želiš nešto čega ćeš se zaista držati.",
+      ru: "Чтобы сдвинуть стрелку, не нужен час — 20 минут целенаправленной мобильности, активации и коротких интервалов с самого утра окупаются весь день. Это та самая рутина, которая идёт с онлайн-программой за €75: пять минут мобильности, десять минут full-body кругов и пять минут дыхательной работы. Без оборудования, в любой точке мира. Идеально, если ты много путешествуешь, работаешь долгие часы или просто хочешь то, чего реально будешь придерживаться."
+    },
+    "CORRECTIVE EXERCISE: RESTORE BALANCE, IMPROVE FUNCTION, AND ENHANCE WELL-BEING": {
+      tr: "DÜZELTİCİ EGZERSİZ: DENGEYİ YENİDEN KUR, FONKSİYONU GELİŞTİR VE İYİ OLUŞU ARTIR",
+      sr: "KOREKTIVNA VEŽBA: VRATI BALANS, POBOLJŠAJ FUNKCIJU I UNAPREDI BLAGOSTANJE",
+      ru: "КОРРЕКТИРУЮЩЕЕ УПРАЖНЕНИЕ: ВОССТАНОВИ БАЛАНС, УЛУЧШИ ФУНКЦИЮ И УКРЕПИ САМОЧУВСТВИЕ"
+    },
+    "WHAT IS CORRECTIVE EXERCISE?": {
+      tr: "DÜZELTİCİ EGZERSİZ NEDİR?",
+      sr: "ŠTA JE KOREKTIVNA VEŽBA?",
+      ru: "ЧТО ТАКОЕ КОРРЕКТИРУЮЩЕЕ УПРАЖНЕНИЕ?"
+    },
+    "Corrective exercise is a specialized approach to fitness that focuses on identifying and addressing movement dysfunctions, imbalances, and compensations in the body. Through targeted exercises and techniques, corrective exercise aims to restore optimal movement patterns, improve posture, and alleviate pain or discomfort caused by muscular imbalances or improper movement mechanics.": {
+      tr: "Düzeltici egzersiz, vücutta hareket bozukluklarını, dengesizlikleri ve telafileri tespit etmeye ve çözmeye odaklanan özel bir fitness yaklaşımıdır. Hedefli egzersizler ve tekniklerle düzeltici egzersiz; en uygun hareket kalıplarını yeniden kurmayı, postürü iyileştirmeyi ve kas dengesizlikleri ya da yanlış hareket mekaniğinden kaynaklanan ağrı ve rahatsızlığı hafifletmeyi amaçlar.",
+      sr: "Korektivna vežba je specijalizovan pristup fitnesu koji se fokusira na prepoznavanje i rešavanje disfunkcija pokreta, neravnoteža i kompenzacija u telu. Ciljanim vežbama i tehnikama, korektivna vežba ima za cilj da povrati optimalne obrasce pokreta, poboljša postura i ublaži bol ili nelagodu uzrokovanu mišićnim neravnotežama ili nepravilnom mehanikom pokreta.",
+      ru: "Корректирующее упражнение — это специализированный подход к фитнесу, сфокусированный на выявлении и устранении дисфункций движения, дисбалансов и компенсаций в теле. С помощью целенаправленных упражнений и техник корректирующее упражнение восстанавливает оптимальные паттерны движения, улучшает осанку и уменьшает боль или дискомфорт, вызванные мышечными дисбалансами или неправильной механикой движения."
+    },
+    "Our corrective exercise programs target a range of common issues, including:": {
+      tr: "Düzeltici egzersiz programlarımız aşağıdakiler dahil pek çok yaygın soruna yöneliktir:",
+      sr: "Naši programi korektivne vežbe pokrivaju niz uobičajenih problema, uključujući:",
+      ru: "Наши корректирующие программы охватывают ряд распространённых проблем, включая:"
+    },
+    "Upper Cross Syndrome: Addressing imbalances between the muscles of the neck, shoulders, chest, and upper back to improve posture and reduce neck and shoulder pain.": {
+      tr: "Üst Çapraz Sendromu: Postürü iyileştirmek ve boyun-omuz ağrılarını azaltmak için boyun, omuz, göğüs ve üst sırt kasları arasındaki dengesizliklerin ele alınması.",
+      sr: "Gornji ukršteni sindrom: Rad na neravnotežama između mišića vrata, ramena, grudi i gornjeg dela leđa kako bi se poboljšao postura i smanjio bol u vratu i ramenima.",
+      ru: "Синдром верхнего перекреста: работа с дисбалансом между мышцами шеи, плеч, груди и верха спины для улучшения осанки и снижения боли в шее и плечах."
+    },
+    "Optimal Posture: Promoting proper alignment and balance throughout the body to reduce strain on muscles and joints and improve overall function.": {
+      tr: "Optimal Postür: Kaslar ve eklemler üzerindeki yükü azaltmak ve genel işlevi iyileştirmek için vücut boyunca doğru hizalama ve dengeyi destekleme.",
+      sr: "Optimalna postura: Promovisanje pravilnog poravnanja i ravnoteže u celom telu kako bi se smanjilo opterećenje mišića i zglobova i poboljšala opšta funkcija.",
+      ru: "Оптимальная осанка: содействие правильному выравниванию и балансу во всём теле для снижения нагрузки на мышцы и суставы и улучшения общей функции."
+    },
+    "Desk Work Ergonomics: Providing strategies and exercises to counteract the negative effects of prolonged sitting and desk work, such as muscle stiffness, poor posture, and back pain.": {
+      tr: "Masa Başı Ergonomisi: Uzun süreli oturma ve masa başı çalışmanın olumsuz etkilerine — kas tutulması, kötü postür ve sırt ağrısı gibi — karşı koymak için stratejiler ve egzersizler sunma.",
+      sr: "Ergonomija rada za stolom: Strategije i vežbe koje neutrališu negativne efekte dugog sedenja i rada za stolom, poput mišićne ukočenosti, loše posture i bola u leđima.",
+      ru: "Эргономика работы за столом: стратегии и упражнения, которые компенсируют негативные эффекты длительного сидения и работы за столом — мышечную скованность, плохую осанку и боли в спине."
+    },
+    "Postural Benefits for Scoliosis: Utilizing corrective exercises to strengthen supporting muscles and improve alignment in individuals with scoliosis, reducing pain and discomfort associated with the condition.": {
+      tr: "Skolyozda Postürel Faydalar: Skolyozlu bireylerde destek kaslarını güçlendirmek ve hizalanmayı iyileştirmek için düzeltici egzersizler kullanarak, durumla ilişkili ağrı ve rahatsızlığı azaltma.",
+      sr: "Posturalne koristi za skoliozu: Korišćenje korektivnih vežbi za jačanje potpornih mišića i poboljšanje poravnanja kod osoba sa skoliozom, smanjujući bol i nelagodu povezanu sa stanjem.",
+      ru: "Постуральные преимущества при сколиозе: использование корректирующих упражнений для укрепления поддерживающих мышц и улучшения выравнивания у людей со сколиозом, уменьшение боли и дискомфорта, связанных с этим состоянием."
+    },
+    "BENEFITS OF CORRECTIVE EXERCISE": {
+      tr: "DÜZELTİCİ EGZERSİZİN FAYDALARI",
+      sr: "PREDNOSTI KOREKTIVNE VEŽBE",
+      ru: "ПРЕИМУЩЕСТВА КОРРЕКТИРУЮЩЕГО УПРАЖНЕНИЯ"
+    },
+    "Improved Posture: Corrective exercises target the muscles responsible for maintaining proper alignment, helping you stand taller, straighter, and with less effort.": {
+      tr: "İyileştirilmiş Postür: Düzeltici egzersizler doğru hizalanmayı koruyan kasları hedef alır; daha dik, daha düz ve daha az çabayla durmana yardımcı olur.",
+      sr: "Poboljšana postura: Korektivne vežbe ciljaju mišiće odgovorne za pravilno poravnanje, pomažući ti da stojiš više, pravije i sa manje napora.",
+      ru: "Улучшенная осанка: корректирующие упражнения работают с мышцами, отвечающими за правильное выравнивание, помогая тебе стоять выше, прямее и с меньшим усилием."
+    },
+    "Reduced Pain and Discomfort: By addressing muscular imbalances and movement dysfunctions, corrective exercise can alleviate pain and discomfort caused by poor posture or improper movement patterns.": {
+      tr: "Azalan Ağrı ve Rahatsızlık: Kas dengesizliklerine ve hareket bozukluklarına yönelerek düzeltici egzersiz, kötü postür veya yanlış hareket kalıplarından kaynaklanan ağrı ve rahatsızlığı hafifletebilir.",
+      sr: "Smanjeni bol i nelagoda: Rešavanjem mišićnih neravnoteža i disfunkcija pokreta, korektivna vežba može ublažiti bol i nelagodu uzrokovane lošom posturom ili nepravilnim obrascima pokreta.",
+      ru: "Уменьшение боли и дискомфорта: устраняя мышечные дисбалансы и дисфункции движения, корректирующее упражнение облегчает боль и дискомфорт, вызванные плохой осанкой или неправильными паттернами движения."
+    },
+    "Enhanced Functional Movement: Corrective exercise improves the efficiency and effectiveness of your movement patterns, allowing you to perform daily activities with greater ease and less risk of injury.": {
+      tr: "Geliştirilmiş Fonksiyonel Hareket: Düzeltici egzersiz, hareket kalıplarının verimliliğini ve etkinliğini iyileştirir; günlük aktiviteleri daha kolay ve daha az sakatlanma riskiyle yapmana olanak tanır.",
+      sr: "Unapređeno funkcionalno kretanje: Korektivna vežba poboljšava efikasnost i efektivnost obrazaca pokreta, omogućavajući ti da svakodnevne aktivnosti obavljaš lakše i sa manjim rizikom od povrede.",
+      ru: "Улучшенное функциональное движение: корректирующее упражнение повышает эффективность и результативность твоих паттернов движения, позволяя выполнять повседневные дела с большей лёгкостью и меньшим риском травмы."
+    },
+    "Prevention of Future Injury: By addressing underlying imbalances and weaknesses, corrective exercise helps prevent future injuries and reduces the risk of chronic pain or dysfunction.": {
+      tr: "Gelecekteki Sakatlıkların Önlenmesi: Altta yatan dengesizlik ve zayıflıklara yönelerek düzeltici egzersiz; gelecekteki sakatlıkları önlemeye yardımcı olur ve kronik ağrı ya da işlev bozukluğu riskini azaltır.",
+      sr: "Prevencija budućih povreda: Rešavanjem osnovnih neravnoteža i slabosti, korektivna vežba pomaže u sprečavanju budućih povreda i smanjuje rizik od hroničnog bola ili disfunkcije.",
+      ru: "Профилактика будущих травм: работая с базовыми дисбалансами и слабостями, корректирующее упражнение помогает предотвратить будущие травмы и снижает риск хронической боли или дисфункции."
+    },
+    "At Eylem Tarhan, I specialize in corrective exercise techniques that are tailored to your unique needs and goals. Whether you’re struggling with poor posture, dealing with the effects of desk work, or seeking relief from musculoskeletal issues, my personalized programs will help you move better, feel better, and live better.": {
+      tr: "Eylem Tarhan'da, sana özgü ihtiyaçlara ve hedeflere göre uyarlanmış düzeltici egzersiz tekniklerinde uzmanım. İster kötü postürle mücadele ediyor ol, ister masa başı işin etkilerini yaşa, ister kas-iskelet sorunlarına çözüm ara — kişiye özel programlarım daha iyi hareket etmene, daha iyi hissetmene ve daha iyi yaşamana yardımcı olur.",
+      sr: "U Eylem Tarhan-u sam specijalizovan za tehnike korektivne vežbe prilagođene tvojim jedinstvenim potrebama i ciljevima. Bilo da se boriš sa lošom posturom, suočavaš sa efektima rada za stolom ili tražiš olakšanje od mišićno-koštanih problema, moji personalizovani programi će ti pomoći da se bolje krećeš, bolje osećaš i bolje živiš.",
+      ru: "В Eylem Tarhan я специализируюсь на корректирующих техниках, подобранных под твои уникальные потребности и цели. Сражаешься ли ты с плохой осанкой, ощущаешь ли последствия офисной работы или ищешь облегчения от опорно-двигательных проблем — мои персональные программы помогут тебе двигаться, чувствовать и жить лучше."
+    },
+    "TAKE THE FIRST STEP TOWARD BETTER MOVEMENT": {
+      tr: "DAHA İYİ HAREKETE DOĞRU İLK ADIMI AT",
+      sr: "NAPRAVI PRVI KORAK KA BOLJEM POKRETU",
+      ru: "СДЕЛАЙ ПЕРВЫЙ ШАГ К ЛУЧШЕМУ ДВИЖЕНИЮ"
+    },
+    "Ready to experience the transformative power of corrective exercise? Schedule a consultation with me today and take the first step toward restoring balance, improving function, and enhancing your overall well-being.": {
+      tr: "Düzeltici egzersizin dönüştürücü gücünü deneyimlemeye hazır mısın? Bugün benimle bir görüşme planla ve dengeyi yeniden kurmaya, fonksiyonu iyileştirmeye ve genel iyi oluşunu güçlendirmeye doğru ilk adımı at.",
+      sr: "Spreman da iskusiš transformativnu moć korektivne vežbe? Zakaži konsultaciju sa mnom danas i napravi prvi korak ka vraćanju balansa, poboljšanju funkcije i unapređenju opšteg blagostanja.",
+      ru: "Готов(а) ощутить преобразующую силу корректирующего упражнения? Запишись на консультацию со мной сегодня и сделай первый шаг к восстановлению баланса, улучшению функции и укреплению общего самочувствия."
+    },
+    "WHAT IS HIIT": {
+      tr: "HIIT NEDİR",
+      sr: "ŠTA JE HIIT",
+      ru: "ЧТО ТАКОЕ HIIT"
+    },
+    "HIIT PERSONAL TRAINING PROGRAM IN MANHATTAN, EFFECTIVE WEIGHT LOSS STRATEGY PAIRED WITH PERSONALIZED PROGRAM AND EXPERTS": {
+      tr: "ANKARA'DA HIIT PERSONAL TRAINING PROGRAMI — ETKİLİ KİLO VERME STRATEJİSİ, KİŞİYE ÖZEL PROGRAM VE UZMAN DESTEĞİYLE",
+      sr: "HIIT PERSONALNI TRENING PROGRAM U ANKARI — EFIKASNA STRATEGIJA MRŠAVLJENJA UPARENA SA PERSONALIZOVANIM PROGRAMOM I STRUČNJACIMA",
+      ru: "ПРОГРАММА HIIT ПЕРСОНАЛЬНЫХ ТРЕНИРОВОК В АНКАРЕ — ЭФФЕКТИВНАЯ СТРАТЕГИЯ СНИЖЕНИЯ ВЕСА С ПЕРСОНАЛЬНОЙ ПРОГРАММОЙ И ЭКСПЕРТАМИ"
+    },
+    "High-Intensity Interval Training (HIIT) is a dynamic and efficient workout method that alternates between short bursts of intense exercise and brief periods of rest or lower-intensity activity. This high-energy approach maximizes calorie burn, boosts metabolism, and elevates cardiovascular fitness in a fraction of the time compared to traditional workouts.": {
+      tr: "Yüksek Yoğunluklu Aralıklı Antrenman (HIIT), kısa yoğun egzersiz patlamaları ile kısa dinlenme veya düşük yoğunluklu aktivite arasında geçiş yapan dinamik ve verimli bir antrenman yöntemidir. Bu yüksek enerjili yaklaşım; kalori yakımını maksimuma çıkarır, metabolizmayı hızlandırır ve geleneksel antrenmanlara kıyasla çok daha kısa sürede kardiyovasküler kondisyonu yükseltir.",
+      sr: "Trening visokog intenziteta sa intervalima (HIIT) je dinamičan i efikasan metod treninga koji se naizmenično smenjuje između kratkih nahti intenzivne vežbe i kratkih perioda odmora ili aktivnosti niskog intenziteta. Ovaj visokoenergetski pristup maksimizuje sagorevanje kalorija, ubrzava metabolizam i podiže kardiovaskularnu kondiciju za delić vremena u odnosu na tradicionalne treninge.",
+      ru: "Высокоинтенсивная интервальная тренировка (HIIT) — это динамичный и эффективный метод, чередующий короткие всплески интенсивной нагрузки с короткими периодами отдыха или активностью низкой интенсивности. Этот высокоэнергетичный подход максимизирует сжигание калорий, ускоряет метаболизм и повышает кардиовыносливость за долю времени по сравнению с традиционными тренировками."
+    },
+    "DISCOVER THE TRANSFORMATIVE POWER OF HIIT AT ELITE SHAPE.": {
+      tr: "EYLEM TARHAN'DA HIIT'İN DÖNÜŞTÜRÜCÜ GÜCÜNÜ KEŞFET.",
+      sr: "OTKRIJ TRANSFORMATIVNU MOĆ HIIT-A U EYLEM TARHAN.",
+      ru: "ОТКРОЙ ПРЕОБРАЗУЮЩУЮ СИЛУ HIIT В EYLEM TARHAN."
+    },
+    "Led by me, my HIIT sessions are designed to challenge and inspire you, pushing your limits and unlocking your full potential. Each workout is carefully crafted to incorporate a variety of exercises, including cardio drills, bodyweight movements, and strength exercises, ensuring a comprehensive full-body workout experience.": {
+      tr: "Benim önderliğimde HIIT seanslarım seni zorlamak ve ilham vermek için tasarlandı; sınırlarını zorlayıp tüm potansiyelini açığa çıkarıyor. Her antrenman; kardiyo drillleri, vücut ağırlığı hareketleri ve kuvvet egzersizleri dahil çeşitli egzersizleri içerecek şekilde özenle hazırlanır ve kapsamlı bir tüm vücut deneyimi sunar.",
+      sr: "Pod mojim vođstvom, HIIT sesije su dizajnirane da te izazovu i inspirišu, gurajući granice i otključavajući tvoj puni potencijal. Svaki trening je pažljivo osmišljen da uključi različite vežbe — kardio drilove, pokrete sa sopstvenom težinom i vežbe snage — što garantuje kompletno full-body iskustvo.",
+      ru: "Под моим руководством мои HIIT-сессии спроектированы, чтобы бросить тебе вызов и вдохновить, раздвигая границы и раскрывая весь потенциал. Каждая тренировка тщательно собрана из разных упражнений — кардио-дрилов, движений с собственным весом и силовых — что обеспечивает полноценный full-body опыт."
+    },
+    "The beauty of HIIT lies in its versatility and scalability, making it suitable for individuals of all fitness levels. Whether you’re a seasoned athlete looking to enhance performance, a fitness enthusiast seeking to break through plateaus, or a beginner embarking on your fitness journey, HIIT offers a time-efficient and effective way to achieve your goals.": {
+      tr: "HIIT'in güzelliği çok yönlülüğünde ve ölçeklenebilirliğinde yatar; her fitness seviyesindeki bireye uygundur. İster performansını yükseltmek isteyen deneyimli bir sporcu ol, ister platodan çıkmaya çalışan bir fitness tutkunu, ister yeni başlayan biri — HIIT, hedeflerine ulaşmanın zaman tasarruflu ve etkili bir yolunu sunar.",
+      sr: "Lepota HIIT-a je u njegovoj svestranosti i skalabilnosti, što ga čini pogodnim za sve fitnes nivoe. Bilo da si iskusan sportista koji želi da unapredi performans, fitnes entuzijasta koji probija plato ili početnik na svom putu, HIIT pruža vremenski efikasan i efektivan način da postigneš ciljeve.",
+      ru: "Красота HIIT — в его универсальности и масштабируемости, он подходит людям любого уровня. Опытный спортсмен ищет рост результатов, любитель пробивает плато или новичок только начинает путь — HIIT даёт эффективный и экономящий время способ достичь целей."
+    },
+    "Experience the adrenaline rush and sense of accomplishment that comes with conquering a HIIT workout. Join me at Eylem Tarhan Personal Training and unleash your inner athlete as you sweat, burn calories, and push yourself to new heights. Let my expert guidance propel you toward your fitness aspirations, one high-intensity interval at a time.": {
+      tr: "Bir HIIT antrenmanını fethetmenin getirdiği adrenalin patlamasını ve başarı duygusunu yaşa. Eylem Tarhan Personal Training'de bana katıl; ter dökerken, kalori yakarken ve kendini yeni zirvelere taşırken içindeki sporcuyu serbest bırak. Uzman rehberliğim seni fitness hedeflerine taşısın — yüksek yoğunluklu her aralıkla.",
+      sr: "Doživi nalet adrenalina i osećaj postignuća koji dolazi sa savladavanjem HIIT treninga. Pridruži mi se u Eylem Tarhan Personal Training-u i pusti svog unutrašnjeg sportistu dok znojiš, sagorevaš kalorije i guraš sebe ka novim visinama. Neka te moje stručno vođstvo gura ka tvojim fitnes težnjama — jedan visoko-intenzivan interval po jedan.",
+      ru: "Почувствуй адреналиновый прилив и ощущение победы после HIIT-тренировки. Присоединяйся ко мне в Eylem Tarhan Personal Training и раскрывай внутреннего атлета, потея, сжигая калории и поднимая планку. Пусть мой экспертный подход двигает тебя к фитнес-целям — один высокоинтенсивный интервал за раз."
+    },
+    "WHAT IS MARATHON PREPARATION?": {
+      tr: "MARATON HAZIRLIĞI NEDİR?",
+      sr: "ŠTA JE PRIPREMA ZA MARATON?",
+      ru: "ЧТО ТАКОЕ ПОДГОТОВКА К МАРАФОНУ?"
+    },
+    "Marathon preparation is a specialized training program designed to help runners of all levels prepare for the physical and mental challenges of a marathon. Whether you’re a seasoned runner aiming for a personal best or a first-time marathoner with big goals, our comprehensive program will equip you with the tools, techniques, and support you need to succeed on race day.": {
+      tr: "Maraton hazırlığı, her seviyedeki koşucuların maratonun fiziksel ve zihinsel zorluklarına hazırlanmasına yardımcı olmak için tasarlanmış özel bir antrenman programıdır. İster kişisel rekorunu hedefleyen deneyimli bir koşucu ol, ister büyük hedefleri olan ilk kez maratoncu — kapsamlı programımız yarış gününde başarılı olmak için ihtiyaç duyduğun araçları, teknikleri ve desteği sana sunar.",
+      sr: "Priprema za maraton je specijalizovan trening program dizajniran da pomogne trkačima svih nivoa da se pripreme za fizičke i mentalne izazove maratona. Bilo da si iskusan trkač koji cilja lični rekord ili maratonac po prvi put sa velikim ciljevima, naš sveobuhvatan program će te opremiti alatima, tehnikama i podrškom potrebnim za uspeh na dan trke.",
+      ru: "Подготовка к марафону — специализированная тренировочная программа, разработанная, чтобы помочь бегунам любого уровня подготовиться к физическим и ментальным вызовам марафона. Опытный бегун ты, нацеленный на личный рекорд, или впервые бежишь марафон с большими целями — наша комплексная программа даст тебе инструменты, техники и поддержку, нужные для успеха в день старта."
+    },
+    "ALTERG: DEFY GRAVITY, MAXIMIZE RECOVERY, AND ENHANCE PERFORMANCE": {
+      tr: "ALTERG: YERÇEKİMİNE MEYDAN OKU, TOPARLANMAYI EN ÜST SEVİYEYE ÇIKAR VE PERFORMANSI ARTIR",
+      sr: "ALTERG: PROBI GRAVITACIJU, MAKSIMIZUJ OPORAVAK I UNAPREDI PERFORMANS",
+      ru: "ALTERG: БРОСЬ ВЫЗОВ ГРАВИТАЦИИ, ВЫЖМИ МАКСИМУМ ИЗ ВОССТАНОВЛЕНИЯ И УЛУЧШИ ПРОИЗВОДИТЕЛЬНОСТЬ"
+    },
+    "Train Smarter with the AlterG Anti-Gravity Treadmill at Eylem Tarhan": {
+      tr: "Eylem Tarhan'da AlterG Anti-Gravity Koşu Bandı ile Daha Akıllı Antrenman",
+      sr: "Treniraj pametnije sa AlterG Anti-Gravity trakom u Eylem Tarhan-u",
+      ru: "Тренируйся умнее на AlterG Anti-Gravity-беговой дорожке в Eylem Tarhan"
+    },
+    "The AlterG Anti-Gravity Treadmill uses NASA-developed technology to reduce impact on your joints and muscles by supporting a customizable percentage of your body weight. This revolutionary treadmill creates a low-impact training environment ideal for rehabilitation, performance training, and pain-free movement.": {
+      tr: "AlterG Anti-Gravity Koşu Bandı, NASA tarafından geliştirilen teknolojiyi kullanarak vücut ağırlığının özelleştirilebilir bir yüzdesini destekleyerek eklemler ve kaslar üzerindeki yükü azaltır. Bu devrim niteliğindeki koşu bandı; rehabilitasyon, performans antrenmanı ve ağrısız hareket için ideal düşük etkili bir antrenman ortamı yaratır.",
+      sr: "AlterG Anti-Gravity traka koristi NASA tehnologiju kako bi smanjila opterećenje na zglobove i mišiće podržavajući prilagodljiv procenat tvoje telesne težine. Ova revolucionarna traka stvara trenažno okruženje sa niskim opterećenjem, idealno za rehabilitaciju, trening performansa i pokret bez bola.",
+      ru: "Беговая дорожка AlterG Anti-Gravity использует разработанную NASA технологию, чтобы снизить нагрузку на суставы и мышцы за счёт поддержки настраиваемого процента твоего веса. Эта революционная дорожка создаёт тренировочную среду с низкой ударной нагрузкой — идеально для реабилитации, тренировки производительности и безболезненного движения."
+    },
+    "Athletes can push harder with less strain, runners can maintain speed and volume while reducing injury risk, and individuals recovering from surgery or managing chronic pain can move safely and comfortably. Whether you’re healing or reaching for peak performance, the AlterG helps you train with confidence.": {
+      tr: "Sporcular daha az zorlanmayla daha sıkı çalışabilir, koşucular sakatlık riskini azaltırken hızı ve hacmi koruyabilir, ameliyattan toparlanan veya kronik ağrıyı yöneten bireyler güvenli ve rahat hareket edebilir. İster iyileşme sürecinde ol ister zirve performansa uzan — AlterG güvenle antrenman yapmana yardımcı olur.",
+      sr: "Sportisti mogu da guraju jače uz manje napora, trkači mogu da održe brzinu i volumen uz manji rizik od povrede, a oni koji se oporavljaju od operacije ili upravljaju hroničnim bolom mogu da se kreću bezbedno i udobno. Bilo da se oporavljaš ili težiš vrhunskim performansama, AlterG ti pomaže da treniraš sa sigurnošću.",
+      ru: "Спортсмены могут давать больше при меньшей нагрузке, бегуны — сохранять скорость и объём, снижая риск травм, а восстанавливающиеся после операции или живущие с хронической болью — двигаться безопасно и комфортно. Восстанавливаешься ты или идёшь к пиковой форме — AlterG помогает тренироваться уверенно."
+    },
+    "Experience next-level recovery and fitness with the AlterG treadmill at Eylem Tarhan,where reduced gravity lifts your goals within reach.": {
+      tr: "Eylem Tarhan'daki AlterG koşu bandıyla bir sonraki seviye toparlanma ve fitnessı yaşa — azaltılmış yerçekimi hedeflerini erişimine taşır.",
+      sr: "Doživi sledeći nivo oporavka i fitnesa sa AlterG trakom u Eylem Tarhan-u — gde smanjena gravitacija dovodi tvoje ciljeve nadohvat ruke.",
+      ru: "Открой восстановление и форму нового уровня на дорожке AlterG в Eylem Tarhan — где сниженная гравитация делает цели достижимыми."
+    },
+    "My marathon preparation program covers a range of essential elements, including:": {
+      tr: "Maraton hazırlık programım aşağıdakiler dahil bir dizi temel öğeyi kapsar:",
+      sr: "Moj program pripreme za maraton pokriva niz ključnih elemenata, uključujući:",
+      ru: "Моя программа подготовки к марафону охватывает ряд ключевых элементов, включая:"
+    },
+    "Training Plan Development: I will create a personalized training plan tailored to your fitness level, goals, and schedule, ensuring that you progress safely and effectively toward marathon day.": {
+      tr: "Antrenman Planı Geliştirme: Fitness seviyene, hedeflerine ve programına göre uyarlanmış kişiye özel bir antrenman planı oluşturur, maraton gününe doğru güvenli ve etkili biçimde ilerlemeni sağlarım.",
+      sr: "Razvoj plana treninga: Napraviću personalizovan plan treninga prilagođen tvom fitnes nivou, ciljevima i rasporedu, osiguravajući da bezbedno i efikasno napreduješ ka maratonskom danu.",
+      ru: "Разработка плана тренировок: я создам персональный план под твой уровень формы, цели и график, чтобы ты безопасно и эффективно двигался(лась) к дню марафона."
+    },
+    "Endurance Training: Long runs, tempo runs, and interval training will build your aerobic capacity and improve your ability to sustain effort over the marathon distance.": {
+      tr: "Dayanıklılık Antrenmanı: Uzun koşular, tempo koşuları ve interval antrenmanı; aerobik kapasiteni geliştirir ve maraton mesafesinde efor sürdürme yeteneğini artırır.",
+      sr: "Trening izdržljivosti: Dugi treninzi, tempo trčanja i intervalni trening izgradiće tvoj aerobni kapacitet i poboljšati sposobnost da održiš napor na maratonskoj distanci.",
+      ru: "Тренировка выносливости: длинные пробежки, темповые забеги и интервальная работа разовьют аэробную базу и помогут поддерживать усилие на марафонской дистанции."
+    },
+    "Strength and Conditioning: Specific exercises and drills will strengthen key muscles, improve running form, and reduce the risk of injury during training and on race day.": {
+      tr: "Kuvvet ve Kondisyon: Belirli egzersizler ve drilller temel kasları güçlendirir, koşu formunu iyileştirir ve antrenman ile yarış gününde sakatlık riskini azaltır.",
+      sr: "Snaga i kondicija: Specifične vežbe i drilovi ojačaće ključne mišiće, poboljšati trkačku formu i smanjiti rizik od povrede tokom treninga i na dan trke.",
+      ru: "Сила и кондиции: специальные упражнения и дриллы укрепят ключевые мышцы, улучшат беговую технику и снизят риск травм во время тренировок и в день старта."
+    },
+    "Nutritional Guidance: Proper nutrition and hydration are essential for optimal performance and recovery. Our nutritionists will provide personalized guidance to fuel your training and support your overall health and well-being.": {
+      tr: "Beslenme Rehberliği: Doğru beslenme ve hidrasyon, optimal performans ve toparlanma için temeldir. Beslenme uzmanlarımız antrenmanını besleyecek ve genel sağlığını destekleyecek kişiye özel rehberlik sağlar.",
+      sr: "Nutricionistički saveti: Pravilna ishrana i hidracija su ključne za optimalan učinak i oporavak. Naši nutricionisti će ti pružiti personalizovanu vodilju za podršku treninga i opšteg zdravlja.",
+      ru: "Рекомендации по питанию: правильное питание и гидратация — основа оптимальной производительности и восстановления. Наши нутрициологи дадут персональные рекомендации для поддержки тренировок и общего самочувствия."
+    },
+    "Mental Preparation: Mental toughness is crucial for success in the marathon. We’ll help you develop strategies to overcome mental barriers, stay focused, and maintain motivation throughout your training and on race day.": {
+      tr: "Zihinsel Hazırlık: Maratonda başarı için zihinsel dayanıklılık şarttır. Antrenman boyunca ve yarış gününde zihinsel engelleri aşmak, odağı korumak ve motivasyonu sürdürmek için stratejiler geliştirmene yardımcı oluruz.",
+      sr: "Mentalna priprema: Mentalna čvrstina je presudna za uspeh u maratonu. Pomoći ćemo ti da razviješ strategije za prevazilaženje mentalnih barijera, zadržiš fokus i održiš motivaciju tokom treninga i na dan trke.",
+      ru: "Ментальная подготовка: ментальная стойкость критична для успеха в марафоне. Мы поможем выработать стратегии для преодоления ментальных барьеров, сохранения фокуса и мотивации во время тренировок и на старте."
+    },
+    "Improved Performance: Our comprehensive training program will help you build the endurance, strength, and mental resilience needed to conquer the marathon distance and achieve your personal best.": {
+      tr: "Geliştirilmiş Performans: Kapsamlı antrenman programımız, maraton mesafesini fethetmek ve kişisel rekorunu kırmak için gereken dayanıklılığı, kuvveti ve zihinsel direnci kurmana yardımcı olur.",
+      sr: "Bolji performans: Naš sveobuhvatan trening program pomoći će ti da izgradiš izdržljivost, snagu i mentalnu otpornost potrebne da osvojiš maratonsku distancu i postigneš lični rekord.",
+      ru: "Улучшение результатов: наша комплексная программа поможет выстроить выносливость, силу и ментальную устойчивость, нужные для покорения марафона и личного рекорда."
+    },
+    "Reduced Risk of Injury: By following a structured training plan and incorporating strength and conditioning exercises, you’ll minimize the risk of overuse injuries and stay healthy throughout your training cycle.": {
+      tr: "Azalan Sakatlık Riski: Yapılandırılmış bir antrenman planını izleyerek ve kuvvet ile kondisyon egzersizlerini dahil ederek aşırı kullanım sakatlıklarının riskini en aza indirir ve antrenman döngün boyunca sağlıklı kalırsın.",
+      sr: "Smanjeni rizik od povrede: Praćenjem strukturisanog plana treninga i uključivanjem vežbi snage i kondicije, smanjićeš rizik od povreda usled prenaprezanja i ostati zdrav tokom celog ciklusa treninga.",
+      ru: "Снижение риска травм: следуя структурированному плану и включая силу и кондиции, ты сводишь к минимуму риск перегрузочных травм и остаёшься здоровым весь тренировочный цикл."
+    },
+    "Confidence and Preparation: With expert coaching and support, you’ll approach race day feeling confident, prepared, and ready to tackle the challenges ahead.": {
+      tr: "Güven ve Hazırlık: Uzman koçluk ve destekle yarış gününe kendine güvenen, hazırlıklı ve önündeki zorluklarla başa çıkmaya hazır şekilde yaklaşırsın.",
+      sr: "Samopouzdanje i pripremljenost: Uz stručno vođstvo i podršku, dan trke ćeš dočekati sigurno, spremno i spreman da se uhvatiš u koštac sa izazovima koji slede.",
+      ru: "Уверенность и готовность: с экспертной поддержкой ты подойдёшь к дню марафона уверенно, подготовленным(ой) и готовым(ой) к предстоящим вызовам."
+    },
+    "Personal Growth: Training for a marathon is a transformative journey that will push you beyond your limits, build resilience, and instill a sense of accomplishment that extends far beyond the finish line.": {
+      tr: "Kişisel Gelişim: Maraton antrenmanı seni sınırlarının ötesine taşıyan, dayanıklılık inşa eden ve bitiş çizgisinin çok ötesine uzanan bir başarı duygusu kazandıran dönüştürücü bir yolculuktur.",
+      sr: "Lični rast: Trening za maraton je transformativno putovanje koje će te pogurati izvan tvojih granica, izgraditi otpornost i usaditi osećaj postignuća koji ide daleko izvan ciljne linije.",
+      ru: "Личный рост: подготовка к марафону — это преобразующее путешествие, которое толкает за пределы возможностей, выстраивает стойкость и даёт чувство достижения, идущее далеко за финишную черту."
+    },
+    "TAKE THE FIRST STEP TOWARD MARATHON SUCCESS": {
+      tr: "MARATON BAŞARISINA DOĞRU İLK ADIMI AT",
+      sr: "NAPRAVI PRVI KORAK KA USPEHU U MARATONU",
+      ru: "СДЕЛАЙ ПЕРВЫЙ ШАГ К УСПЕХУ В МАРАФОНЕ"
+    },
+    "Ready to embark on your marathon journey? Schedule a consultation with me today and take the first step toward achieving your personal best.": {
+      tr: "Maraton yolculuğuna çıkmaya hazır mısın? Bugün benimle bir görüşme planla ve kişisel rekoruna ulaşmaya doğru ilk adımı at.",
+      sr: "Spreman da kreneš na svoje maratonsko putovanje? Zakaži konsultaciju sa mnom danas i napravi prvi korak ka ostvarenju ličnog rekorda.",
+      ru: "Готов(а) выйти в марафонское путешествие? Запишись на консультацию со мной сегодня и сделай первый шаг к личному рекорду."
+    },
+    "At Eylem Tarhan, I’m dedicated to helping you reach your marathon goals. I will guide and support you every step of the way, providing the expertise, motivation, and accountability you need to succeed.": {
+      tr: "Eylem Tarhan'da maraton hedeflerine ulaşmana yardım etmeye kendimi adadım. Yolun her adımında seni yönlendirip destekliyor; başarmak için ihtiyaç duyduğun uzmanlığı, motivasyonu ve sorumluluğu sağlıyorum.",
+      sr: "U Eylem Tarhan-u sam posvećen tome da ti pomognem da dostigneš maratonske ciljeve. Vodiću te i podržavati u svakom koraku, pružajući ti stručnost, motivaciju i odgovornost potrebne za uspeh.",
+      ru: "В Eylem Tarhan я посвящён тому, чтобы помочь тебе достичь марафонских целей. Я буду направлять и поддерживать на каждом шаге, давая экспертизу, мотивацию и ответственность, нужные для успеха."
+    },
+    "Wellness Massage Therapy in Ankara": {
+      tr: "Ankara'da Wellness Masaj Terapisi",
+      sr: "Wellness masažna terapija u Ankari",
+      ru: "Wellness-массажная терапия в Анкаре"
+    },
+    "Recovery Massage for Fitness, Mobility, and Stress Relief": {
+      tr: "Fitness, Mobilite ve Stres Azaltımı için Toparlanma Masajı",
+      sr: "Masaža oporavka za fitnes, mobilnost i ublažavanje stresa",
+      ru: "Восстановительный массаж для фитнеса, мобильности и снятия стресса"
+    },
+    "At Eylem Tarhan Personal Training (Eylem Tarhan), we know that recovery is just as important as training. That’s why we now offer professional wellness massage therapy in Ankara,a customized, results-driven experience designed to help you recover faster, move better, and feel stronger.": {
+      tr: "Eylem Tarhan Personal Training'de toparlanmanın antrenman kadar önemli olduğunu biliyoruz. Bu yüzden artık Ankara'da profesyonel wellness masaj terapisi sunuyoruz — daha hızlı toparlanmana, daha iyi hareket etmene ve daha güçlü hissetmene yardımcı olmak için tasarlanmış kişiye özel, sonuç odaklı bir deneyim.",
+      sr: "U Eylem Tarhan Personal Training-u znamo da je oporavak jednako bitan kao i trening. Zato sada nudimo profesionalnu wellness masažnu terapiju u Ankari — personalizovano, rezultat-orijentisano iskustvo dizajnirano da ti pomogne da se brže oporaviš, bolje krećeš i osećaš snažnije.",
+      ru: "В Eylem Tarhan Personal Training мы знаем, что восстановление так же важно, как и тренировка. Поэтому мы теперь предлагаем профессиональную wellness-массажную терапию в Анкаре — персональный, ориентированный на результат опыт, разработанный, чтобы быстрее восстанавливаться, лучше двигаться и чувствовать себя сильнее."
+    },
+    "Whether you’re dealing with post-workout soreness, muscle tightness, stress, or a busy Ankara lifestyle, our massage therapy services are designed to complement your fitness routine and overall wellness.": {
+      tr: "Antrenman sonrası ağrılarla, kas tutukluğuyla, stresle ya da Ankara'nın yoğun yaşam tempoyla mücadele ediyor olsan da masaj terapisi hizmetlerimiz fitness rutinini ve genel sağlığını tamamlamak için tasarlandı.",
+      sr: "Bilo da se boriš sa upalom mišića posle treninga, ukočenjem mišića, stresom ili užurbanim Ankara životnim stilom, naše usluge masažne terapije osmišljene su da dopune tvoju fitnes rutinu i ukupno blagostanje.",
+      ru: "Имеешь ли ты дело с посттренировочной болью, скованностью мышц, стрессом или динамичным ритмом Анкары — наши услуги массажной терапии созданы, чтобы дополнять твою фитнес-рутину и общее самочувствие."
+    },
+    "Book Your Massage in Ankara Today": {
+      tr: "Bugün Ankara'da Masajını Rezerve Et",
+      sr: "Rezerviši svoju masažu u Ankari danas",
+      ru: "Запиши свой массаж в Анкаре сегодня"
+    },
+    "Ready to take your recovery seriously?": {
+      tr: "Toparlanmanı ciddiye almaya hazır mısın?",
+      sr: "Spreman da svoj oporavak shvatiš ozbiljno?",
+      ru: "Готов(а) серьёзно отнестись к своему восстановлению?"
+    },
+    "Not sure where to start? I offer complimentary 15-minute consultations to help you choose the right type of massage for your goals.": {
+      tr: "Nereden başlayacağından emin değil misin? Hedeflerine uygun doğru masaj türünü seçmen için ücretsiz 15 dakikalık görüşmeler sunuyorum.",
+      sr: "Nisi siguran odakle da kreneš? Nudim besplatne 15-minutne konsultacije da ti pomognem da izabereš pravi tip masaže za tvoje ciljeve.",
+      ru: "Не уверен(а), с чего начать? Я предлагаю бесплатные 15-минутные консультации, чтобы помочь подобрать правильный тип массажа под твои цели."
+    },
+    "Benefits of Wellness Massage at Eylem Tarhan Personal Training": {
+      tr: "Eylem Tarhan Personal Training'de Wellness Masajının Faydaları",
+      sr: "Prednosti wellness masaže u Eylem Tarhan Personal Training-u",
+      ru: "Преимущества wellness-массажа в Eylem Tarhan Personal Training"
+    },
+    "licensed massage therapists in Ankara": {
+      tr: "Ankara'da lisanslı masaj terapistleri",
+      sr: "licencirani masažni terapeuti u Ankari",
+      ru: "лицензированные массажные терапевты в Анкаре"
+    },
+    "work alongside your personal training program to support:": {
+      tr: "personal training programınla birlikte çalışarak şunları destekler:",
+      sr: "rade uporedo sa tvojim personalnim trening programom kako bi podržali:",
+      ru: "работают вместе с твоей программой персональных тренировок, чтобы поддержать:"
+    },
+    "inflammation and soreness": {
+      tr: "iltihap ve kas ağrısı",
+      sr: "upala i bol u mišićima",
+      ru: "воспаление и мышечная боль"
+    },
+    "mobility and flexibility": {
+      tr: "mobilite ve esneklik",
+      sr: "mobilnost i fleksibilnost",
+      ru: "мобильность и гибкость"
+    },
+    "circulation and range of motion": {
+      tr: "dolaşım ve hareket açıklığı",
+      sr: "cirkulacija i raspon pokreta",
+      ru: "кровообращение и амплитуда движения"
+    },
+    "chronic tension and stress": {
+      tr: "kronik gerginlik ve stres",
+      sr: "hronična napetost i stres",
+      ru: "хроническое напряжение и стресс"
+    },
+    "and nervous system recovery": {
+      tr: "ve sinir sistemi toparlanması",
+      sr: "i oporavak nervnog sistema",
+      ru: "и восстановление нервной системы"
+    },
+    "Each session is personalized to your goals,whether you need a targeted": {
+      tr: "Her seans hedeflerine göre kişiselleştirilir — hedefli bir seansa mı ihtiyacın var",
+      sr: "Svaka sesija je personalizovana prema tvojim ciljevima — bilo da ti treba ciljana",
+      ru: "Каждая сессия настроена под твои цели — нужен ли тебе целенаправленный"
+    },
+    "sports massage": {
+      tr: "spor masajı",
+      sr: "sportska masaža",
+      ru: "спортивный массаж"
+    },
+    "Massage Services We Offer": {
+      tr: "Sunduğumuz Masaj Hizmetleri",
+      sr: "Usluge masaže koje nudimo",
+      ru: "Услуги массажа, которые мы предлагаем"
+    },
+    "Sports Massage Therapy": {
+      tr: "Spor Masaj Terapisi",
+      sr: "Sportska masažna terapija",
+      ru: "Спортивная массажная терапия"
+    },
+    "Ideal for athletes and active clients. Helps release muscle tension, improve performance, and prevent injury.": {
+      tr: "Sporcular ve aktif danışanlar için ideal. Kas gerginliğini gevşetmeye, performansı artırmaya ve sakatlığı önlemeye yardımcı olur.",
+      sr: "Idealna za sportiste i aktivne klijente. Pomaže u oslobađanju mišićne napetosti, poboljšanju performansa i sprečavanju povreda.",
+      ru: "Идеально для спортсменов и активных клиентов. Помогает снять мышечное напряжение, улучшить результаты и предотвратить травмы."
+    },
+    "Deep Tissue Massage": {
+      tr: "Derin Doku Masajı",
+      sr: "Masaža dubokog tkiva",
+      ru: "Массаж глубоких тканей"
+    },
+    "Focuses on the deeper layers of muscle and connective tissue. Perfect for chronic tightness, knots, or postural imbalances.": {
+      tr: "Kas ve bağ dokusunun daha derin katmanlarına odaklanır. Kronik gerginlik, düğümler veya postürel dengesizlikler için mükemmeldir.",
+      sr: "Fokusira se na dublje slojeve mišića i vezivnog tkiva. Savršena za hroničnu ukočenost, čvorove ili posturalne neravnoteže.",
+      ru: "Фокусируется на более глубоких слоях мышц и соединительной ткани. Идеально для хронической скованности, узлов или постуральных дисбалансов."
+    },
+    "Recovery & Relaxation Massage": {
+      tr: "Toparlanma ve Rahatlama Masajı",
+      sr: "Masaža oporavka i opuštanja",
+      ru: "Восстановительный и релакс-массаж"
+    },
+    "Gentle and restorative. Helps reduce stress, calm the nervous system, and promote whole-body healing.": {
+      tr: "Nazik ve onarıcı. Stresi azaltmaya, sinir sistemini sakinleştirmeye ve tüm vücudun iyileşmesini desteklemeye yardımcı olur.",
+      sr: "Nežna i obnavljajuća. Pomaže u smanjenju stresa, smirivanju nervnog sistema i podršci celokupnom telesnom oporavku.",
+      ru: "Мягкий и восстанавливающий. Помогает снизить стресс, успокоить нервную систему и поддержать восстановление всего тела."
+    },
+    "Pre/Post Workout Tune-Up": {
+      tr: "Antrenman Öncesi/Sonrası Tune-Up",
+      sr: "Tune-up pre / posle treninga",
+      ru: "Тюнинг до / после тренировки"
+    },
+    "Quick 30-minute massage sessions to prime muscles before training or recover after a tough workout.": {
+      tr: "Antrenman öncesi kasları hazırlamak veya zorlu bir antrenman sonrası toparlanmak için hızlı 30 dakikalık masaj seansları.",
+      sr: "Brze 30-minutne masažne sesije za pripremu mišića pre treninga ili oporavak posle teškog treninga.",
+      ru: "Быстрые 30-минутные сессии массажа, чтобы подготовить мышцы к тренировке или восстановиться после тяжёлой нагрузки."
+    },
+    "Why Choose Eylem Tarhan for Massage Therapy in Ankara?": {
+      tr: "Ankara'da Masaj Terapisi için Neden Eylem Tarhan'ı Seçmelisin?",
+      sr: "Zašto izabrati Eylem Tarhan za masažnu terapiju u Ankari?",
+      ru: "Почему выбрать Eylem Tarhan для массажной терапии в Анкаре?"
+    },
+    "•Located in the heart of Manhattan": {
+      tr: "•Ankara'nın kalbinde",
+      sr: "•U srcu Ankare",
+      ru: "•В сердце Анкары"
+    },
+    "•Integrated with your personal training program": {
+      tr: "•Personal training programınla entegre",
+      sr: "•Integrisano sa tvojim programom personalnog treninga",
+      ru: "•Интегрировано с твоей программой персональных тренировок"
+    },
+    "•Sessions customized to your fitness, recovery, and wellness goals": {
+      tr: "•Seanslar fitness, toparlanma ve wellness hedeflerine göre özelleştirilmiş",
+      sr: "•Sesije prilagođene tvojim fitnes, oporavnim i wellness ciljevima",
+      ru: "•Сессии настроены под твои фитнес-, восстановительные и wellness-цели"
+    },
+    "•Trusted by athletes, professionals, and everyday Ankaraers": {
+      tr: "•Sporcuların, profesyonellerin ve günlük Ankaralıların güvencesi",
+      sr: "•Verovan od strane sportista, profesionalaca i svakodnevnih Ankarljana",
+      ru: "•Доверяют спортсмены, профессионалы и обычные жители Анкары"
+    },
+    "I understand movement, training, and recovery, so you get more than just relaxation; you get results.": {
+      tr: "Hareketi, antrenmanı ve toparlanmayı anlıyorum; bu yüzden sadece rahatlama değil, sonuç elde edersin.",
+      sr: "Razumem pokret, trening i oporavak — zato dobijaš više od opuštanja; dobijaš rezultate.",
+      ru: "Я понимаю движение, тренировку и восстановление — поэтому ты получаешь не просто расслабление, а результат."
+    },
+    "Massage Pricing & Packages": {
+      tr: "Masaj Fiyatları ve Paketleri",
+      sr: "Cene i paketi masaže",
+      ru: "Цены и пакеты массажа"
+    },
+    "massage therapy services in Manhattan": {
+      tr: "Ankara'da masaj terapi hizmetleri",
+      sr: "usluge masažne terapije u Ankari",
+      ru: "услуги массажной терапии в Анкаре"
+    },
+    "Package discounts available for Eylem Tarhan training clients.": {
+      tr: "Eylem Tarhan antrenman danışanları için paket indirimleri mevcuttur.",
+      sr: "Popusti na pakete dostupni za Eylem Tarhan klijente treninga.",
+      ru: "Скидки на пакеты доступны для клиентов тренировок Eylem Tarhan."
+    },
+    "PRE AND POSTNATAL TRAINING: EMPOWERING MOMS FOR EVERY STAGE OF MOTHERHOOD": {
+      tr: "HAMİLELİK ÖNCESİ VE SONRASI ANTRENMAN: ANNELİĞİN HER AŞAMASINDA ANNELERİ GÜÇLENDİRMEK",
+      sr: "PRE I POSTNATALNI TRENING: OSNAŽIVANJE MAMA U SVAKOJ FAZI MAJČINSTVA",
+      ru: "ТРЕНИРОВКИ ДО И ПОСЛЕ РОДОВ: ПОДДЕРЖКА МАМ НА КАЖДОМ ЭТАПЕ МАТЕРИНСТВА"
+    },
+    "WHAT IS PRE AND POSTNATAL TRAINING?": {
+      tr: "HAMİLELİK ÖNCESİ VE SONRASI ANTRENMAN NEDİR?",
+      sr: "ŠTA JE PRE I POSTNATALNI TRENING?",
+      ru: "ЧТО ТАКОЕ ТРЕНИРОВКА ДО И ПОСЛЕ РОДОВ?"
+    },
+    "Pre and postnatal training is a specialized fitness program designed to support women throughout pregnancy and beyond. I provide safe and effective exercises tailored to the unique needs of expectant and new mothers, helping them maintain strength, flexibility, and overall well-being during this transformative time.": {
+      tr: "Hamilelik öncesi ve sonrası antrenman; kadınları hamilelik boyunca ve sonrasında desteklemek için tasarlanmış özel bir fitness programıdır. Müstakbel ve yeni annelerin benzersiz ihtiyaçlarına göre uyarlanmış güvenli ve etkili egzersizler sunarak bu dönüştürücü dönemde güç, esneklik ve genel iyi oluşlarını korumalarına yardımcı oluyorum.",
+      sr: "Pre i postnatalni trening je specijalizovan fitnes program dizajniran da podrži žene tokom trudnoće i nakon nje. Pružam bezbedne i efektivne vežbe prilagođene jedinstvenim potrebama trudnica i mladih mama, pomažući im da održe snagu, fleksibilnost i opšte blagostanje u ovom transformativnom periodu.",
+      ru: "Тренировки до и после родов — специализированная фитнес-программа, поддерживающая женщин во время беременности и после. Я предлагаю безопасные и эффективные упражнения, адаптированные под уникальные потребности будущих и недавно ставших мам, помогая сохранить силу, гибкость и общее самочувствие в этот трансформационный период."
+    },
+    "JOIN ME ON YOUR MOTHERHOOD JOURNEY": {
+      tr: "ANNELİK YOLCULUĞUNDA BANA KATIL",
+      sr: "PRIDRUŽI MI SE NA SVOM PUTU MAJČINSTVA",
+      ru: "ПРИСОЕДИНЯЙСЯ КО МНЕ В ТВОЁМ ПУТИ МАТЕРИНСТВА"
+    },
+    "At Eylem Tarhan, I’m dedicated to supporting you every step of the way on your motherhood journey. I will guide and empower you to stay active, healthy, and strong, so you can embrace the joys of pregnancy and motherhood with confidence. Take the first step toward a happier, healthier you and join my pre and postnatal training program today.": {
+      tr: "Eylem Tarhan'da annelik yolculuğunun her adımında seni desteklemeye kendimi adadım. Aktif, sağlıklı ve güçlü kalman için sana rehberlik eder ve seni güçlendiririm; böylece hamileliğin ve anneliğin getirdiği sevinçleri özgüvenle kucaklayabilirsin. Daha mutlu ve daha sağlıklı bir sen olmaya doğru ilk adımı at, hamilelik öncesi ve sonrası antrenman programıma bugün katıl.",
+      sr: "U Eylem Tarhan-u, posvećen sam tome da te podržim u svakom koraku tvog puta majčinstva. Vodiću te i osnažiću te da ostaneš aktivna, zdrava i snažna, kako bi sa samopouzdanjem prihvatila radosti trudnoće i majčinstva. Napravi prvi korak ka srećnijoj, zdravijoj sebi i pridruži se mom pre i postnatalnom trening programu danas.",
+      ru: "В Eylem Tarhan я посвящён тому, чтобы поддерживать тебя на каждом шаге пути материнства. Я буду направлять и придавать силы, чтобы ты оставалась активной, здоровой и сильной, и могла с уверенностью принять радости беременности и материнства. Сделай первый шаг к более счастливой и здоровой версии себя — присоединяйся к моей программе тренировок до и после родов сегодня."
+    },
+    "EXPERIENCE THE BENEFITS": {
+      tr: "FAYDALARI DENEYİMLE",
+      sr: "DOŽIVI PREDNOSTI",
+      ru: "ПОЧУВСТВУЙ ПРЕИМУЩЕСТВА"
+    },
+    "Stay strong, flexible, and confident throughout every stage of motherhood. Our personalized workouts help you maintain strength and mobility during pregnancy, ease common discomforts like back pain and sciatica, and prepare your body for labor through pelvic floor and endurance training. After birth, we focus on rebuilding core strength, improving posture, and addressing issues like diastasis recti. With regular movement, you’ll boost energy, elevate your mood, and support a smoother recovery journey.": {
+      tr: "Anneliğin her aşamasında güçlü, esnek ve özgüvenli kal. Kişiye özel antrenmanlarımız hamilelik boyunca gücü ve mobiliteyi korumana, sırt ağrısı ve siyatik gibi yaygın rahatsızlıkları hafifletmene yardımcı olur ve pelvik taban ile dayanıklılık çalışmaları üzerinden vücudunu doğuma hazırlar. Doğumdan sonra core gücünü yeniden inşa etmeye, postürü iyileştirmeye ve diastasis recti gibi konulara odaklanırız. Düzenli hareketle enerjini yükseltir, ruh halini iyileştirir ve daha pürüzsüz bir toparlanma yolculuğunu desteklersin.",
+      sr: "Ostani snažna, fleksibilna i sigurna u sebe tokom svake faze majčinstva. Naši personalizovani treninzi pomažu ti da održiš snagu i mobilnost tokom trudnoće, ublažiš uobičajene tegobe poput bola u leđima i išijasa i pripremiš telo za porođaj kroz vežbe karličnog dna i izdržljivosti. Posle porođaja, fokusiramo se na ponovno izgradnju snage jezgra, poboljšanje posture i rešavanje problema poput dijastaze rektusa. Uz redovnu aktivnost, podižeš energiju, raspoloženje i podržavaš lakši put oporavka.",
+      ru: "Оставайся сильной, гибкой и уверенной на каждом этапе материнства. Наши персональные тренировки помогают сохранить силу и мобильность во время беременности, ослабить распространённые неприятности — боли в спине и седалищный нерв — и подготовить тело к родам с помощью работы тазового дна и тренировок выносливости. После родов мы фокусируемся на восстановлении силы кора, улучшении осанки и работе с диастазом прямых мышц живота. Регулярное движение поднимает энергию, настроение и поддерживает плавное восстановление."
+    },
+    "THE IMPORTANCE OF MENTAL HEALTH": {
+      tr: "RUH SAĞLIĞININ ÖNEMİ",
+      sr: "VAŽNOST MENTALNOG ZDRAVLJA",
+      ru: "ВАЖНОСТЬ МЕНТАЛЬНОГО ЗДОРОВЬЯ"
+    },
+    "Pregnancy and motherhood bring significant physical changes, but they also impact mental health. Our pre and postnatal training programs not only focus on strengthening the body but also prioritize mental well-being. Exercise has been shown to reduce stress, alleviate symptoms of anxiety and depression, and improve overall mood, providing much-needed support during this emotionally demanding time.": {
+      tr: "Hamilelik ve annelik önemli fiziksel değişiklikler getirir, ancak ruh sağlığını da etkiler. Hamilelik öncesi ve sonrası antrenman programlarımız sadece vücudu güçlendirmeye odaklanmakla kalmaz, zihinsel iyi oluşa da öncelik verir. Egzersizin stresi azalttığı, anksiyete ve depresyon semptomlarını hafiflettiği ve genel ruh halini iyileştirdiği gösterilmiştir; duygusal olarak zorlu bu dönemde çok ihtiyaç duyulan desteği sağlar.",
+      sr: "Trudnoća i majčinstvo donose značajne fizičke promene, ali utiču i na mentalno zdravlje. Naši pre i postnatalni trening programi ne fokusiraju se samo na jačanje tela, već i na mentalno blagostanje. Pokazano je da vežba smanjuje stres, ublažava simptome anksioznosti i depresije i poboljšava ukupno raspoloženje — pružajući prijeko potrebnu podršku u ovom emocionalno zahtevnom periodu.",
+      ru: "Беременность и материнство приносят значительные физические изменения, но также влияют на ментальное здоровье. Наши программы тренировок до и после родов фокусируются не только на укреплении тела, но и на ментальном благополучии. Доказано, что упражнения снижают стресс, ослабляют симптомы тревоги и депрессии и улучшают общее настроение — предоставляя необходимую поддержку в этот эмоционально насыщенный период."
+    },
+    "WHEN TO START PRE AND POSTNATAL TRAINING?": {
+      tr: "HAMİLELİK ÖNCESİ VE SONRASI ANTRENMANA NE ZAMAN BAŞLANMALI?",
+      sr: "KADA POČETI SA PRE I POSTNATALNIM TRENINGOM?",
+      ru: "КОГДА НАЧИНАТЬ ТРЕНИРОВКИ ДО И ПОСЛЕ РОДОВ?"
+    },
+    "Pre and postnatal training can be started at any stage of pregnancy and continued postpartum. My programs are adaptable to accommodate the changing needs of your body throughout each trimester and beyond. Whether you’re in the early stages of pregnancy or adjusting to life with a newborn, I will customize a program that’s right for you.": {
+      tr: "Hamilelik öncesi ve sonrası antrenmana hamileliğin herhangi bir aşamasında başlanabilir ve doğum sonrası dönemde de devam ettirilebilir. Programlarım her trimesterde ve sonrasında vücudunun değişen ihtiyaçlarına uyum sağlayacak şekilde esnektir. İster hamileliğin erken evresinde ol, ister yeni bir bebekle hayata uyum sağlıyor — sana uygun bir programı kişiye özel hazırlarım.",
+      sr: "Pre i postnatalni trening može se započeti u bilo kojoj fazi trudnoće i nastaviti posle porođaja. Moji programi su prilagodljivi promenljivim potrebama tela kroz svaki trimestar i dalje. Bilo da si u ranim fazama trudnoće ili se prilagođavaš životu sa bebom, kreiraću program koji ti odgovara.",
+      ru: "Тренировки до и после родов можно начинать на любом этапе беременности и продолжать после. Мои программы адаптируются под меняющиеся потребности тела на каждом триместре и далее. Будь ты в ранней стадии беременности или привыкаешь к жизни с новорождённым, я подберу программу именно под тебя."
+    },
+    "What to Expect": {
+      tr: "Neler Bekleyebilirsin",
+      sr: "Šta da očekuješ",
+      ru: "Чего ожидать"
+    },
+    "Join our": {
+      tr: "Bizim",
+      sr: "Pridruži se našem",
+      ru: "Присоединяйся к нашему"
+    },
+    "stretch class at Eylem Tarhan Personal Training for a rejuvenating and transformative experience. Led by me, this specialized class focuses on enhancing flexibility, relieving tension, and promoting overall well-being through targeted stretching techniques.": {
+      tr: "Eylem Tarhan Personal Training'deki stretch dersine katıl — yenileyici ve dönüştürücü bir deneyim için. Benim önderliğimde bu özel ders; hedefli esneme teknikleriyle esnekliği artırmaya, gerginliği gidermeye ve genel iyi oluşu desteklemeye odaklanır.",
+      sr: "stretch času u Eylem Tarhan Personal Training-u za podmlađujuće i transformativno iskustvo. Pod mojim vođstvom, ovaj specijalizovan čas se fokusira na poboljšanje fleksibilnosti, oslobađanje napetosti i unapređenje opšteg blagostanja kroz ciljane tehnike istezanja.",
+      ru: "stretch-классу в Eylem Tarhan Personal Training — для омолаживающего и преобразующего опыта. Под моим руководством этот специализированный класс фокусируется на улучшении гибкости, снятии напряжения и поддержании общего самочувствия с помощью целенаправленных техник растяжки."
+    },
+    "MyoFascial Stretching targets the fascia, the connective tissue that surrounds muscles, bones, and organs, to improve mobility and range of motion. In our intimate group setting, you’ll receive personalized attention and guidance as you explore a series of gentle yet effective stretches designed to release tightness and restore balance to your body.": {
+      tr: "MiyoFasyal Esneme, kasları, kemikleri ve organları çevreleyen bağ dokusu olan fasyayı hedef alarak mobiliteyi ve hareket açıklığını iyileştirir. Samimi grup ortamımızda, vücudundaki sıkışıklığı serbest bırakmak ve dengeyi yeniden kurmak için tasarlanmış nazik ama etkili bir dizi esnemeyi keşfederken kişiye özel ilgi ve rehberlik alırsın.",
+      sr: "MioFascijalno istezanje cilja fasciju — vezivno tkivo koje okružuje mišiće, kosti i organe — kako bi se poboljšala mobilnost i raspon pokreta. U našem intimnom grupnom okruženju dobijaš personalizovanu pažnju i smernice dok istražuješ niz nežnih ali efikasnih istezanja osmišljenih da oslobode ukočenost i vrate balans u telo.",
+      ru: "Миофасциальная растяжка работает с фасцией — соединительной тканью вокруг мышц, костей и органов — чтобы улучшить мобильность и амплитуду движения. В нашей небольшой группе ты получишь индивидуальное внимание и руководство, исследуя ряд мягких, но эффективных растяжек, призванных снять зажимы и восстановить баланс тела."
+    },
+    "This class is the perfect accompaniment for runners, cyclists, and individuals who spend long hours at a desk, offering relief from the repetitive strain and tightness that often accompany these activities. Whether you’re looking to optimize athletic performance, alleviate discomfort from sedentary work habits, or simply enhance your overall well-being, our Stretch class offers something for everyone.": {
+      tr: "Bu ders koşucular, bisikletçiler ve uzun saatler masa başında oturanlar için mükemmel bir tamamlayıcı; bu aktivitelere sıkça eşlik eden tekrarlayan zorlanma ve gerginlikten rahatlama sunar. İster atletik performansını optimize etmek iste, ister sedanter iş alışkanlıklarından gelen rahatsızlığı hafiflet ya da sadece genel iyi oluşunu güçlendir — Stretch dersimiz herkese bir şey sunar.",
+      sr: "Ovaj čas je savršen pratilac za trkače, biciklište i one koji provode duge sate za stolom, nudeći olakšanje od ponavljanog opterećenja i ukočenosti koje često prate ove aktivnosti. Bilo da želiš da optimizuješ atletski učinak, ublažiš nelagodu od sedećih radnih navika ili jednostavno unapređuješ blagostanje, naš Stretch čas ima nešto za svakoga.",
+      ru: "Этот класс — отличный спутник для бегунов, велосипедистов и тех, кто проводит долгие часы за столом: он снимает повторяющееся напряжение и зажимы, часто сопутствующие этим занятиям. Хочешь ли ты оптимизировать спортивные результаты, ослабить дискомфорт от сидячей работы или просто укрепить общее самочувствие — наш Stretch-класс предлагает что-то для каждого."
+    },
+    "Experience the benefits of improved posture, reduced pain, and enhanced athletic performance as you embark on a journey toward greater freedom of movement and a healthier, more vibrant life.": {
+      tr: "Daha fazla hareket özgürlüğü ve daha sağlıklı, daha canlı bir hayata doğru bir yolculuğa çıkarken iyileşen postürün, azalan ağrının ve gelişen atletik performansın faydalarını yaşa.",
+      sr: "Doživi prednosti bolje posture, smanjenog bola i unapređenog atletskog učinka dok krećeš na put ka većoj slobodi pokreta i zdravijem, življem životu.",
+      ru: "Ощути плюсы улучшенной осанки, сниженной боли и повышенной спортивной формы, отправляясь к большей свободе движения и более здоровой, насыщенной жизни."
+    },
+    "Don’t miss out on this opportunity to prioritize self-care and unlock your body’s full potential. Reserve your spot in our semi-private stretch class today and take the first step toward a more flexible, resilient, and revitalized you.": {
+      tr: "Öz bakıma öncelik verme ve vücudunun tam potansiyelini açığa çıkarma fırsatını kaçırma. Yarı-özel stretch dersimizdeki yerini bugün ayır ve daha esnek, dayanıklı ve canlanmış bir sen olmaya doğru ilk adımı at.",
+      sr: "Ne propusti priliku da staviš samobrigu na prvo mesto i otključaš pun potencijal tela. Rezerviši svoje mesto u našem semi-privatnom stretch času danas i napravi prvi korak ka fleksibilnijoj, otpornijoj i osveženoj sebi.",
+      ru: "Не упусти возможность поставить заботу о себе на первое место и раскрыть весь потенциал своего тела. Забронируй место в нашем полу-приватном stretch-классе сегодня и сделай первый шаг к более гибкой, выносливой и обновлённой версии себя."
+    },
+
   };
 
   // -- State --
