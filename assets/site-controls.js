@@ -1031,6 +1031,127 @@
       ru: "Каждый клиент, начинающий план «Тренировки + Питание» за €125, получает одинаковую стартовую макро-цель: 1.8 г белка на килограмм веса, углеводы масштабируются по тренировочным дням, жиры заполняют остальное. Без модных слов «clean eating» и без вычёркивания групп продуктов. В этом посте — точный сплит, который использует Eylem, почему он работает и для cut, и для bulk, и три базовых продукта с рынков Yıldız, которые помогают легко попадать в макро."
     },
 
+    "Push / Pull / Legs: The Best Workout Split for Building Real Muscle Training": {
+      tr: "Push / Pull / Legs: Gerçek Kas İçin En İyi Antrenman Bölümü Antrenman",
+      sr: "Push / Pull / Legs: najbolja podela treninga za pravi rast mišića Trening",
+      ru: "Push / Pull / Legs: лучший сплит для реального роста мышц Тренинг"
+    },
+    "How Many Sets Per Muscle Per Week? The Science-Backed Answer Training": {
+      tr: "Haftada Kas Başına Kaç Set? Bilimsel Cevap Antrenman",
+      sr: "Koliko serija po mišiću nedeljno? Odgovor potkrepljen naukom Trening",
+      ru: "Сколько подходов на мышцу в неделю? Ответ с научной базой Тренинг"
+    },
+    "Protein, Carbs, Fats: The Simple Macro Split Eylem Uses With New Clients Nutrition": {
+      tr: "Protein, Karbonhidrat, Yağ: Eylem'in Yeni Danışanlarda Kullandığı Basit Makro Dağılımı Beslenme",
+      sr: "Proteini, ugljeni hidrati, masti: jednostavna makro podela koju Eylem koristi sa novim klijentima Ishrana",
+      ru: "Белки, углеводы, жиры: простой макро-сплит, который Eylem использует с новыми клиентами Питание"
+    },
+    "Our licensed massage therapists in Ankara work alongside your personal training program to support:": {
+      tr: "Ankara'daki lisanslı masaj terapistlerimiz personal training programınla birlikte çalışarak şunları destekler:",
+      sr: "Naši licencirani masažni terapeuti u Ankari rade uporedo sa tvojim programom personalnog treninga kako bi podržali:",
+      ru: "Наши лицензированные массажные терапевты в Анкаре работают вместе с твоей программой персональных тренировок, чтобы поддержать:"
+    },
+    "•Faster muscle recovery": {
+      tr: "•Daha hızlı kas toparlanması",
+      sr: "•Brži oporavak mišića",
+      ru: "•Быстрое восстановление мышц"
+    },
+    "•Reduced inflammation and soreness": {
+      tr: "•Azalan iltihap ve kas ağrısı",
+      sr: "•Smanjena upala i bol u mišićima",
+      ru: "•Снижение воспаления и боли в мышцах"
+    },
+    "•Increased mobility and flexibility": {
+      tr: "•Artan mobilite ve esneklik",
+      sr: "•Povećana mobilnost i fleksibilnost",
+      ru: "•Улучшение мобильности и гибкости"
+    },
+    "•Improved circulation and range of motion": {
+      tr: "•Gelişen dolaşım ve hareket açıklığı",
+      sr: "•Bolja cirkulacija i raspon pokreta",
+      ru: "•Улучшение кровообращения и амплитуды движения"
+    },
+    "•Relief from chronic tension and stress": {
+      tr: "•Kronik gerginlik ve stresten rahatlama",
+      sr: "•Olakšanje od hronične napetosti i stresa",
+      ru: "•Снятие хронического напряжения и стресса"
+    },
+    "•Better sleep and nervous system recovery": {
+      tr: "•Daha iyi uyku ve sinir sistemi toparlanması",
+      sr: "•Bolji san i oporavak nervnog sistema",
+      ru: "•Лучший сон и восстановление нервной системы"
+    },
+    "Each session is personalized to your goals,whether you need a targeted sports massage, full-body recovery, or gentle relaxation.": {
+      tr: "Her seans hedeflerine göre kişiselleştirilir — hedefli bir spor masajına, tüm vücut toparlanmasına ya da yumuşak bir rahatlamaya ihtiyacın olsun.",
+      sr: "Svaka sesija je personalizovana prema tvojim ciljevima — bilo da ti treba ciljana sportska masaža, oporavak celog tela ili nežno opuštanje.",
+      ru: "Каждая сессия настроена под твои цели — нужен ли тебе целенаправленный спортивный массаж, восстановление всего тела или мягкое расслабление."
+    },
+    "Our massage therapy services in Manhattan are available by appointment only.": {
+      tr: "Ankara'daki masaj terapi hizmetlerimiz yalnızca randevu ile mevcuttur.",
+      sr: "Naše usluge masažne terapije u Ankari dostupne su samo uz zakazani termin.",
+      ru: "Наши услуги массажной терапии в Анкаре доступны только по записи."
+    },
+    "Join our small group stretch class at Eylem Tarhan Personal Training for a rejuvenating and transformative experience. Led by me, this specialized class focuses on enhancing flexibility, relieving tension, and promoting overall well-being through targeted stretching techniques.": {
+      tr: "Eylem Tarhan Personal Training'deki küçük grup stretch sınıfımıza katıl — yenileyici ve dönüştürücü bir deneyim için. Benim önderliğimde bu özel sınıf, hedefli esneme teknikleriyle esnekliği artırmaya, gerginliği gidermeye ve genel iyi oluşu desteklemeye odaklanır.",
+      sr: "Pridruži se našem stretch času u maloj grupi u Eylem Tarhan Personal Training-u za podmlađujuće i transformativno iskustvo. Pod mojim vođstvom, ovaj specijalizovan čas se fokusira na poboljšanje fleksibilnosti, oslobađanje napetosti i unapređenje opšteg blagostanja kroz ciljane tehnike istezanja.",
+      ru: "Присоединяйся к нашему stretch-классу в маленькой группе в Eylem Tarhan Personal Training — для омолаживающего и преобразующего опыта. Под моим руководством этот специализированный класс фокусируется на улучшении гибкости, снятии напряжения и поддержании общего самочувствия с помощью целенаправленных техник растяжки."
+    },
+    "01 — ConsultationA free 20-minute conversation about your goals, training history and any injuries.": {
+      tr: "01 — GörüşmeHedeflerin, antrenman geçmişin ve sakatlıkların hakkında ücretsiz 20 dakikalık sohbet.",
+      sr: "01 — KonsultacijaBesplatan 20-minutni razgovor o tvojim ciljevima, istoriji treninga i povredama.",
+      ru: "01 — КонсультацияБесплатный 20-минутный разговор о твоих целях, истории тренировок и травмах."
+    },
+    "02 — AssessmentBody measurements and movement analysis in the first session.": {
+      tr: "02 — Değerlendirmeİlk seansta vücut ölçümleri ve hareket analizi.",
+      sr: "02 — ProcenaTelesne mere i analiza pokreta u prvoj sesiji.",
+      ru: "02 — ОценкаЗамеры тела и анализ движения на первой сессии."
+    },
+    "03 — Your ProgramYou receive a fully personalised training and nutrition plan built for you.": {
+      tr: "03 — ProgramınSenin için hazırlanmış tamamen kişiye özel antrenman ve beslenme planı alırsın.",
+      sr: "03 — Tvoj ProgramDobijaš potpuno personalizovan plan treninga i ishrane napravljen za tebe.",
+      ru: "03 — Твоя программаТы получаешь полностью персональный план тренировок и питания, созданный для тебя."
+    },
+    "04 — ResultsI track progress every week, adjust the plan, and celebrate every win.": {
+      tr: "04 — SonuçlarGelişimini her hafta takip ediyor, planı düzenliyor ve her zaferi kutluyoruz.",
+      sr: "04 — RezultatiNapredak pratim svake nedelje, prilagođavam plan i slavimo svaku pobedu.",
+      ru: "04 — РезультатыЯ отслеживаю прогресс каждую неделю, корректирую план и празднуем каждую победу."
+    },
+    "Precise TechniqueYour trainer watches every movement, corrects errors in real time and makes sure you train safely and efficiently — every single rep.": {
+      tr: "Hassas TeknikAntrenörün her hareketi izliyor, hataları gerçek zamanlı düzeltiyor ve her tekrarda güvenli ve verimli antrenman yapmanı sağlıyor.",
+      sr: "Precizna tehnikaTvoj trener prati svaki pokret, ispravlja greške u realnom vremenu i brine da treniraš bezbedno i efikasno — svaku repeticiju.",
+      ru: "Точная техникаТренер следит за каждым движением, исправляет ошибки в реальном времени и следит, чтобы ты тренировался безопасно и эффективно — в каждом повторении."
+    },
+    "Flexible ScheduleMorning, afternoon or evening — I fit training around your life, not the other way around.": {
+      tr: "Esnek ProgramSabah, öğleden sonra ya da akşam — antrenmanı senin hayatına uydururum, tersi değil.",
+      sr: "Fleksibilan rasporedJutro, popodne ili veče — trening prilagođavam tvom životu, a ne obrnuto.",
+      ru: "Гибкое расписаниеУтро, день или вечер — я подстраиваю тренировку под твою жизнь, а не наоборот."
+    },
+    "Intensity on Your TermsBeginner or advanced, the programme adapts to your current level and progressively challenges you as you grow stronger.": {
+      tr: "Sana Göre YoğunlukAcemi ya da ileri seviye, program senin mevcut seviyene uyum sağlıyor ve güçlendikçe seni kademeli olarak zorluyor.",
+      sr: "Intenzitet po tvojim uslovimaPočetnik ili napredan, program se prilagođava tvom trenutnom nivou i progresivno te izaziva kako postaješ jači.",
+      ru: "Интенсивность по твоим правиламНовичок или опытный — программа подстраивается под твой текущий уровень и постепенно усложняется по мере роста силы."
+    },
+    "Measurable ProgressEvery session is logged and every metric tracked. You always know exactly how far you have come and what is next on your journey.": {
+      tr: "Ölçülebilir İlerlemeHer seans kaydediliyor, her metrik takip ediliyor. Ne kadar yol kat ettiğini ve yolculuğunda sıradakinin ne olduğunu her an net biliyorsun.",
+      sr: "Merljivi napredakSvaka sesija je zabeležena i svaka metrika praćena. Uvek znaš tačno koliko si daleko stigao i šta je sledeće na tvom putu.",
+      ru: "Измеримый прогрессКаждая сессия записана и каждый показатель отслеживается. Ты всегда точно знаешь, как далеко продвинулся и что следующее на пути."
+    },
+    "Strength (bench press) — +31%": {
+      tr: "Kuvvet (bench press) — +%31",
+      sr: "Snaga (bench press) — +31%",
+      ru: "Сила (жим лёжа) — +31%"
+    },
+    "Body fat reduction — −5.2%": {
+      tr: "Vücut yağı azalması — −%5.2",
+      sr: "Smanjenje masti — −5.2%",
+      ru: "Снижение жира — −5.2%"
+    },
+    "Lean muscle gained — +3.8 kg": {
+      tr: "Kazanılan yağsız kas — +3.8 kg",
+      sr: "Dobijena čista mišićna masa — +3.8 kg",
+      ru: "Набрано сухой массы — +3.8 кг"
+    },
+
     "Bio": { tr: "Biyografi", sr: "Biografija", ru: "Биография" },
 
     // Added for Eylem Tarhan rebrand — TR-first UI strings
@@ -1610,6 +1731,7 @@
   var textNodes = [];    // { node, original }
   var attrTargets = [];  // { el, attr, original }
   var ATTRS = ["placeholder", "title", "alt", "value", "aria-label"];
+  var nodeToOriginal = typeof WeakMap === "function" ? new WeakMap() : null;
 
   function lookup(text) {
     if (!text) return null;
@@ -1645,6 +1767,68 @@
     // the node falls back to its original source text (unchanged).
     for (var k = 0; k < textNodes.length; k++) translateNode(textNodes[k]);
     for (var l = 0; l < attrTargets.length; l++) translateAttr(attrTargets[l]);
+    applyBlockTranslations();
+  }
+
+  // Block-level translation: paragraphs broken by inline tags
+  // (<strong>, <em>, etc.) end up as multiple text nodes that don't match
+  // single DICT keys individually. For each tracked block we cache the
+  // original innerHTML so we can either replace it with a flat translated
+  // string or restore the source markup on language switch.
+  var blockTargets = []; // { el, originalHTML, key }
+
+  function collectBlocks(root) {
+    var blocks = root.querySelectorAll("p, h1, h2, h3, h4, h5, h6, li, blockquote");
+    for (var i = 0; i < blocks.length; i++) {
+      var el = blocks[i];
+      if (shouldSkip(el)) continue;
+      if (el.dataset.scBlockSeen) continue;
+      if (!el.children || el.children.length === 0) continue; // pure text — handled by translateNode
+      // Only do block-level translation when ALL inline children are
+      // formatting-only tags (b/strong/em/i). Skip elements with links,
+      // images, buttons, spans etc. — replacing their textContent would
+      // destroy navigation/markup.
+      var safeChildren = true;
+      for (var c = 0; c < el.children.length; c++) {
+        var tagName = el.children[c].tagName;
+        if (tagName !== "B" && tagName !== "STRONG" && tagName !== "EM" && tagName !== "I" && tagName !== "BR") {
+          safeChildren = false;
+          break;
+        }
+      }
+      if (!safeChildren) continue;
+      // Reconstruct the *original* (untranslated) textContent by walking the
+      // element's text nodes and pulling each one's stored original. This way
+      // we can match the DICT key even after translateNode has already swapped
+      // some of the child text nodes to the target language.
+      var origText = "";
+      var w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+      var tn;
+      while ((tn = w.nextNode())) {
+        var orig = (nodeToOriginal && nodeToOriginal.get(tn)) || tn.nodeValue;
+        origText += orig;
+      }
+      origText = origText.trim();
+      if (!origText || origText.length < 6) continue;
+      if (!DICT[origText]) continue;
+      el.dataset.scBlockSeen = "1";
+      blockTargets.push({ el: el, originalHTML: el.innerHTML, key: origText });
+    }
+  }
+
+  function applyBlockTranslations() {
+    for (var i = 0; i < blockTargets.length; i++) {
+      var b = blockTargets[i];
+      var entry = DICT[b.key];
+      if (!entry) continue;
+      var translated = entry[state.lang];
+      if (translated) {
+        b.el.textContent = translated;
+      } else {
+        // current lang has no translation (it IS the source language) → restore original markup
+        b.el.innerHTML = b.originalHTML;
+      }
+    }
   }
 
   function shouldSkip(el) {
@@ -1678,12 +1862,14 @@
     while ((n = walker.nextNode())) {
       if (seenNodes) seenNodes.add(n);
       textNodes.push({ node: n, original: n.nodeValue });
+      if (nodeToOriginal) nodeToOriginal.set(n, n.nodeValue);
     }
   }
 
   function refreshTranslations() {
     collectTextNodes(document.body);
     collectAttrs(document.body);
+    collectBlocks(document.body);
     applyLanguage();
   }
 
