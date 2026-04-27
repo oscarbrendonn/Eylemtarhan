@@ -4,9 +4,9 @@
     {
       "name": "eylemtarhan-local",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8003"],
+      "runtimeArgs": ["/Users/oscarbrendon/.openclaw/workspace/Eylemtarhan/.claude/serve.py", "8003", "/Users/oscarbrendon/.openclaw/workspace/Eylemtarhan"],
       "port": 8003,
-      "cwd": "/Users/oscarbrendon/.openclaw/workspace/Eylemtarhan"
+      "autoPort": false
     }
   ]
 }
