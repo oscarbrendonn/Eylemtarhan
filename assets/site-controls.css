@@ -768,3 +768,11 @@ html[data-theme="dark"] #site-controls .sc-lang span.active{ background:#eee; co
   #site-controls{ top:8px; right:8px; gap:6px; }
   #site-controls .sc-lang span{ padding:5px 7px; }
 }
+
+/* Darker body paragraph text in light mode (was too light gray) */
+html:not([data-theme="dark"]) .elementor-widget-text-editor p,
+html:not([data-theme="dark"]) .elementor-widget-text-editor,
+html:not([data-theme="dark"]) .elementor-element .elementor-widget-container p {
+  color: #2a2a2a !important;
+  font-weight: 400 !important;
+}
